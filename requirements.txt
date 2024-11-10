@@ -1,3 +1,5 @@
-streamlit
-faker
-# Các thư viện khác mà bạn cần cho ứng dụng
+streamlit==1.40.0
+faker==30.8.2
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.5.2
