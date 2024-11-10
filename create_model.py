@@ -1,9 +1,10 @@
 import pandas as pd
 import numpy as np
 from faker import Faker
-from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder
 import joblib
+from collections import Counter
+from models import RandomForest, DecisionTree, Node
 
 # Khởi tạo Faker để tạo địa chỉ giả
 fake = Faker()
@@ -65,9 +66,9 @@ label_encoder = LabelEncoder()
 df['transaction_type'] = label_encoder.fit_transform(df['transaction_type'])
 
 # Huấn luyện mô hình dự đoán
-X = df[['amount', 'customer_id', 'transaction_type', 'transaction_count_last_7_days']]
-y = df['is_fraud']
-rf_model = RandomForestClassifier()
+X = df[['amount', 'customer_id', 'transaction_type', 'transaction_count_last_7_days']].values
+y = df['is_fraud'].values
+rf_model = RandomForest(n_trees=10, max_depth=10)
 rf_model.fit(X, y)
 
 # Lưu mô hình vào tệp

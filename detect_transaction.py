@@ -3,6 +3,8 @@ import numpy as np
 from faker import Faker
 import streamlit as st
 import joblib
+from collections import Counter
+from models import RandomForest, DecisionTree, Node
 
 # Tải mô hình và label encoder từ tệp
 rf_model = joblib.load('rf_model.pkl')
