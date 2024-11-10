@@ -1,31 +1,1008 @@
-transaction_id,time,amount,transaction_type,address,customer_id,is_fraud,fraud_reason,transaction_count_last_7_days,fraud_history
-1,2024-01-01 00:00:00,100,1,"19319 Jennifer Garden Apt. 989, North Natasha, WV 10145",12345,1,Số giao dịch trong 7 ngày quá nhiều.,15,1
-2,2024-01-01 01:00:00,150,1,"06751 Ellis Estate Suite 336, Coryport, AR 18210",12346,1,Số giao dịch trong 7 ngày quá nhiều.,20,1
-3,2024-01-01 02:00:00,5000,1,"0783 William Island Suite 603, Jamesfort, AL 61836",12347,1,Số tiền giao dịch lớn.,10,1
-4,2024-01-01 03:00:00,250,0,"408 Victoria Alley, South Amy, PA 53201",12348,1,Số giao dịch trong 7 ngày quá nhiều.,20,1
-5,2024-01-01 04:00:00,3000,1,"896 Donaldson Road Suite 638, West William, AR 92749",12349,1,Số giao dịch trong 7 ngày quá nhiều.,21,1
-6,2024-11-10 13:22:11.160849,800,3,"30696 Taylor Causeway, Hensonshire, NV 15769",12350,1,Giao dịch liên tục trong khoảng thời gian ngắn.,7,1
-7,2024-11-10 13:20:17.999655,500,2,"71261 Monroe Garden, New Louis, VI 21097",12351,1,Số lượng giao dịch trong 7 ngày quá nhiều.,12,1
-8,2024-01-01 07:00:00,450,0,"26616 Jesse Forges Suite 156, South Randall, IN 44783",12352,0,,10,0
-9,2024-01-01 08:00:00,1000,1,"781 Mia Green, Cowanton, WY 60174",12353,0,,10,0
-10,2024-01-01 09:00:00,600,0,"16350 Anna Gateway, Zunigaview, WI 11741",12354,1,Số giao dịch trong 7 ngày quá nhiều.,20,1
-11,2024-01-01 10:00:00,650,1,"333 Riley Glen, Nathanbury, TN 18038",12355,1,Số giao dịch trong 7 ngày quá nhiều.,15,1
-12,2024-01-01 11:00:00,2000,1,"314 Hall Ford, Bobbyfurt, SD 01888",12356,0,,10,0
-13,2024-01-01 12:00:00,700,0,"80487 Catherine Mission Suite 239, North Adam, WA 18593",12357,1,Số giao dịch trong 7 ngày quá nhiều.,20,1
-14,2024-01-01 13:00:00,750,1,"92554 Jacobs Stream, South Justinfurt, NE 14474",12358,0,,5,0
-15,2024-01-01 14:00:00,800,0,"56078 Carter Hills, Alexishaven, NC 90514",12359,1,Số giao dịch trong 7 ngày quá nhiều.,15,1
-16,2024-01-01 15:00:00,850,0,"21307 Lisa Burgs, New Allen, NM 42914",12360,0,,5,0
-17,2024-01-01 16:00:00,900,1,"6272 Lyons Ridges, Amandamouth, MO 51509",12361,1,Số giao dịch trong 7 ngày quá nhiều.,15,1
-18,2024-01-01 17:00:00,950,1,"PSC 2705, Box 9069, APO AA 89874",12362,1,Số giao dịch trong 7 ngày quá nhiều.,20,1
-19,2024-01-01 18:00:00,3000,0,"USNS Bernard, FPO AP 04910",12363,0,,1,0
-20,2024-01-01 19:00:00,1000,0,"PSC 5572, Box 4339, APO AA 31279",12364,1,Số giao dịch trong 7 ngày quá nhiều.,15,1
-21,2024-01-01 20:00:00,2000,1,"4921 Michael Expressway Apt. 302, Morrowland, OR 81085",12365,0,,5,0
-22,2024-01-01 21:00:00,3000,1,"PSC 1461, Box 7309, APO AP 74929",12366,1,Số giao dịch trong 7 ngày quá nhiều.,20,1
-23,2024-01-01 22:00:00,150,0,"245 Melanie Wells, Hicksbury, MS 71206",12367,1,Số giao dịch trong 7 ngày quá nhiều.,15,1
-24,2024-11-10 13:30:47.087751,3000,online,"6263 Tammy Road, South Derekberg, RI 40024",12368,1,Số tiền giao dịch lớn. Giao dịch liên tục trong khoảng thời gian ngắn.,3,0
-25,2024-01-02 00:00:00,1350,0,"03584 Evans Expressway, East Angela, KS 80431",12369,0,,1,0
-26,2024-01-02 01:00:00,4000,1,"5764 Graham Cove, West Derrickville, LA 18474",12370,1,Số tiền giao dịch lớn.,10,1
-27,2024-01-02 02:00:00,1450,0,"5950 Burke Glens, Louisstad, IN 10013",12371,0,,10,0
-28,2024-01-02 03:00:00,1500,1,"45590 Charles Manor Suite 488, North Katrinafort, NH 77905",12372,0,,5,0
-29,2024-01-02 04:00:00,1550,0,"14820 Chad Valley, Gonzalezview, PA 01168",12373,1,Số giao dịch trong 7 ngày quá nhiều.,15,1
-30,2024-01-02 05:00:00,5000,1,"750 Danielle Ridge Apt. 678, Teresastad, VI 99567",12374,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15,1
+transaction_id,time,amount,transaction_type,address,customer_id,is_fraud,fraud_reason,transaction_count_last_7_days
+1,2024-01-01 00:00:00.000000,7320,1,"616 Mark Circles, Gibbsshire, DC 80685",16823,1,Số tiền giao dịch lớn.,10
+2,2024-01-01 01:00:00.000000,910,1,"3612 Lewis Stravenue Suite 620, East Anthony, MN 16414",12105,1,Số giao dịch trong 7 ngày quá nhiều.,15
+3,2024-01-01 02:00:00.000000,5440,0,"1013 Hogan Drives Apt. 721, Nicholastown, ND 73713",13867,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+4,2024-01-01 03:00:00.000000,5241,1,"44584 Flores Burgs Suite 032, South Justin, AS 59008",17193,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+5,2024-01-01 04:00:00.000000,5784,0,"06639 Delgado Cliffs Suite 516, Kimberlyville, WV 45778",14976,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+6,2024-01-01 05:00:00.000000,6315,1,"6425 Thomas Meadows Apt. 067, East Robert, OK 37107",12113,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+7,2024-01-01 06:00:00.000000,516,0,"32345 Amber Way Suite 407, Kirkhaven, SC 19703",15879,1,Số giao dịch trong 7 ngày quá nhiều.,20
+8,2024-01-01 07:00:00.000000,4476,1,"7292 Jason Expressway Suite 786, West Sarahville, FM 32632",13970,1,Số tiền giao dịch lớn.,5
+9,2024-01-01 08:00:00.000000,5628,0,"37929 Morgan Cape, Robinsonland, NY 86053",19259,1,Số tiền giao dịch lớn.,1
+10,2024-01-01 09:00:00.000000,8372,1,"835 Brittany Manors Apt. 648, Ashleyhaven, AK 27354",17264,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+11,2024-01-01 10:00:00.000000,1735,1,"1236 Michael Crest, North Patrickfort, GU 67528",11577,0,,5
+12,2024-01-01 11:00:00.000000,819,1,"40569 Mary Circles Suite 187, Rachelton, DE 54154",19203,0,,1
+13,2024-01-01 12:00:00.000000,6999,0,"6517 Brooks Ways Apt. 930, Trevinoside, RI 19309",12274,1,Số tiền giao dịch lớn.,10
+14,2024-01-01 13:00:00.000000,2483,1,"59829 Crystal Lock, South Kenneth, NV 52125",14869,1,Số giao dịch trong 7 ngày quá nhiều.,20
+15,2024-01-01 14:00:00.000000,5361,0,"453 Mary Track, Moorechester, NH 60593",16744,1,Số tiền giao dịch lớn.,1
+16,2024-01-01 15:00:00.000000,5101,0,"03002 Donald Orchard, Bethtown, GA 19423",12426,1,Số tiền giao dịch lớn.,10
+17,2024-01-01 16:00:00.000000,6470,1,"224 Amber Overpass Apt. 354, Ronaldshire, PR 89079",15546,1,Số tiền giao dịch lớn.,1
+18,2024-01-01 17:00:00.000000,1234,1,"70173 Wilson Plaza, North Wendyport, GA 72652",16852,1,Số giao dịch trong 7 ngày quá nhiều.,20
+19,2024-01-01 18:00:00.000000,4605,1,"471 Moran Wells Apt. 724, South Kevintown, AZ 02387",12551,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+20,2024-01-01 19:00:00.000000,3435,0,"460 Sheppard Lights Suite 114, New Abigail, CT 95562",16411,1,Số tiền giao dịch lớn.,5
+21,2024-01-01 20:00:00.000000,6446,1,"0782 Joshua Island Suite 327, South Jimton, AS 07872",10007,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+22,2024-01-01 21:00:00.000000,8716,0,"790 Rodriguez Forks, Huffton, LA 54721",18087,1,Số tiền giao dịch lớn.,1
+23,2024-01-01 22:00:00.000000,9324,0,"2823 Juan Tunnel Apt. 542, West Mary, MT 52247",12555,1,Số tiền giao dịch lớn.,1
+24,2024-01-01 23:00:00.000000,2608,1,"641 Brandon Stravenue, Perezshire, KS 93993",10475,0,,10
+25,2024-01-02 00:00:00.000000,7899,1,"3421 Noah Shoal Apt. 053, Lake Erin, NJ 03163",15416,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+26,2024-01-02 01:00:00.000000,2097,1,"80843 John Stream Suite 243, South Frank, AS 50230",18676,0,,1
+27,2024-01-02 02:00:00.000000,2797,1,"666 Thomas Square, South Christina, IA 24515",17239,1,Số giao dịch trong 7 ngày quá nhiều.,20
+28,2024-01-02 03:00:00.000000,9217,1,"600 Philip Passage, Castromouth, KS 90470",16710,1,Số tiền giao dịch lớn.,1
+29,2024-01-02 04:00:00.000000,239,1,"634 Taylor Drive, Garzaland, MA 73168",15000,0,,5
+30,2024-01-02 05:00:00.000000,2784,0,"46516 Glenn Skyway, Hunterhaven, VA 14818",14654,1,Số giao dịch trong 7 ngày quá nhiều.,15
+31,2024-01-02 06:00:00.000000,3055,0,"5939 Andrew Centers Apt. 670, Georgeberg, OK 98865",18078,1,Số tiền giao dịch lớn.,1
+32,2024-01-02 07:00:00.000000,4708,0,"5990 Lloyd Land, East Daniel, FL 45107",16063,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+33,2024-01-02 08:00:00.000000,1949,1,"13842 Rebecca Plaza, Jeffersonshire, IA 35933",12285,0,,5
+34,2024-01-02 09:00:00.000000,7784,0,"07410 Wade Prairie Suite 900, East Davidport, MS 04114",15223,1,Số tiền giao dịch lớn.,1
+35,2024-01-02 10:00:00.000000,1317,0,"Unit 7339 Box 6608, DPO AP 34520",16971,0,,10
+36,2024-01-02 11:00:00.000000,1578,0,"52428 Joshua Pines Suite 949, Kaylashire, WY 67392",13525,1,Số giao dịch trong 7 ngày quá nhiều.,15
+37,2024-01-02 12:00:00.000000,3606,0,"08608 Walker Passage Suite 168, South William, AR 15494",12822,1,Số tiền giao dịch lớn.,1
+38,2024-01-02 13:00:00.000000,3940,0,"6641 Marks Dam Suite 412, South Wendybury, CA 55092",14943,1,Số tiền giao dịch lớn.,5
+39,2024-01-02 14:00:00.000000,8888,1,"0403 Carney Points Apt. 871, Ortegachester, MS 55993",16530,1,Số tiền giao dịch lớn.,10
+40,2024-01-02 15:00:00.000000,5443,1,"202 Campos Cape, East Brianside, NV 64938",10258,1,Số tiền giao dịch lớn.,5
+41,2024-01-02 16:00:00.000000,8842,0,"784 Diaz Passage, Brandiview, TN 31417",10282,1,Số tiền giao dịch lớn.,5
+42,2024-01-02 17:00:00.000000,8483,0,"060 Sarah Plain, Lake Garyberg, RI 88141",11898,1,Số tiền giao dịch lớn.,10
+43,2024-01-02 18:00:00.000000,7563,0,"808 Kathryn Island, Lake Annaberg, FM 56180",14135,1,Số tiền giao dịch lớn.,5
+44,2024-01-02 19:00:00.000000,2662,1,"369 Madeline Circle Suite 491, Port Amberberg, OR 15130",16629,0,,10
+45,2024-01-02 20:00:00.000000,7091,1,"314 Roberta Circles Suite 014, Johnsontown, MP 11747",13200,1,Số tiền giao dịch lớn.,1
+46,2024-01-02 21:00:00.000000,9605,0,"46035 Lindsey Ports, South Williamtown, NM 53905",15110,1,Số tiền giao dịch lớn.,10
+47,2024-01-02 22:00:00.000000,6285,1,"4124 Martin Bridge Apt. 060, Williefort, OR 38475",17167,1,Số tiền giao dịch lớn.,10
+48,2024-01-02 23:00:00.000000,5536,1,"29072 Stout Crossing, South Henry, SD 25942",10612,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+49,2024-01-03 00:00:00.000000,7149,0,"96526 Maria Glen Apt. 330, West Rachelstad, CA 31848",10687,1,Số tiền giao dịch lớn.,10
+50,2024-01-03 01:00:00.000000,9720,1,"7200 Catherine Unions Apt. 638, Woodhaven, MT 51388",13690,1,Số tiền giao dịch lớn.,10
+51,2024-01-03 02:00:00.000000,825,1,"986 Daniel Forge, Port Amber, CO 47315",18804,0,,1
+52,2024-01-03 03:00:00.000000,8276,0,"088 Kevin Knoll, Thomasland, CT 27959",12307,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+53,2024-01-03 04:00:00.000000,3202,1,"29836 Jonathan Lane, Kellymouth, OH 72999",17133,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+54,2024-01-03 05:00:00.000000,1635,1,"9816 Daniel Shore Suite 099, Leonardside, MT 63578",16509,0,,1
+55,2024-01-03 06:00:00.000000,3993,0,"PSC 7480, Box 2669, APO AE 89530",19973,1,Số tiền giao dịch lớn.,1
+56,2024-01-03 07:00:00.000000,7605,1,"Unit 8737 Box 7241, DPO AP 64973",15906,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+57,2024-01-03 08:00:00.000000,3123,1,"Unit 2150 Box 7583, DPO AE 04977",12591,1,Số tiền giao dịch lớn.,10
+58,2024-01-03 09:00:00.000000,1071,0,"3434 Massey Glen, Josephbury, ND 16036",17183,0,,5
+59,2024-01-03 10:00:00.000000,3893,0,"1359 Davis Station, Nicoleshire, FM 95259",15248,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+60,2024-01-03 11:00:00.000000,8039,0,"24372 Dickerson Springs, Cassandraville, RI 57986",18766,1,Số tiền giao dịch lớn.,5
+61,2024-01-03 12:00:00.000000,9742,1,"7472 Carol Fall Apt. 551, Port Jeremytown, TX 78919",15108,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+62,2024-01-03 13:00:00.000000,6923,0,"805 Cooper Islands Suite 090, Flowersmouth, VA 56165",13604,1,Số tiền giao dịch lớn.,1
+63,2024-01-03 14:00:00.000000,5725,1,"359 Amy Ferry, Wendybury, TX 65419",10669,1,Số tiền giao dịch lớn.,1
+64,2024-01-03 15:00:00.000000,211,0,"14928 Wade Trail, South Kimberly, TN 76398",14364,1,Số giao dịch trong 7 ngày quá nhiều.,15
+65,2024-01-03 16:00:00.000000,4347,1,"0724 Dalton Trail Apt. 816, Lake Robert, OR 57182",17329,1,Số tiền giao dịch lớn.,1
+66,2024-01-03 17:00:00.000000,1045,0,"USS Flores, FPO AA 39960",11283,0,,1
+67,2024-01-03 18:00:00.000000,7679,0,"PSC 3421, Box 0251, APO AP 89068",10923,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+68,2024-01-03 19:00:00.000000,9517,0,"71112 Laurie Via Apt. 095, Port Calvinville, ME 38763",11125,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+69,2024-01-03 20:00:00.000000,1066,0,"4236 Smith Junctions, South Julie, CT 02177",11529,1,Số giao dịch trong 7 ngày quá nhiều.,20
+70,2024-01-03 21:00:00.000000,7919,1,"188 Mary Springs, Jonesstad, IA 34165",19786,1,Số tiền giao dịch lớn.,1
+71,2024-01-03 22:00:00.000000,6489,0,"073 Susan Overpass, Barnettmouth, VT 53363",18438,1,Số tiền giao dịch lớn.,1
+72,2024-01-03 23:00:00.000000,7942,0,"9058 Melanie Corner Apt. 005, Josephside, DC 25559",13711,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+73,2024-01-04 00:00:00.000000,6913,1,"026 David Pines Apt. 051, Williamview, CT 77961",18004,1,Số tiền giao dịch lớn.,10
+74,2024-01-04 01:00:00.000000,7966,0,"280 Potter Greens, Shepherdfort, SC 41639",19752,1,Số tiền giao dịch lớn.,10
+75,2024-01-04 02:00:00.000000,8579,1,"39426 Mary Mission Suite 624, Kennedyhaven, ID 43790",16274,1,Số tiền giao dịch lớn.,10
+76,2024-01-04 03:00:00.000000,928,0,"6639 Jason Valley, Garciastad, MS 23505",13864,1,Số giao dịch trong 7 ngày quá nhiều.,20
+77,2024-01-04 04:00:00.000000,9318,0,"52492 John Summit, New John, NV 37043",17833,1,Số tiền giao dịch lớn.,1
+78,2024-01-04 05:00:00.000000,4937,0,"908 Kim Fork Apt. 866, Matthewhaven, AZ 42636",16788,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+79,2024-01-04 06:00:00.000000,4909,1,"USCGC Kelly, FPO AA 07895",10226,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+80,2024-01-04 07:00:00.000000,6381,0,"95751 Stephanie Lodge Apt. 229, Pearsonton, NV 44155",10264,1,Số tiền giao dịch lớn.,10
+81,2024-01-04 08:00:00.000000,8621,0,"99301 Miller Court Suite 925, South David, NE 32741",19587,1,Số tiền giao dịch lớn.,5
+82,2024-01-04 09:00:00.000000,8734,0,"31179 Beasley Cliff, South Jerome, DC 72414",10645,1,Số tiền giao dịch lớn.,1
+83,2024-01-04 10:00:00.000000,7258,1,"PSC 5805, Box 0075, APO AA 50572",17544,1,Số tiền giao dịch lớn.,10
+84,2024-01-04 11:00:00.000000,5326,1,"75504 Campbell Street Suite 210, Jillianton, CA 80095",15569,1,Số tiền giao dịch lớn.,5
+85,2024-01-04 12:00:00.000000,2112,0,"890 Williams Keys Apt. 571, Maldonadofurt, VA 16742",12990,0,,5
+86,2024-01-04 13:00:00.000000,114,1,"1591 Vincent Key Suite 342, South Audreyville, IL 09786",12504,1,Số giao dịch trong 7 ngày quá nhiều.,15
+87,2024-01-04 14:00:00.000000,8056,0,"PSC 1735, Box 1664, APO AE 06051",19346,1,Số tiền giao dịch lớn.,1
+88,2024-01-04 15:00:00.000000,2618,0,"16770 Perez Row, Debbiemouth, LA 94177",10587,0,,5
+89,2024-01-04 16:00:00.000000,5513,0,"733 Ian Haven, Port Kristina, TN 35486",19177,1,Số tiền giao dịch lớn.,10
+90,2024-01-04 17:00:00.000000,2077,0,"1360 Powers Oval, Gallowayborough, NH 20398",14079,1,Số giao dịch trong 7 ngày quá nhiều.,15
+91,2024-01-04 18:00:00.000000,2745,0,"9921 James Cliffs, Melendezton, SD 73844",13348,0,,1
+92,2024-01-04 19:00:00.000000,9737,0,"362 Nicholas Springs, Jessicamouth, AR 71351",16299,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+93,2024-01-04 20:00:00.000000,5308,0,"57748 Beth Freeway Apt. 688, Watkinsfort, MS 75826",13831,1,Số tiền giao dịch lớn.,10
+94,2024-01-04 21:00:00.000000,5668,1,"221 Jessica Square, South Jose, MT 53113",19433,1,Số tiền giao dịch lớn.,5
+95,2024-01-04 22:00:00.000000,6786,1,"47631 Dennis Greens, North Natashafort, AL 06912",18381,1,Số tiền giao dịch lớn.,5
+96,2024-01-04 23:00:00.000000,441,1,"772 Peters Courts, South Kevin, MD 38532",19172,0,,10
+97,2024-01-05 00:00:00.000000,5942,1,"USS King, FPO AP 88326",19890,1,Số tiền giao dịch lớn.,5
+98,2024-01-05 01:00:00.000000,3611,1,"45307 Lewis Tunnel, Doyleburgh, MP 80388",11715,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+99,2024-01-05 02:00:00.000000,6234,1,"77841 Roger Walks Apt. 902, Delacruzhaven, GA 92427",16450,1,Số tiền giao dịch lớn.,1
+100,2024-01-05 03:00:00.000000,3149,1,"30206 Wong Dam Apt. 719, Allenchester, MD 54895",15433,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+101,2024-01-05 04:00:00.000000,6328,0,"379 Cassandra Inlet Apt. 813, New Josestad, LA 33968",11098,1,Số tiền giao dịch lớn.,5
+102,2024-01-05 05:00:00.000000,8442,0,"5504 Mary Plains Apt. 055, Douglasburgh, PW 06782",17096,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+103,2024-01-05 06:00:00.000000,3154,0,"0712 Castillo Islands Apt. 737, New Yvette, VT 67104",12326,1,Số tiền giao dịch lớn.,1
+104,2024-01-05 07:00:00.000000,7265,0,"361 Rowe Mountain, New Stephanieshire, OH 16612",19087,1,Số tiền giao dịch lớn.,1
+105,2024-01-05 08:00:00.000000,2504,1,"3169 Hernandez Meadows, Katherinefurt, DC 17847",16416,0,,10
+106,2024-01-05 09:00:00.000000,9046,1,"8935 Williams Ways Apt. 330, Websterhaven, NJ 69584",16980,1,Số tiền giao dịch lớn.,10
+107,2024-01-05 10:00:00.000000,2781,0,"39409 Miller Harbors, Derekfurt, KY 70200",16763,1,Số giao dịch trong 7 ngày quá nhiều.,20
+108,2024-01-05 11:00:00.000000,8204,0,"1749 Teresa Estates Apt. 346, Sethstad, AL 02939",11674,1,Số tiền giao dịch lớn.,1
+109,2024-01-05 12:00:00.000000,9812,1,"182 White Place Apt. 455, East Nancyborough, CO 66209",17950,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+110,2024-01-05 13:00:00.000000,5106,0,"6240 Jonathan Street, Brownstad, GU 78445",19122,1,Số tiền giao dịch lớn.,10
+111,2024-01-05 14:00:00.000000,8160,0,"6217 Mejia Bypass, East Carla, AL 42776",18915,1,Số tiền giao dịch lớn.,10
+112,2024-01-05 15:00:00.000000,3890,0,"32019 Fernandez Vista, Lake Alanshire, ND 03038",16049,1,Số tiền giao dịch lớn.,1
+113,2024-01-05 16:00:00.000000,1078,0,"499 Juan Points Suite 669, Brownton, VA 05936",11089,1,Số giao dịch trong 7 ngày quá nhiều.,15
+114,2024-01-05 17:00:00.000000,7435,1,"1322 Davis Hill, East Catherinefort, IL 91460",14578,1,Số tiền giao dịch lớn.,5
+115,2024-01-05 18:00:00.000000,552,0,"8393 Nicole Keys, Lake Ashleymouth, IL 25325",19127,0,,10
+116,2024-01-05 19:00:00.000000,6960,0,"Unit 7225 Box 7868, DPO AE 47238",10155,1,Số tiền giao dịch lớn.,10
+117,2024-01-05 20:00:00.000000,9112,1,"839 Scott Skyway Suite 863, South Erikachester, NV 96309",19262,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+118,2024-01-05 21:00:00.000000,6988,1,"3980 Susan Track Apt. 671, Rhondaview, SC 16382",11958,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+119,2024-01-05 22:00:00.000000,4538,0,"638 Hester Glen, Smithbury, DE 87962",16344,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+120,2024-01-05 23:00:00.000000,256,1,"USNS Rice, FPO AA 53485",15779,1,Số giao dịch trong 7 ngày quá nhiều.,20
+121,2024-01-06 00:00:00.000000,5184,0,"48973 Landry Via, Chavezfort, LA 52077",16144,1,Số tiền giao dịch lớn.,5
+122,2024-01-06 01:00:00.000000,6027,0,"78608 Hall Station Suite 562, Millerchester, OK 67912",15063,1,Số tiền giao dịch lớn.,5
+123,2024-01-06 02:00:00.000000,7771,1,"52923 Williams Village Apt. 551, Smithtown, OK 04803",13830,1,Số tiền giao dịch lớn.,1
+124,2024-01-06 03:00:00.000000,7085,0,"926 Adams Hills, Lake Elizabethbury, VI 24993",19046,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+125,2024-01-06 04:00:00.000000,1534,0,"752 Lucas Station Suite 665, New Charles, MS 08457",18831,0,,10
+126,2024-01-06 05:00:00.000000,7908,0,"27918 Harrison Tunnel, Jameston, CO 56508",19794,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+127,2024-01-06 06:00:00.000000,913,0,"54106 Robert Knoll, New Angelicabury, MP 12772",16659,0,,10
+128,2024-01-06 07:00:00.000000,2840,1,"28007 Jeremiah Key Apt. 990, South Julie, NJ 16290",10441,1,Số giao dịch trong 7 ngày quá nhiều.,15
+129,2024-01-06 08:00:00.000000,7458,1,"833 Ray Plaza, Dillonside, PA 83909",16040,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+130,2024-01-06 09:00:00.000000,8805,0,"2018 Evans Lodge, West Cory, ID 03350",15925,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+131,2024-01-06 10:00:00.000000,5166,1,"6244 Carney Land Suite 080, West Williamton, NC 98788",17358,1,Số tiền giao dịch lớn.,5
+132,2024-01-06 11:00:00.000000,6069,0,"USNV Townsend, FPO AE 21623",14628,1,Số tiền giao dịch lớn.,5
+133,2024-01-06 12:00:00.000000,1807,0,"7712 Hardin Roads Apt. 952, West Franceshaven, NY 55989",16370,0,,1
+134,2024-01-06 13:00:00.000000,7624,0,"910 Joseph Creek, Alexanderstad, IN 37707",19528,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+135,2024-01-06 14:00:00.000000,6424,0,"429 Stephanie Haven, South William, AK 70546",10948,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+136,2024-01-06 15:00:00.000000,6942,0,"8907 Luis Mountains Suite 808, New Ashley, SC 26517",18179,1,Số tiền giao dịch lớn.,10
+137,2024-01-06 16:00:00.000000,1728,1,"7606 Nichols Drive, Alexburgh, DC 56509",16115,0,,5
+138,2024-01-06 17:00:00.000000,3292,0,"000 Robert Haven Apt. 164, Lake Melissaton, MD 72628",10459,1,Số tiền giao dịch lớn.,5
+139,2024-01-06 18:00:00.000000,4686,1,"802 Karl Row, Olivershire, NE 38548",17568,1,Số tiền giao dịch lớn.,10
+140,2024-01-06 19:00:00.000000,1109,1,"808 Weeks Rapid, South Stacymouth, VT 21735",14646,1,Số giao dịch trong 7 ngày quá nhiều.,15
+141,2024-01-06 20:00:00.000000,6718,0,"32900 Shannon Square Suite 581, Port Jamesville, MI 95492",10392,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+142,2024-01-06 21:00:00.000000,9964,0,"99692 Jensen Drives Suite 554, New Mark, DE 52278",11787,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+143,2024-01-06 22:00:00.000000,3207,0,"759 Robert Lock Apt. 022, South Sherryshire, IN 33747",17374,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+144,2024-01-06 23:00:00.000000,5965,0,"5460 Mcdonald Cliff, New Darryl, NY 14825",11138,1,Số tiền giao dịch lớn.,1
+145,2024-01-07 00:00:00.000000,9839,0,"72100 Dominic Manor Suite 877, Barryhaven, DE 43982",14741,1,Số tiền giao dịch lớn.,5
+146,2024-01-07 01:00:00.000000,2743,1,"04175 Earl Forge Apt. 105, Juliamouth, ID 51912",17418,1,Số giao dịch trong 7 ngày quá nhiều.,20
+147,2024-01-07 02:00:00.000000,3677,0,"17273 Mark Radial, Lake Thomasport, MD 14646",16362,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+148,2024-01-07 03:00:00.000000,9605,0,"4596 Taylor Oval, Lake Paulchester, NC 54807",12454,1,Số tiền giao dịch lớn.,10
+149,2024-01-07 04:00:00.000000,5500,1,"80993 Graves Flat Suite 701, Huntville, RI 50034",19658,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+150,2024-01-07 05:00:00.000000,1713,1,"941 Amy Fork, Aliciahaven, MA 96299",13674,0,,5
+151,2024-01-07 06:00:00.000000,9771,0,"PSC 9190, Box 9772, APO AP 61519",11377,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+152,2024-01-07 07:00:00.000000,5642,1,"835 Michael Point Apt. 816, Manuelstad, CA 58707",16701,1,Số tiền giao dịch lớn.,1
+153,2024-01-07 08:00:00.000000,7442,0,"0309 Melissa Rapid Suite 396, North Michael, MS 10997",12597,1,Số tiền giao dịch lớn.,5
+154,2024-01-07 09:00:00.000000,1356,1,"613 Allen Rest Suite 388, Harveychester, PA 97582",10141,0,,10
+155,2024-01-07 10:00:00.000000,6826,1,"5569 Todd Grove, Jasonland, NJ 99239",12659,1,Số tiền giao dịch lớn.,1
+156,2024-01-07 11:00:00.000000,5914,0,"281 Price Heights Suite 099, Nelsonport, GA 08676",14596,1,Số tiền giao dịch lớn.,5
+157,2024-01-07 12:00:00.000000,9524,1,"409 Burke Ports, Ashleymouth, OH 40312",19031,1,Số tiền giao dịch lớn.,10
+158,2024-01-07 13:00:00.000000,7576,1,"60309 William Mountain, Newtonmouth, TN 61454",15661,1,Số tiền giao dịch lớn.,1
+159,2024-01-07 14:00:00.000000,8951,1,"738 Murray Mountains Apt. 555, Heathershire, MD 36389",16142,1,Số tiền giao dịch lớn.,1
+160,2024-01-07 15:00:00.000000,5625,1,"01359 Matthews Canyon, Morrischester, GA 47956",15626,1,Số tiền giao dịch lớn.,5
+161,2024-01-07 16:00:00.000000,5580,1,"27675 Anthony Road, Lake Marioberg, MH 10960",18787,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+162,2024-01-07 17:00:00.000000,4463,1,"38409 Hannah Club Apt. 989, Kevinfort, OH 10664",18472,1,Số tiền giao dịch lớn.,1
+163,2024-01-07 18:00:00.000000,3798,0,"22179 Stanley Island, Arnoldtown, OR 46324",10423,1,Số tiền giao dịch lớn.,1
+164,2024-01-07 19:00:00.000000,713,0,"91355 Beck Station Suite 511, North Michaelfort, WY 11129",16999,0,,10
+165,2024-01-07 20:00:00.000000,2048,1,"0737 Smith Spring Apt. 368, Vincentbury, KY 92586",14249,1,Số giao dịch trong 7 ngày quá nhiều.,15
+166,2024-01-07 21:00:00.000000,8044,0,"417 Frederick Flat, West Cindy, DE 68604",11750,1,Số tiền giao dịch lớn.,5
+167,2024-01-07 22:00:00.000000,1545,0,"787 John Underpass, New Brucebury, AS 67938",14757,0,,5
+168,2024-01-07 23:00:00.000000,3354,0,"795 Sanchez Isle Suite 438, South Jasminefurt, ME 09056",11967,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+169,2024-01-08 00:00:00.000000,3813,1,"096 Russell Club, Lake Mark, OR 86619",14088,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+170,2024-01-08 01:00:00.000000,5282,0,"624 Kristin Path Suite 822, North Victoria, PR 93270",14178,1,Số tiền giao dịch lớn.,5
+171,2024-01-08 02:00:00.000000,1903,1,"1771 Jackson Spur, Barnettchester, ID 75025",17789,1,Số giao dịch trong 7 ngày quá nhiều.,20
+172,2024-01-08 03:00:00.000000,6635,0,"37785 Robinson Roads Suite 427, South Bradley, TN 02773",12946,1,Số tiền giao dịch lớn.,10
+173,2024-01-08 04:00:00.000000,1341,1,"726 Wilson Mill, Ruthfort, MI 74805",19641,0,,5
+174,2024-01-08 05:00:00.000000,3631,1,"05342 Robert Harbors Suite 013, West Beth, NJ 82334",15394,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+175,2024-01-08 06:00:00.000000,7604,0,"68630 Robert Cove, East Steven, NE 59984",17880,1,Số tiền giao dịch lớn.,5
+176,2024-01-08 07:00:00.000000,7330,0,"856 Davidson Camp Suite 407, Lake Gregorytown, MA 85126",15075,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+177,2024-01-08 08:00:00.000000,1686,1,"448 Jenkins Camp Apt. 006, Port Thomasborough, PA 61153",17230,0,,1
+178,2024-01-08 09:00:00.000000,3746,0,"71936 Ward Street Apt. 982, Watsontown, TX 37468",11531,1,Số tiền giao dịch lớn.,5
+179,2024-01-08 10:00:00.000000,748,0,"2672 Sergio Ramp Suite 073, North Gregory, MS 78505",12990,0,,1
+180,2024-01-08 11:00:00.000000,4787,0,"332 Hernandez Shore, Samuelville, TN 70794",17155,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+181,2024-01-08 12:00:00.000000,904,1,"20813 Cuevas Landing Suite 910, Kristinville, NC 08222",14493,0,,1
+182,2024-01-08 13:00:00.000000,8214,1,"661 Marissa Underpass, West Christinemouth, ND 93442",19335,1,Số tiền giao dịch lớn.,5
+183,2024-01-08 14:00:00.000000,5905,0,"91505 Lauren Shores, New Robert, ND 14483",10933,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+184,2024-01-08 15:00:00.000000,7442,0,"0308 Kimberly Fields Suite 159, Patrickhaven, CO 27443",11460,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+185,2024-01-08 16:00:00.000000,6578,0,"3967 Ross Island, New Antonio, HI 84066",12723,1,Số tiền giao dịch lớn.,5
+186,2024-01-08 17:00:00.000000,5299,1,"93809 Leslie Ford, West Barbara, MD 88903",10285,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+187,2024-01-08 18:00:00.000000,5222,1,"2126 Arnold Overpass, Lindaside, VA 23363",10264,1,Số tiền giao dịch lớn.,10
+188,2024-01-08 19:00:00.000000,1757,0,"9044 Underwood Spur, Lake Lisa, VA 58805",16816,0,,1
+189,2024-01-08 20:00:00.000000,5841,0,"868 Dawn Ports Suite 270, Jamesmouth, NV 15474",11762,1,Số tiền giao dịch lớn.,10
+190,2024-01-08 21:00:00.000000,9975,0,"060 Berger Street, Port Craig, VI 69165",10040,1,Số tiền giao dịch lớn.,5
+191,2024-01-08 22:00:00.000000,5585,0,"86160 Theresa Burgs, East Travischester, SD 24070",15827,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+192,2024-01-08 23:00:00.000000,4981,0,"69641 Kimberly Hollow Apt. 095, Karenmouth, PW 83557",18259,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+193,2024-01-09 00:00:00.000000,3560,0,"266 Griffin Orchard, Johnchester, TX 53759",10987,1,Số tiền giao dịch lớn.,1
+194,2024-01-09 01:00:00.000000,252,1,"93929 Ray Pine Apt. 021, Christinemouth, MP 28645",17804,1,Số giao dịch trong 7 ngày quá nhiều.,20
+195,2024-01-09 02:00:00.000000,4268,0,"USNV Jensen, FPO AP 23571",17789,1,Số tiền giao dịch lớn.,5
+196,2024-01-09 03:00:00.000000,9008,1,"05262 Ashley Grove, Laurieshire, WI 77702",15717,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+197,2024-01-09 04:00:00.000000,4439,0,"9355 John Stream Apt. 675, Hudsonhaven, LA 93495",13198,1,Số tiền giao dịch lớn.,1
+198,2024-01-09 05:00:00.000000,2377,0,"27441 Moreno Villages Suite 864, Tuckerborough, IA 09200",15374,0,,5
+199,2024-01-09 06:00:00.000000,8054,1,"272 Alicia Wells, West Michele, PR 50246",14790,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+200,2024-01-09 07:00:00.000000,2981,1,"32256 Mary Mount, Floydton, MT 66374",17183,1,Số giao dịch trong 7 ngày quá nhiều.,15
+201,2024-01-09 08:00:00.000000,7827,1,"8962 Thomas Brooks, West Emilymouth, SC 07700",12524,1,Số tiền giao dịch lớn.,5
+202,2024-01-09 09:00:00.000000,247,1,"820 Sarah Spur, Rowlandport, TN 94092",19277,0,,5
+203,2024-01-09 10:00:00.000000,7175,0,"759 Connie Street, East Keith, TX 69438",12479,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+204,2024-01-09 11:00:00.000000,1980,1,"7099 Martinez Viaduct, Powellberg, MO 33171",19885,0,,10
+205,2024-01-09 12:00:00.000000,6337,0,"447 Nichole Oval Suite 461, North Cynthia, NM 56086",15154,1,Số tiền giao dịch lớn.,1
+206,2024-01-09 13:00:00.000000,8850,1,"41854 Alicia Port, East Ashleyview, NC 70898",10778,1,Số tiền giao dịch lớn.,10
+207,2024-01-09 14:00:00.000000,9389,0,"01587 Andrew Burgs Apt. 020, New Brandon, CA 71569",19777,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+208,2024-01-09 15:00:00.000000,4332,0,"824 Jacob Tunnel Suite 347, Mooreport, CT 49091",11492,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+209,2024-01-09 16:00:00.000000,2561,0,"666 Perkins Knoll, Janicebury, WY 67917",10660,0,,10
+210,2024-01-09 17:00:00.000000,709,0,"2215 Green Motorway, East Chad, MP 21996",11348,0,,5
+211,2024-01-09 18:00:00.000000,2861,0,"USNV Marsh, FPO AE 92565",19491,1,Số giao dịch trong 7 ngày quá nhiều.,20
+212,2024-01-09 19:00:00.000000,7148,0,"8061 Grace Ford Suite 723, New Kristen, CO 55904",17851,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+213,2024-01-09 20:00:00.000000,6596,1,"116 Nielsen Shore, Lake Fernandofurt, AZ 93163",17156,1,Số tiền giao dịch lớn.,10
+214,2024-01-09 21:00:00.000000,9611,0,"95519 Veronica Lock, Thompsontown, CA 22934",12044,1,Số tiền giao dịch lớn.,10
+215,2024-01-09 22:00:00.000000,2036,1,"190 Mcgrath Green, East Pamfort, WV 62077",17368,1,Số giao dịch trong 7 ngày quá nhiều.,15
+216,2024-01-09 23:00:00.000000,8388,1,"USNV Solis, FPO AA 42203",13516,1,Số tiền giao dịch lớn.,1
+217,2024-01-10 00:00:00.000000,2961,0,"2352 Judith Flat Suite 663, Jonathonchester, CA 20199",19250,0,,10
+218,2024-01-10 01:00:00.000000,1784,1,"11828 Turner Inlet Suite 821, Dunlapborough, WY 81301",19168,0,,10
+219,2024-01-10 02:00:00.000000,1893,0,"20319 Meghan Common, Aliciamouth, AK 90016",14577,0,,5
+220,2024-01-10 03:00:00.000000,8730,1,"86072 Philip Divide, Kellyhaven, SD 31439",10727,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+221,2024-01-10 04:00:00.000000,3026,0,"0352 Henry Circles Apt. 247, Woodstad, KY 22330",17468,1,Số tiền giao dịch lớn.,1
+222,2024-01-10 05:00:00.000000,2009,1,"01017 Ashley Locks, Russellfurt, DC 57549",10342,0,,5
+223,2024-01-10 06:00:00.000000,5809,0,"66386 Cabrera Road Suite 989, North Charles, WV 44971",11447,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+224,2024-01-10 07:00:00.000000,6744,0,"08420 Mitchell Ford Suite 005, Reyesborough, DE 85872",16581,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+225,2024-01-10 08:00:00.000000,2435,0,"812 Cohen Burgs Suite 079, New Corytown, GA 31634",16317,0,,10
+226,2024-01-10 09:00:00.000000,4786,0,"28208 Kara Fields, Terryview, VT 47865",10526,1,Số tiền giao dịch lớn.,10
+227,2024-01-10 10:00:00.000000,1852,1,"94816 Johnson Falls, Jameschester, NY 01952",16748,1,Số giao dịch trong 7 ngày quá nhiều.,15
+228,2024-01-10 11:00:00.000000,8205,0,"Unit 4043 Box 6076, DPO AP 24918",10405,1,Số tiền giao dịch lớn.,10
+229,2024-01-10 12:00:00.000000,8170,1,"500 Maria Roads Apt. 021, Millerview, VI 66515",17986,1,Số tiền giao dịch lớn.,1
+230,2024-01-10 13:00:00.000000,6666,1,"7062 Charles Hill Apt. 557, Thomasmouth, AL 76117",19765,1,Số tiền giao dịch lớn.,10
+231,2024-01-10 14:00:00.000000,5584,1,"845 Lynn Port, Williamsonshire, HI 05158",13740,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+232,2024-01-10 15:00:00.000000,4111,0,"6284 Davis River, Youngfort, RI 71076",11846,1,Số tiền giao dịch lớn.,10
+233,2024-01-10 16:00:00.000000,312,1,"802 William Extensions Suite 325, South Samuel, PW 93609",11478,0,,5
+234,2024-01-10 17:00:00.000000,6337,1,"97219 Diane Mission, Sarahshire, MA 12828",10771,1,Số tiền giao dịch lớn.,1
+235,2024-01-10 18:00:00.000000,8865,1,"389 Debbie Place, North Amber, CO 01959",15525,1,Số tiền giao dịch lớn.,5
+236,2024-01-10 19:00:00.000000,9258,0,"4059 Edwards Pass, Watsonfort, MT 55919",18770,1,Số tiền giao dịch lớn.,5
+237,2024-01-10 20:00:00.000000,2099,0,"092 Deanna Landing, Lisaside, VT 13206",10193,1,Số giao dịch trong 7 ngày quá nhiều.,20
+238,2024-01-10 21:00:00.000000,5473,1,"0384 Mark Shores Apt. 909, Millerhaven, ND 61697",12007,1,Số tiền giao dịch lớn.,1
+239,2024-01-10 22:00:00.000000,4598,0,"17278 David Glens Apt. 160, Lake Carlosmouth, UT 29815",11185,1,Số tiền giao dịch lớn.,1
+240,2024-01-10 23:00:00.000000,3158,0,"89081 Jason Neck, Lisamouth, AS 71549",12394,1,Số tiền giao dịch lớn.,1
+241,2024-01-11 00:00:00.000000,7208,1,"151 Scott Route, Crawfordberg, NJ 15432",19984,1,Số tiền giao dịch lớn.,1
+242,2024-01-11 01:00:00.000000,7450,1,"9004 Mary Shoal, Port Shannon, NC 53451",19302,1,Số tiền giao dịch lớn.,1
+243,2024-01-11 02:00:00.000000,3220,0,"847 Mark Lock, West Barbaramouth, FM 49968",14005,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+244,2024-01-11 03:00:00.000000,9924,1,"85840 Jason Crest Apt. 110, North Nicole, NV 73214",17429,1,Số tiền giao dịch lớn.,10
+245,2024-01-11 04:00:00.000000,2305,0,"999 Christopher Way, West Karenshire, FL 59540",12261,0,,5
+246,2024-01-11 05:00:00.000000,1204,0,"645 Silva Skyway Apt. 187, Scottshire, NV 92667",13736,0,,1
+247,2024-01-11 06:00:00.000000,4549,0,"81237 Matthew Plains Suite 228, Davidmouth, AR 00716",16716,1,Số tiền giao dịch lớn.,10
+248,2024-01-11 07:00:00.000000,6345,0,"40227 Sanchez Dam, Alexandermouth, MS 32824",14875,1,Số tiền giao dịch lớn.,10
+249,2024-01-11 08:00:00.000000,6247,0,"6003 Nicole Harbors Suite 385, South Saramouth, IN 22143",18921,1,Số tiền giao dịch lớn.,5
+250,2024-01-11 09:00:00.000000,9938,0,"45550 Reese Ramp Apt. 244, Lake Amandabury, WI 01907",14378,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+251,2024-01-11 10:00:00.000000,1698,1,"84024 Anthony Mews Apt. 533, Gibsonville, UT 64732",17815,1,Số giao dịch trong 7 ngày quá nhiều.,15
+252,2024-01-11 11:00:00.000000,5589,1,"589 Carr Branch Apt. 681, Elizabethfort, IN 72641",13451,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+253,2024-01-11 12:00:00.000000,9687,0,"32757 Ryan Port Apt. 020, Kevinbury, KS 36424",17616,1,Số tiền giao dịch lớn.,10
+254,2024-01-11 13:00:00.000000,4249,0,"89872 Spence Lodge, Patriciaville, CO 01995",19836,1,Số tiền giao dịch lớn.,5
+255,2024-01-11 14:00:00.000000,8495,0,"51620 Kimberly Trail, Davidburgh, ME 61405",12800,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+256,2024-01-11 15:00:00.000000,2607,1,"31834 Coleman Shore, New Sabrinachester, IL 99275",18333,0,,10
+257,2024-01-11 16:00:00.000000,5642,0,"USS Rowe, FPO AP 86467",15410,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+258,2024-01-11 17:00:00.000000,148,1,"05129 Robinson Manors Suite 379, Hannahhaven, MP 52497",11455,1,Số giao dịch trong 7 ngày quá nhiều.,15
+259,2024-01-11 18:00:00.000000,2250,0,"76554 David Village Apt. 160, Hollyton, MD 37860",16892,0,,10
+260,2024-01-11 19:00:00.000000,3011,0,"PSC 5154, Box 1232, APO AA 65595",15808,1,Số tiền giao dịch lớn.,10
+261,2024-01-11 20:00:00.000000,5023,1,"669 James Freeway, Justinmouth, CT 65010",16796,1,Số tiền giao dịch lớn.,1
+262,2024-01-11 21:00:00.000000,4483,1,"8088 Joseph Crest Suite 892, Lisaport, NE 80792",14796,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+263,2024-01-11 22:00:00.000000,2919,0,"01182 Brooke Light Apt. 465, Codychester, UT 16356",15093,0,,1
+264,2024-01-11 23:00:00.000000,1006,0,"71801 Morgan Island, Garyborough, NY 56072",11325,0,,5
+265,2024-01-12 00:00:00.000000,8402,0,"587 April Falls Suite 183, Lake Kristen, MS 52621",14976,1,Số tiền giao dịch lớn.,1
+266,2024-01-12 01:00:00.000000,5749,1,"Unit 9354 Box 8202, DPO AA 24262",19405,1,Số tiền giao dịch lớn.,1
+267,2024-01-12 02:00:00.000000,6994,1,"469 Chelsea Plaza, Jamesstad, WV 12835",11159,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+268,2024-01-12 03:00:00.000000,4543,1,"30934 Joshua Knolls Apt. 157, Williamsfurt, KY 92026",14650,1,Số tiền giao dịch lớn.,10
+269,2024-01-12 04:00:00.000000,9542,1,"975 Gomez Stream Suite 029, Smithport, PR 89805",14987,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+270,2024-01-12 05:00:00.000000,4961,1,"52203 Williams Ville Apt. 224, South Nicholasshire, GU 65626",14697,1,Số tiền giao dịch lớn.,1
+271,2024-01-12 06:00:00.000000,4037,1,"1978 Anderson Wells Suite 972, Lake Anthonyview, ME 74126",10340,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+272,2024-01-12 07:00:00.000000,9769,0,"502 Robert Fall, West Phillipshire, PW 53795",13828,1,Số tiền giao dịch lớn.,1
+273,2024-01-12 08:00:00.000000,6065,0,"PSC 0604, Box 2250, APO AE 68745",11968,1,Số tiền giao dịch lớn.,5
+274,2024-01-12 09:00:00.000000,1268,1,"856 Elizabeth Run Suite 729, Stephensmouth, HI 45025",10703,0,,1
+275,2024-01-12 10:00:00.000000,4546,0,"943 Matthew Track, Port David, AK 59365",15482,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+276,2024-01-12 11:00:00.000000,4785,0,"24447 Buchanan Plains, Port Daniel, WY 66822",16376,1,Số tiền giao dịch lớn.,10
+277,2024-01-12 12:00:00.000000,4605,1,"469 Hannah Radial, Matthewport, OR 12073",11800,1,Số tiền giao dịch lớn.,5
+278,2024-01-12 13:00:00.000000,9196,0,"USCGC Richards, FPO AE 24745",15463,1,Số tiền giao dịch lớn.,1
+279,2024-01-12 14:00:00.000000,8100,1,"PSC 5679, Box 9995, APO AA 38775",14912,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+280,2024-01-12 15:00:00.000000,3496,1,"16447 Matthew Rue, Gonzalesstad, VI 82998",14648,1,Số tiền giao dịch lớn.,5
+281,2024-01-12 16:00:00.000000,1095,0,"098 Mcdaniel Lights, Burtonbury, NY 61691",10855,0,,5
+282,2024-01-12 17:00:00.000000,6943,1,"00439 Ferguson Center Apt. 161, Katherinestad, MH 71020",12866,1,Số tiền giao dịch lớn.,1
+283,2024-01-12 18:00:00.000000,1743,1,"43415 Avery View Apt. 966, West Nicole, MT 89734",10182,0,,5
+284,2024-01-12 19:00:00.000000,3486,1,"606 Cody Mountains Suite 775, Port Larry, NH 99038",13112,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+285,2024-01-12 20:00:00.000000,8804,1,"0005 Tiffany Stream, West Ashley, AR 85196",15670,1,Số tiền giao dịch lớn.,5
+286,2024-01-12 21:00:00.000000,5945,1,"20898 Hanson Neck Apt. 718, Beckport, VI 59202",14492,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+287,2024-01-12 22:00:00.000000,3404,1,"PSC 3866, Box 4305, APO AP 52640",15823,1,Số tiền giao dịch lớn.,1
+288,2024-01-12 23:00:00.000000,275,1,"7630 Tammy Landing, West Michaelfort, GA 45517",11517,0,,10
+289,2024-01-13 00:00:00.000000,4943,1,"536 Richard Inlet Suite 526, South Chaseshire, PA 94476",15002,1,Số tiền giao dịch lớn.,5
+290,2024-01-13 01:00:00.000000,7072,0,"073 Sharon Pine, Fieldsshire, IN 70470",11356,1,Số tiền giao dịch lớn.,10
+291,2024-01-13 02:00:00.000000,9201,0,"6257 John Isle, Livingstonfurt, MD 13666",13629,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+292,2024-01-13 03:00:00.000000,5650,0,"0652 Marissa Lights Apt. 903, North Donaldton, OK 15220",13628,1,Số tiền giao dịch lớn.,5
+293,2024-01-13 04:00:00.000000,8046,1,"USNV Wilson, FPO AA 24746",18210,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+294,2024-01-13 05:00:00.000000,9057,1,"079 Schwartz Hill Apt. 461, East Noahmouth, IN 81898",16132,1,Số tiền giao dịch lớn.,10
+295,2024-01-13 06:00:00.000000,7733,0,"526 Michael Field Apt. 009, Melissaton, WI 85988",19324,1,Số tiền giao dịch lớn.,5
+296,2024-01-13 07:00:00.000000,4692,0,"9539 Morris Crest Apt. 183, Dianeview, UT 93239",16588,1,Số tiền giao dịch lớn.,10
+297,2024-01-13 08:00:00.000000,7729,0,"154 Victoria Plaza Apt. 374, West Erikmouth, NM 51517",13311,1,Số tiền giao dịch lớn.,5
+298,2024-01-13 09:00:00.000000,8258,1,"900 Wayne Run, Lake Sara, AK 14295",16048,1,Số tiền giao dịch lớn.,1
+299,2024-01-13 10:00:00.000000,7389,0,"PSC 0960, Box 5221, APO AP 50252",16246,1,Số tiền giao dịch lớn.,10
+300,2024-01-13 11:00:00.000000,9485,0,"1209 Robert Locks, North Jamestown, KY 40661",10987,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+301,2024-01-13 12:00:00.000000,2255,1,"16238 Stephanie Terrace, Stanleyview, AL 26404",13321,1,Số giao dịch trong 7 ngày quá nhiều.,15
+302,2024-01-13 13:00:00.000000,1119,0,"804 Jonathan Rest, East Teresaton, AS 60805",14615,1,Số giao dịch trong 7 ngày quá nhiều.,20
+303,2024-01-13 14:00:00.000000,3494,1,"75463 Tracey View Suite 749, Jesseview, TN 29413",18365,1,Số tiền giao dịch lớn.,5
+304,2024-01-13 15:00:00.000000,1110,1,"102 Shelley Creek, Waynehaven, CO 79267",13741,0,,10
+305,2024-01-13 16:00:00.000000,2377,1,"USS Rojas, FPO AA 35366",13052,1,Số giao dịch trong 7 ngày quá nhiều.,20
+306,2024-01-13 17:00:00.000000,3470,0,"32708 Amanda Garden Apt. 284, Port Derekfort, WV 12889",16574,1,Số tiền giao dịch lớn.,10
+307,2024-01-13 18:00:00.000000,351,0,"2679 Jose Junctions, Port Marychester, MD 40590",10726,0,,5
+308,2024-01-13 19:00:00.000000,656,1,"1360 Beltran Extensions, Frankberg, PA 16646",13760,1,Số giao dịch trong 7 ngày quá nhiều.,15
+309,2024-01-13 20:00:00.000000,3220,0,"Unit 3735 Box 8787, DPO AP 80339",15806,1,Số tiền giao dịch lớn.,1
+310,2024-01-13 21:00:00.000000,749,0,"02999 Ramos Mills, Jenniferport, CT 43687",11875,1,Số giao dịch trong 7 ngày quá nhiều.,15
+311,2024-01-13 22:00:00.000000,5138,0,"1708 Mason Views, Allisonfort, PA 54318",16993,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+312,2024-01-13 23:00:00.000000,9381,0,"7580 Smith Mill Suite 979, Lake Samanthachester, CT 53546",14033,1,Số tiền giao dịch lớn.,1
+313,2024-01-14 00:00:00.000000,240,1,"73322 Andrew Forest Suite 814, New Audreyport, MD 01071",15443,1,Số giao dịch trong 7 ngày quá nhiều.,20
+314,2024-01-14 01:00:00.000000,1030,0,"3732 Fritz Junctions, Joshuafort, AK 62928",10989,0,,5
+315,2024-01-14 02:00:00.000000,3025,1,"Unit 3370 Box 9431, DPO AE 12832",13744,1,Số tiền giao dịch lớn.,1
+316,2024-01-14 03:00:00.000000,6152,1,"6835 Lori Canyon, Robinsonfort, NC 95682",18611,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+317,2024-01-14 04:00:00.000000,1234,0,"2394 Henry Island Apt. 152, Victoriaville, GU 84861",10593,0,,5
+318,2024-01-14 05:00:00.000000,3377,1,"Unit 0541 Box 1305, DPO AA 12721",11774,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+319,2024-01-14 06:00:00.000000,3444,0,"6682 Michelle Corner, East Lynn, MH 38735",10935,1,Số tiền giao dịch lớn.,5
+320,2024-01-14 07:00:00.000000,8369,0,"9569 Jenna Parks, South Johnmouth, NV 53412",13808,1,Số tiền giao dịch lớn.,10
+321,2024-01-14 08:00:00.000000,1866,1,"19956 Louis Springs, South Jamesfurt, AK 08915",10331,0,,5
+322,2024-01-14 09:00:00.000000,5904,1,"851 Chavez Highway Suite 157, Jacquelinefort, GA 44902",17922,1,Số tiền giao dịch lớn.,5
+323,2024-01-14 10:00:00.000000,6759,1,"88237 Casey Freeway Apt. 492, South Debra, TX 44719",12702,1,Số tiền giao dịch lớn.,10
+324,2024-01-14 11:00:00.000000,619,1,"05127 Bridget Walks, Wyattside, VA 91051",15889,1,Số giao dịch trong 7 ngày quá nhiều.,20
+325,2024-01-14 12:00:00.000000,5492,0,"38857 James Corner Apt. 755, Port Marco, KY 97354",15054,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+326,2024-01-14 13:00:00.000000,1945,0,"62993 Scott Meadow, Emilyview, FM 50267",13868,0,,5
+327,2024-01-14 14:00:00.000000,2783,0,"26520 Myers Parks, North Ann, WA 58315",14200,0,,10
+328,2024-01-14 15:00:00.000000,3913,1,"8093 Martin Burg, West Austinhaven, NC 25792",10201,1,Số tiền giao dịch lớn.,10
+329,2024-01-14 16:00:00.000000,7505,1,"53686 Harris Summit, South Jeffchester, MH 87088",12497,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+330,2024-01-14 17:00:00.000000,4064,1,"415 Madison Cape, Lake Angelaberg, LA 03957",11842,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+331,2024-01-14 18:00:00.000000,1736,0,"477 Nicole Extension, Kirkhaven, RI 47478",19101,0,,1
+332,2024-01-14 19:00:00.000000,3059,1,"860 Torres Crossroad, Nicholaston, MS 13211",14658,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+333,2024-01-14 20:00:00.000000,7856,0,"2840 Joseph Burg, West Jenniferville, NY 09344",17544,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+334,2024-01-14 21:00:00.000000,204,1,"PSC 8848, Box 2694, APO AE 86085",17718,1,Số giao dịch trong 7 ngày quá nhiều.,15
+335,2024-01-14 22:00:00.000000,1459,0,"4381 Jacobson Prairie Apt. 742, East Michaelshire, TN 33930",10770,0,,1
+336,2024-01-14 23:00:00.000000,834,0,"USCGC Thomas, FPO AE 82125",13155,1,Số giao dịch trong 7 ngày quá nhiều.,15
+337,2024-01-15 00:00:00.000000,8146,1,"Unit 6197 Box 8006, DPO AA 40592",11628,1,Số tiền giao dịch lớn.,1
+338,2024-01-15 01:00:00.000000,7610,1,"141 Alan Valleys, Kylebury, SD 50166",10386,1,Số tiền giao dịch lớn.,5
+339,2024-01-15 02:00:00.000000,7393,0,"692 Jacqueline Camp Apt. 770, Perkinsshire, SD 51542",16031,1,Số tiền giao dịch lớn.,1
+340,2024-01-15 03:00:00.000000,7256,0,"Unit 7774 Box 5086, DPO AE 92702",16439,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+341,2024-01-15 04:00:00.000000,5646,1,"558 Debra Corner Apt. 944, Port Vanessa, PA 64661",16401,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+342,2024-01-15 05:00:00.000000,5851,1,"1282 Cohen Lodge Apt. 005, South Davidchester, AZ 16417",14008,1,Số tiền giao dịch lớn.,1
+343,2024-01-15 06:00:00.000000,2856,0,"606 Chavez Throughway Apt. 915, Moorehaven, IN 37100",12466,0,,1
+344,2024-01-15 07:00:00.000000,587,1,"640 Cabrera Locks Apt. 127, West Dianatown, WV 80386",12282,0,,10
+345,2024-01-15 08:00:00.000000,6036,0,"28015 Boyd Path Apt. 033, Sheilaland, NM 93907",11856,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+346,2024-01-15 09:00:00.000000,1891,0,"304 Isabella Walks, North Natalie, NC 81976",17980,0,,5
+347,2024-01-15 10:00:00.000000,8766,1,"Unit 0766 Box 6412, DPO AP 03073",11998,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+348,2024-01-15 11:00:00.000000,7021,1,"1363 Kaiser Turnpike Apt. 116, Yorkbury, NH 48850",15476,1,Số tiền giao dịch lớn.,5
+349,2024-01-15 12:00:00.000000,5675,1,"252 Sarah Oval Suite 530, North Kathy, TX 48594",19428,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+350,2024-01-15 13:00:00.000000,3000,1,"775 Hernandez Drive, Nicholasfurt, WV 61375",14669,0,,1
+351,2024-01-15 14:00:00.000000,8042,1,"1280 Schmidt Gateway Apt. 292, North James, OR 07552",19342,1,Số tiền giao dịch lớn.,1
+352,2024-01-15 15:00:00.000000,4830,0,"814 Heather Hollow Suite 736, West Elizabeth, FM 54138",14318,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+353,2024-01-15 16:00:00.000000,2418,0,"86855 Richard Vista, Matthewhaven, ME 67772",17064,0,,1
+354,2024-01-15 17:00:00.000000,6705,1,"05072 Taylor Inlet Apt. 365, East Elizabethview, NY 04320",17446,1,Số tiền giao dịch lớn.,1
+355,2024-01-15 18:00:00.000000,8223,1,"03147 Jacob Center Apt. 947, Ryanhaven, NV 93074",11431,1,Số tiền giao dịch lớn.,1
+356,2024-01-15 19:00:00.000000,4545,1,"50276 Mcgee Mountain, Michelleville, ND 60647",15624,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+357,2024-01-15 20:00:00.000000,9213,0,"293 Alexis Club, East Richardchester, IL 71071",17461,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+358,2024-01-15 21:00:00.000000,6052,1,"32135 Thompson Ways, Stoneburgh, MP 01420",11819,1,Số tiền giao dịch lớn.,10
+359,2024-01-15 22:00:00.000000,6664,1,"152 Martinez Plaza Apt. 524, Nguyenhaven, VT 23416",11130,1,Số tiền giao dịch lớn.,5
+360,2024-01-15 23:00:00.000000,9408,0,"67314 Stokes Spring Suite 654, East Ronald, WI 52258",16563,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+361,2024-01-16 00:00:00.000000,5969,0,"4879 Mcfarland Prairie, Daytown, CA 29217",12658,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+362,2024-01-16 01:00:00.000000,903,1,"7979 Robinson Park Apt. 558, South Amy, DC 39495",13500,1,Số giao dịch trong 7 ngày quá nhiều.,20
+363,2024-01-16 02:00:00.000000,4196,1,"2198 Hopkins Key Suite 163, Cisnerostown, FL 78803",18566,1,Số tiền giao dịch lớn.,10
+364,2024-01-16 03:00:00.000000,3819,1,"24740 Michael Viaduct, Lake Marcuschester, FM 65007",12120,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+365,2024-01-16 04:00:00.000000,624,0,"141 Burns Oval Suite 895, Thomasport, IA 67381",14020,0,,10
+366,2024-01-16 05:00:00.000000,1198,1,"52279 Wilson Meadow, Hensonmouth, AS 23593",13259,1,Số giao dịch trong 7 ngày quá nhiều.,20
+367,2024-01-16 06:00:00.000000,6343,1,"16245 Castro Bypass Apt. 488, North Aaronside, AL 02586",11823,1,Số tiền giao dịch lớn.,5
+368,2024-01-16 07:00:00.000000,6507,1,"9798 Burton Mountain, Zacharyfort, MT 07541",11474,1,Số tiền giao dịch lớn.,1
+369,2024-01-16 08:00:00.000000,7559,0,"8120 Paul Passage Suite 895, Leeshire, WY 92361",12242,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+370,2024-01-16 09:00:00.000000,9957,0,"211 Adams Hills, East Joseph, MA 39835",13243,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+371,2024-01-16 10:00:00.000000,4827,1,"USCGC Rodriguez, FPO AA 89182",16990,1,Số tiền giao dịch lớn.,10
+372,2024-01-16 11:00:00.000000,3904,1,"63098 Brandy Shoal, East Amandaburgh, RI 69823",15160,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+373,2024-01-16 12:00:00.000000,2541,0,"8253 Lee Crest Suite 345, North Johnton, MD 45731",13134,1,Số giao dịch trong 7 ngày quá nhiều.,20
+374,2024-01-16 13:00:00.000000,3174,0,"91621 Fuller Rapids Suite 526, Mccoymouth, WA 05731",12070,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+375,2024-01-16 14:00:00.000000,5741,0,"85391 Hurst Radial Apt. 900, West Ruth, AL 10336",10359,1,Số tiền giao dịch lớn.,10
+376,2024-01-16 15:00:00.000000,3101,0,"60790 David Trace Apt. 024, Chadville, SC 34980",11141,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+377,2024-01-16 16:00:00.000000,54,0,"24054 Steven Field Apt. 795, Port Ann, AZ 09792",11635,0,,5
+378,2024-01-16 17:00:00.000000,5272,0,"23364 Samantha Ways Suite 146, Mcintyreview, IL 32970",14000,1,Số tiền giao dịch lớn.,10
+379,2024-01-16 18:00:00.000000,5365,0,"6154 Kim Cove Suite 669, Brownstad, CT 44248",13361,1,Số tiền giao dịch lớn.,5
+380,2024-01-16 19:00:00.000000,4919,0,"016 Jefferson Island, Deniseside, ND 91319",16583,1,Số tiền giao dịch lớn.,1
+381,2024-01-16 20:00:00.000000,926,0,"5799 Payne River Suite 373, Dillonberg, NC 94837",17835,0,,5
+382,2024-01-16 21:00:00.000000,9233,1,"2042 Joseph Lakes Apt. 913, Lake Lindsey, TN 49432",10006,1,Số tiền giao dịch lớn.,1
+383,2024-01-16 22:00:00.000000,7077,1,"13297 Trujillo Turnpike Suite 540, Kimberlyland, SD 45869",13267,1,Số tiền giao dịch lớn.,1
+384,2024-01-16 23:00:00.000000,4192,1,"681 David Ways Apt. 336, Ryanstad, GU 99171",16564,1,Số tiền giao dịch lớn.,5
+385,2024-01-17 00:00:00.000000,7016,0,"USNS Bailey, FPO AE 11711",19783,1,Số tiền giao dịch lớn.,10
+386,2024-01-17 01:00:00.000000,7129,1,"0311 Lindsey Glens Apt. 165, Benjaminstad, HI 29717",14928,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+387,2024-01-17 02:00:00.000000,8037,0,"PSC 6508, Box 7276, APO AE 23441",12606,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+388,2024-01-17 03:00:00.000000,6849,0,"731 Robertson Flats Apt. 312, Calebview, SC 70863",15906,1,Số tiền giao dịch lớn.,1
+389,2024-01-17 04:00:00.000000,4515,1,"6458 Kristina Valleys, Joseshire, TX 49652",13273,1,Số tiền giao dịch lớn.,1
+390,2024-01-17 05:00:00.000000,685,0,"58829 Reed Rapid Suite 951, Lewisshire, KS 11735",17611,0,,10
+391,2024-01-17 06:00:00.000000,1743,1,"016 Williams Crossing Suite 723, South Lisa, NY 12637",10913,1,Số giao dịch trong 7 ngày quá nhiều.,15
+392,2024-01-17 07:00:00.000000,9924,1,"706 Barbara Port, New Timothyshire, OH 16460",12011,1,Số tiền giao dịch lớn.,5
+393,2024-01-17 08:00:00.000000,4802,1,"7654 Garcia Shoal, Aaronland, MD 48271",11442,1,Số tiền giao dịch lớn.,1
+394,2024-01-17 09:00:00.000000,8361,0,"0429 Cathy Oval Suite 811, New Mary, AZ 17519",15546,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+395,2024-01-17 10:00:00.000000,880,1,"558 Valentine Heights, West Theresa, MP 05857",11829,0,,10
+396,2024-01-17 11:00:00.000000,5227,0,"18445 Burke Mountain, Thomasmouth, CT 44125",18767,1,Số tiền giao dịch lớn.,5
+397,2024-01-17 12:00:00.000000,9611,1,"608 Elizabeth Bypass Apt. 878, East Melanie, CA 71296",16468,1,Số tiền giao dịch lớn.,10
+398,2024-01-17 13:00:00.000000,8982,1,"2785 Shannon Ville, South Noahfort, ND 48514",10929,1,Số tiền giao dịch lớn.,5
+399,2024-01-17 14:00:00.000000,8358,1,"347 White Knoll, Haleville, CT 59038",13699,1,Số tiền giao dịch lớn.,5
+400,2024-01-17 15:00:00.000000,5999,0,"USCGC Evans, FPO AP 60446",19655,1,Số tiền giao dịch lớn.,1
+401,2024-01-17 16:00:00.000000,2888,0,"99700 Benitez Pines, Pacestad, SC 69704",11054,0,,10
+402,2024-01-17 17:00:00.000000,1200,0,"953 Mario Throughway, Williamsside, KS 02994",15744,0,,10
+403,2024-01-17 18:00:00.000000,7610,1,"398 Audrey Fork Apt. 300, North Linda, IL 59281",11900,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+404,2024-01-17 19:00:00.000000,1981,1,"1022 Allen Loaf Suite 512, Nicoleborough, MH 12922",19649,1,Số giao dịch trong 7 ngày quá nhiều.,20
+405,2024-01-17 20:00:00.000000,9254,0,"69754 Evans Extensions, Port Erika, NH 30591",16980,1,Số tiền giao dịch lớn.,1
+406,2024-01-17 21:00:00.000000,1714,0,"3049 Kelsey Hill Suite 827, Hermanchester, MP 22192",17069,0,,1
+407,2024-01-17 22:00:00.000000,1131,0,"020 William Flats Apt. 595, Joseport, NE 58926",19591,1,Số giao dịch trong 7 ngày quá nhiều.,15
+408,2024-01-17 23:00:00.000000,562,0,"2835 Ramirez Manor Apt. 538, Gonzalezville, PA 12305",13415,1,Số giao dịch trong 7 ngày quá nhiều.,20
+409,2024-01-18 00:00:00.000000,7855,0,"872 Joshua Cape, Howardbury, MN 81012",10442,1,Số tiền giao dịch lớn.,5
+410,2024-01-18 01:00:00.000000,5287,0,"476 Rollins Springs Apt. 105, Carpenterhaven, KS 23919",16218,1,Số tiền giao dịch lớn.,10
+411,2024-01-18 02:00:00.000000,609,1,"Unit 4285 Box 9657, DPO AE 94453",14652,0,,1
+412,2024-01-18 03:00:00.000000,3722,0,"34330 Jackson Estate Apt. 126, Michaelstad, MD 85261",17939,1,Số tiền giao dịch lớn.,10
+413,2024-01-18 04:00:00.000000,7454,1,"17724 Bradley Trail Suite 811, Jameschester, NJ 74648",17833,1,Số tiền giao dịch lớn.,10
+414,2024-01-18 05:00:00.000000,3393,1,"1806 Johnson Burgs Suite 639, Samanthashire, SD 67675",19370,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+415,2024-01-18 06:00:00.000000,4120,0,"920 Gould Expressway, Sandraberg, LA 28154",17597,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+416,2024-01-18 07:00:00.000000,9712,0,"44316 Christopher Cove Suite 301, Taylorview, AZ 12980",14458,1,Số tiền giao dịch lớn.,1
+417,2024-01-18 08:00:00.000000,630,1,"850 Rachel Prairie Apt. 853, Lake Dylan, NH 41847",16591,0,,10
+418,2024-01-18 09:00:00.000000,7054,0,"654 Richardson Pike, West Shannon, VT 69871",19449,1,Số tiền giao dịch lớn.,1
+419,2024-01-18 10:00:00.000000,8180,0,"USS Hernandez, FPO AP 10630",12309,1,Số tiền giao dịch lớn.,5
+420,2024-01-18 11:00:00.000000,3197,1,"715 Mackenzie Port, Gardnerview, WA 15479",16268,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+421,2024-01-18 12:00:00.000000,4299,1,"69040 Jason Club Apt. 534, Stacieburgh, NE 68522",10910,1,Số tiền giao dịch lớn.,5
+422,2024-01-18 13:00:00.000000,1729,1,"7311 Neal Manor, East Timothyberg, SC 31597",14340,0,,1
+423,2024-01-18 14:00:00.000000,3556,0,"3389 Lee Plains, Woodstown, HI 82519",14009,1,Số tiền giao dịch lớn.,1
+424,2024-01-18 15:00:00.000000,7303,1,"497 Tiffany Divide, Danielside, GA 89036",16628,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+425,2024-01-18 16:00:00.000000,2794,0,"13033 Nancy Green Apt. 612, Pierceberg, VI 65526",12169,0,,10
+426,2024-01-18 17:00:00.000000,9485,1,"9287 Ann Trace, New Kirkton, HI 73852",12172,1,Số tiền giao dịch lớn.,10
+427,2024-01-18 18:00:00.000000,5238,1,"07878 Virginia Locks, Kelleyton, PW 85520",15668,1,Số tiền giao dịch lớn.,5
+428,2024-01-18 19:00:00.000000,2191,1,"71470 Cummings Club Suite 529, North Charles, MI 08164",16313,1,Số giao dịch trong 7 ngày quá nhiều.,15
+429,2024-01-18 20:00:00.000000,6667,0,"5359 Herrera Rapids, Woodstad, NC 52009",18315,1,Số tiền giao dịch lớn.,10
+430,2024-01-18 21:00:00.000000,2529,0,"21926 Jones Trafficway, West Craig, FM 87709",18036,1,Số giao dịch trong 7 ngày quá nhiều.,20
+431,2024-01-18 22:00:00.000000,6534,1,"USNV Reilly, FPO AA 71410",16789,1,Số tiền giao dịch lớn.,5
+432,2024-01-18 23:00:00.000000,9877,1,"4105 Vincent Walks Suite 810, Yoderton, ND 89871",10785,1,Số tiền giao dịch lớn.,5
+433,2024-01-19 00:00:00.000000,7471,1,"4993 Stanley Square Suite 917, East Michaelburgh, CO 00633",16139,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+434,2024-01-19 01:00:00.000000,9999,0,"295 Sharon Knolls Apt. 663, Port Amandaport, ND 29771",16344,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+435,2024-01-19 02:00:00.000000,4502,1,"3679 Victoria Coves, New Joshua, IN 56237",12416,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+436,2024-01-19 03:00:00.000000,5931,0,"Unit 7533 Box 9377, DPO AP 79324",18988,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+437,2024-01-19 04:00:00.000000,6715,1,"87337 Jefferson Island Suite 986, Johnsonshire, RI 77707",14154,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+438,2024-01-19 05:00:00.000000,2899,1,"28082 Holly Rapid Apt. 312, Taylorport, NM 96890",15619,1,Số giao dịch trong 7 ngày quá nhiều.,20
+439,2024-01-19 06:00:00.000000,7440,1,"USNV Ramsey, FPO AA 75591",11936,1,Số tiền giao dịch lớn.,1
+440,2024-01-19 07:00:00.000000,6955,1,"2135 Dennis Alley Suite 453, North Jamesstad, PA 43469",13807,1,Số tiền giao dịch lớn.,5
+441,2024-01-19 08:00:00.000000,2539,1,"394 Janet Coves, East Petermouth, ND 66209",17151,1,Số giao dịch trong 7 ngày quá nhiều.,20
+442,2024-01-19 09:00:00.000000,9873,1,"1236 Thomas Parkway, North Vincent, TX 65678",19493,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+443,2024-01-19 10:00:00.000000,9257,0,"42800 Lee Wall Suite 788, Joshuaside, DC 98079",13236,1,Số tiền giao dịch lớn.,10
+444,2024-01-19 11:00:00.000000,9590,1,"3303 Stewart Station Apt. 116, Bartonville, MA 75286",12352,1,Số tiền giao dịch lớn.,5
+445,2024-01-19 12:00:00.000000,4661,0,"48521 Arnold Corners, Lake Michael, KY 92464",11932,1,Số tiền giao dịch lớn.,10
+446,2024-01-19 13:00:00.000000,2889,1,"2956 Rodriguez Inlet, Melissachester, WV 13642",18556,0,,5
+447,2024-01-19 14:00:00.000000,8577,1,"1383 Travis Views Suite 242, Farmerhaven, WV 13403",14916,1,Số tiền giao dịch lớn.,10
+448,2024-01-19 15:00:00.000000,5928,0,"365 Gonzalez View, Bryanhaven, ND 04310",15498,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+449,2024-01-19 16:00:00.000000,9137,1,"811 Alex Flats Suite 502, Lake Ian, MS 41617",10946,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+450,2024-01-19 17:00:00.000000,6353,0,"041 Smith Pines, South Karen, DE 31010",19569,1,Số tiền giao dịch lớn.,1
+451,2024-01-19 18:00:00.000000,901,0,"6185 Pearson Coves, New Jamie, AZ 52644",11439,0,,10
+452,2024-01-19 19:00:00.000000,1737,1,"4622 Kevin Summit, New Sandra, MP 51063",17730,1,Số giao dịch trong 7 ngày quá nhiều.,15
+453,2024-01-19 20:00:00.000000,6883,0,"9011 Melissa Fields, Rodriguezmouth, AZ 87268",14857,1,Số tiền giao dịch lớn.,1
+454,2024-01-19 21:00:00.000000,2477,0,"PSC 4465, Box 2757, APO AA 30729",10340,0,,10
+455,2024-01-19 22:00:00.000000,9810,1,"16570 Sean Highway, Holmeshaven, AL 82278",10382,1,Số tiền giao dịch lớn.,10
+456,2024-01-19 23:00:00.000000,4050,0,"564 David Locks Apt. 552, Port Charlesport, WV 70589",19748,1,Số tiền giao dịch lớn.,1
+457,2024-01-20 00:00:00.000000,5102,1,"963 Wilson Lodge, Jenniferchester, NE 51932",18491,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+458,2024-01-20 01:00:00.000000,2788,1,"95548 Tyler Passage, Lake Brian, MT 15290",10138,0,,10
+459,2024-01-20 02:00:00.000000,5782,1,"315 Smith Points, New Jeffrey, CA 65934",10358,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+460,2024-01-20 03:00:00.000000,5437,1,"32209 Joshua Street Apt. 863, Port Ana, WY 25072",14931,1,Số tiền giao dịch lớn.,1
+461,2024-01-20 04:00:00.000000,8052,0,"287 Christopher Views Suite 298, Curtisfurt, WY 14709",19714,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+462,2024-01-20 05:00:00.000000,5586,1,"297 Thomas Square, Markburgh, AR 24043",13456,1,Số tiền giao dịch lớn.,5
+463,2024-01-20 06:00:00.000000,3963,1,"069 Williams Overpass, Lake David, AR 61733",11627,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+464,2024-01-20 07:00:00.000000,1116,0,"2483 Case Path, Jimmytown, GA 26874",19495,0,,10
+465,2024-01-20 08:00:00.000000,7773,1,"297 Thomas Plaza Suite 495, North Scott, CT 73412",16626,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+466,2024-01-20 09:00:00.000000,4430,1,"9961 Rowland Station, West Jessicachester, MN 80466",15004,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+467,2024-01-20 10:00:00.000000,4157,0,"5960 Noah Skyway Apt. 955, Mitchellberg, MH 54121",19326,1,Số tiền giao dịch lớn.,10
+468,2024-01-20 11:00:00.000000,5776,0,"488 Carter Neck Apt. 640, West Jacobfort, GU 86010",16652,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+469,2024-01-20 12:00:00.000000,3423,0,"5229 Brock Square, South Mary, NE 26148",16416,1,Số tiền giao dịch lớn.,5
+470,2024-01-20 13:00:00.000000,8995,0,"67571 Williams Course, Port Jessica, PR 78866",13170,1,Số tiền giao dịch lớn.,1
+471,2024-01-20 14:00:00.000000,2132,0,"50398 Barker Street Apt. 595, Port Heatherbury, TN 96411",13835,0,,10
+472,2024-01-20 15:00:00.000000,9017,0,"3893 Sanchez Unions, Nguyenport, AR 88585",18017,1,Số tiền giao dịch lớn.,5
+473,2024-01-20 16:00:00.000000,6798,0,"31472 Perez Corner Apt. 505, New Kathyport, WY 71092",12151,1,Số tiền giao dịch lớn.,5
+474,2024-01-20 17:00:00.000000,9867,1,"824 Nicole Track, North Andrewburgh, RI 21804",19429,1,Số tiền giao dịch lớn.,10
+475,2024-01-20 18:00:00.000000,467,0,"570 Young Glen Suite 967, South Gabrielle, IA 89871",16905,1,Số giao dịch trong 7 ngày quá nhiều.,20
+476,2024-01-20 19:00:00.000000,8356,0,"1698 Alexander Club, Joyceview, NM 58512",12834,1,Số tiền giao dịch lớn.,5
+477,2024-01-20 20:00:00.000000,8858,0,"22549 White Plains Apt. 537, Jacksonland, FM 43155",19190,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+478,2024-01-20 21:00:00.000000,4024,1,"67782 Jessica Park Apt. 816, Lake Rachelmouth, OK 10221",12567,1,Số tiền giao dịch lớn.,5
+479,2024-01-20 22:00:00.000000,3317,1,"9688 Mills Viaduct, Lisaborough, NV 98791",11307,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+480,2024-01-20 23:00:00.000000,875,0,"687 Justin Highway Apt. 444, Knoxtown, IA 50170",18848,1,Số giao dịch trong 7 ngày quá nhiều.,20
+481,2024-01-21 00:00:00.000000,7718,0,"4434 Joseph Run Apt. 631, East Yolandaborough, MN 09082",12660,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+482,2024-01-21 01:00:00.000000,5795,0,"5625 Anderson Centers, Gomezmouth, WY 01448",13730,1,Số tiền giao dịch lớn.,5
+483,2024-01-21 02:00:00.000000,9758,1,"80955 Dawn Skyway Apt. 774, South Jessica, AL 38986",16207,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+484,2024-01-21 03:00:00.000000,462,1,"24350 Eric Skyway, South Savannahton, ND 26276",13162,0,,10
+485,2024-01-21 04:00:00.000000,7593,0,"190 Whitney Hollow Apt. 117, East Natalieport, AR 49375",11140,1,Số tiền giao dịch lớn.,1
+486,2024-01-21 05:00:00.000000,7637,1,"PSC 1591, Box 9844, APO AP 56723",18458,1,Số tiền giao dịch lớn.,1
+487,2024-01-21 06:00:00.000000,778,0,"2145 Garcia Ridges, Popeshire, OR 92921",11708,0,,1
+488,2024-01-21 07:00:00.000000,7214,1,"29506 Michael Stream Apt. 947, Chavezport, AZ 37528",13630,1,Số tiền giao dịch lớn.,5
+489,2024-01-21 08:00:00.000000,8917,1,"Unit 0095 Box 5652, DPO AP 38018",13211,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+490,2024-01-21 09:00:00.000000,6038,0,"3781 Graham Highway Apt. 078, North Kathy, AR 01325",16538,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+491,2024-01-21 10:00:00.000000,2554,0,"201 Richardson Mews, Joshuaborough, MH 25868",19702,0,,10
+492,2024-01-21 11:00:00.000000,3017,0,"99012 Carter Road Apt. 145, West Seanfort, CT 42047",10475,1,Số tiền giao dịch lớn.,10
+493,2024-01-21 12:00:00.000000,2836,0,"668 Reeves Junction Apt. 046, Coxport, WV 55855",17684,0,,5
+494,2024-01-21 13:00:00.000000,1172,1,"Unit 7666 Box 4028, DPO AP 48537",19168,0,,1
+495,2024-01-21 14:00:00.000000,4129,1,"4264 Smith Alley Suite 847, Lake Debraburgh, TN 93055",11207,1,Số tiền giao dịch lớn.,5
+496,2024-01-21 15:00:00.000000,1621,1,"1320 Sarah Throughway, Snyderburgh, IN 62940",11960,1,Số giao dịch trong 7 ngày quá nhiều.,15
+497,2024-01-21 16:00:00.000000,5123,0,"Unit 2390 Box 3924, DPO AE 49736",10557,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+498,2024-01-21 17:00:00.000000,5154,1,"692 Michael Plaza, Kirkchester, GU 83118",10882,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+499,2024-01-21 18:00:00.000000,2193,0,"92461 Stephanie Field, Martinezport, WI 38224",14761,1,Số giao dịch trong 7 ngày quá nhiều.,20
+500,2024-01-21 19:00:00.000000,9929,1,"31874 Laura Grove Apt. 570, Davidberg, NV 28832",15867,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+501,2024-01-21 20:00:00.000000,6856,0,"66362 Ross Lake, Stevensontown, OR 32377",16963,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+502,2024-01-21 21:00:00.000000,7407,0,"93032 Christine Pass, Tracyfort, MH 42224",17166,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+503,2024-01-21 22:00:00.000000,3490,1,"Unit 0735 Box 3953, DPO AE 72534",17929,1,Số tiền giao dịch lớn.,5
+504,2024-01-21 23:00:00.000000,3816,0,"734 Crawford Plain, West Manuelfurt, KY 18695",15347,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+505,2024-01-22 00:00:00.000000,5694,0,"7748 Eileen Squares, Bateschester, MP 27091",17269,1,Số tiền giao dịch lớn.,10
+506,2024-01-22 01:00:00.000000,2964,1,"0636 Juan Overpass, Port Brenda, MS 11628",19802,0,,1
+507,2024-01-22 02:00:00.000000,5018,0,"3339 Bryan Fork Suite 490, Lake Randallton, TN 07595",18125,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+508,2024-01-22 03:00:00.000000,5967,0,"30266 Anderson Hills, North Matthew, MA 75636",12454,1,Số tiền giao dịch lớn.,1
+509,2024-01-22 04:00:00.000000,8837,0,"032 Crystal Garden, Pattersonbury, NJ 22397",14494,1,Số tiền giao dịch lớn.,5
+510,2024-01-22 05:00:00.000000,778,1,"07090 Woods Shore, Denisestad, MA 14680",11946,0,,1
+511,2024-01-22 06:00:00.000000,1415,1,"36962 Barnett Grove Apt. 562, Mckinneymouth, MN 98772",12808,0,,5
+512,2024-01-22 07:00:00.000000,4542,0,"572 Mcmahon Crossroad Apt. 372, Rodriguezport, SD 40317",16642,1,Số tiền giao dịch lớn.,10
+513,2024-01-22 08:00:00.000000,748,1,"6385 Raven Road, Changport, AR 95645",13825,0,,5
+514,2024-01-22 09:00:00.000000,7236,0,"1025 Phillips Camp, Teresaborough, ME 31085",13536,1,Số tiền giao dịch lớn.,5
+515,2024-01-22 10:00:00.000000,445,0,"9307 Adam Points, North Vanessa, WY 53282",16068,1,Số giao dịch trong 7 ngày quá nhiều.,20
+516,2024-01-22 11:00:00.000000,7450,0,"765 Elizabeth Glen Apt. 214, Port Erinmouth, VI 92744",13802,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+517,2024-01-22 12:00:00.000000,8132,0,"49908 Joseph Heights, Port Joshuafurt, MP 79305",14699,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+518,2024-01-22 13:00:00.000000,4221,0,"5121 Wesley Estate, Martinton, AL 77843",11970,1,Số tiền giao dịch lớn.,10
+519,2024-01-22 14:00:00.000000,4410,1,"1388 Landry Port, North Emilystad, AK 33774",15806,1,Số tiền giao dịch lớn.,10
+520,2024-01-22 15:00:00.000000,2552,0,"815 Jack Route, Nathanieltown, SC 01222",16142,1,Số giao dịch trong 7 ngày quá nhiều.,15
+521,2024-01-22 16:00:00.000000,767,1,"2534 Corey Lodge Suite 740, Port Jesse, TN 23683",12819,1,Số giao dịch trong 7 ngày quá nhiều.,20
+522,2024-01-22 17:00:00.000000,2832,1,"4662 Butler Squares Suite 147, Johnborough, OR 30150",19094,1,Số giao dịch trong 7 ngày quá nhiều.,15
+523,2024-01-22 18:00:00.000000,4996,0,"5435 Dennis Burgs, Russellhaven, DC 29794",10364,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+524,2024-01-22 19:00:00.000000,5536,0,"USS Rose, FPO AP 80989",14258,1,Số tiền giao dịch lớn.,10
+525,2024-01-22 20:00:00.000000,8385,1,"Unit 4888 Box 8531, DPO AE 38052",13119,1,Số tiền giao dịch lớn.,1
+526,2024-01-22 21:00:00.000000,5030,1,"PSC 6714, Box 9216, APO AP 03001",11863,1,Số tiền giao dịch lớn.,10
+527,2024-01-22 22:00:00.000000,7316,1,"5923 Shari Rest, East Alicia, GA 95583",10115,1,Số tiền giao dịch lớn.,10
+528,2024-01-22 23:00:00.000000,4541,0,"2009 Spencer Forest Apt. 916, Cummingsmouth, RI 06146",17084,1,Số tiền giao dịch lớn.,5
+529,2024-01-23 00:00:00.000000,7242,1,"9121 Hannah Unions, Estradaville, NV 80774",18016,1,Số tiền giao dịch lớn.,5
+530,2024-01-23 01:00:00.000000,5638,0,"Unit 2638 Box 3131, DPO AA 75393",12384,1,Số tiền giao dịch lớn.,5
+531,2024-01-23 02:00:00.000000,7701,0,"614 Phillips Mountain, West Mary, NE 96151",13935,1,Số tiền giao dịch lớn.,5
+532,2024-01-23 03:00:00.000000,3686,0,"PSC 0828, Box 3482, APO AA 50783",17742,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+533,2024-01-23 04:00:00.000000,1217,1,"01597 Koch Prairie Apt. 853, South Ronaldview, MA 36670",15442,1,Số giao dịch trong 7 ngày quá nhiều.,15
+534,2024-01-23 05:00:00.000000,1112,0,"772 Allison Vista Suite 031, Seanland, MH 94557",12490,0,,1
+535,2024-01-23 06:00:00.000000,2206,0,"696 Erik Flat Apt. 490, East Cynthiatown, WA 07407",16980,0,,10
+536,2024-01-23 07:00:00.000000,7910,0,"0940 Andrew Meadows Apt. 602, East Amy, NE 73866",19134,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+537,2024-01-23 08:00:00.000000,5211,0,"1021 Kelly Lane Apt. 624, Geraldland, GA 88717",17661,1,Số tiền giao dịch lớn.,1
+538,2024-01-23 09:00:00.000000,5355,0,"5136 Courtney Dale, Sheilafort, DC 26063",11724,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+539,2024-01-23 10:00:00.000000,6591,1,"30554 Donna Ports Suite 573, South Peter, AZ 75806",18182,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+540,2024-01-23 11:00:00.000000,4779,0,"7682 Matthew Walks Suite 969, North Ashleestad, IL 58982",12767,1,Số tiền giao dịch lớn.,10
+541,2024-01-23 12:00:00.000000,9398,0,"59368 Emily Square Apt. 779, Johnfurt, NM 10158",11137,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+542,2024-01-23 13:00:00.000000,7380,1,"54300 James Shoal Suite 935, West Seanhaven, AZ 95726",14117,1,Số tiền giao dịch lớn.,5
+543,2024-01-23 14:00:00.000000,5384,0,"259 Hannah Manors, Silvastad, VA 79631",13420,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+544,2024-01-23 15:00:00.000000,8974,1,"5217 Susan Hollow, New Troy, AK 78078",15845,1,Số tiền giao dịch lớn.,10
+545,2024-01-23 16:00:00.000000,4380,0,"32304 Patricia Oval, Lake Amber, TX 44086",14778,1,Số tiền giao dịch lớn.,10
+546,2024-01-23 17:00:00.000000,8060,1,"2903 Peter Court, West Gary, CA 42266",13906,1,Số tiền giao dịch lớn.,10
+547,2024-01-23 18:00:00.000000,6851,1,"1321 Osborne Spring, Smithmouth, MI 12426",13637,1,Số tiền giao dịch lớn.,1
+548,2024-01-23 19:00:00.000000,4896,0,"175 Rodriguez Shores Apt. 879, Thompsonmouth, SC 67787",12953,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+549,2024-01-23 20:00:00.000000,6781,0,"USS Ramos, FPO AE 19206",15929,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+550,2024-01-23 21:00:00.000000,7291,0,"143 Wesley Causeway Suite 110, South Traceyberg, GU 61963",10276,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+551,2024-01-23 22:00:00.000000,1003,1,"66419 Frye Tunnel Suite 868, West Emily, SC 73519",11999,1,Số giao dịch trong 7 ngày quá nhiều.,20
+552,2024-01-23 23:00:00.000000,2589,1,"PSC 8742, Box 2850, APO AE 28077",11227,1,Số giao dịch trong 7 ngày quá nhiều.,20
+553,2024-01-24 00:00:00.000000,7106,1,"25124 Williams Garden Apt. 248, Kellymouth, NH 95543",16337,1,Số tiền giao dịch lớn.,10
+554,2024-01-24 01:00:00.000000,1592,0,"41255 Gavin Ramp Suite 641, South Brittanyside, CT 96730",13735,1,Số giao dịch trong 7 ngày quá nhiều.,15
+555,2024-01-24 02:00:00.000000,5343,1,"08098 Alisha Shores Suite 265, Bonniemouth, GU 81330",10695,1,Số tiền giao dịch lớn.,10
+556,2024-01-24 03:00:00.000000,1241,1,"81891 Melinda Parkways, Nathanshire, MO 71248",19501,0,,1
+557,2024-01-24 04:00:00.000000,6363,0,"2330 Kayla Gateway Suite 469, Mcknightland, PA 82398",14152,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+558,2024-01-24 05:00:00.000000,6988,1,"6077 Cynthia Neck Suite 866, North Reginachester, MN 50450",17901,1,Số tiền giao dịch lớn.,10
+559,2024-01-24 06:00:00.000000,2731,1,"978 Quinn Village, Estradaburgh, IL 69822",17470,0,,10
+560,2024-01-24 07:00:00.000000,9459,0,"384 Paul Stravenue, South Ross, OR 02163",17537,1,Số tiền giao dịch lớn.,1
+561,2024-01-24 08:00:00.000000,1590,1,"1030 Joshua Landing, Port Jaredbury, FM 71191",12841,0,,5
+562,2024-01-24 09:00:00.000000,6222,0,"USS Taylor, FPO AP 67616",14208,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+563,2024-01-24 10:00:00.000000,5591,0,"55581 William River Suite 576, East Loriton, OR 71016",18733,1,Số tiền giao dịch lớn.,5
+564,2024-01-24 11:00:00.000000,9630,0,"PSC 8051, Box 9188, APO AP 14947",11088,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+565,2024-01-24 12:00:00.000000,1415,0,"822 Donna Roads Suite 637, East Nathan, MT 34309",13363,0,,10
+566,2024-01-24 13:00:00.000000,8741,0,"99913 Myers Point, East Patricia, PR 83551",10024,1,Số tiền giao dịch lớn.,1
+567,2024-01-24 14:00:00.000000,9922,1,"381 Leon Ferry, Ewingborough, PA 83086",19764,1,Số tiền giao dịch lớn.,1
+568,2024-01-24 15:00:00.000000,8752,1,"0653 Marissa Corner, Vincentport, ME 31638",16144,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+569,2024-01-24 16:00:00.000000,7544,0,"704 Davis Land, West Dianeview, MS 45590",15668,1,Số tiền giao dịch lớn.,5
+570,2024-01-24 17:00:00.000000,4362,0,"81448 Campbell Mount, North Lauramouth, MS 73347",14236,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+571,2024-01-24 18:00:00.000000,1374,1,"5657 Grant Route, West Williamborough, OK 05713",19959,0,,10
+572,2024-01-24 19:00:00.000000,9397,0,"470 Emily Via, Lake Carolynfort, NH 08597",18068,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+573,2024-01-24 20:00:00.000000,3191,0,"44264 Terri Shoal Suite 074, Port Molly, IN 32216",12235,1,Số tiền giao dịch lớn.,1
+574,2024-01-24 21:00:00.000000,7469,0,"20351 William Spring Suite 172, Hannahport, NY 05385",17295,1,Số tiền giao dịch lớn.,1
+575,2024-01-24 22:00:00.000000,3536,1,"158 Heather Fall, Joshuatown, VI 07884",18392,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+576,2024-01-24 23:00:00.000000,1860,1,"733 Roberts Skyway Apt. 365, Lake Jeffrey, TN 28218",18448,1,Số giao dịch trong 7 ngày quá nhiều.,20
+577,2024-01-25 00:00:00.000000,6638,0,"41973 May Causeway Suite 415, Justinland, LA 25168",13747,1,Số tiền giao dịch lớn.,10
+578,2024-01-25 01:00:00.000000,2973,0,"6863 Vincent Mountain Apt. 593, Amberchester, NH 46405",13175,0,,5
+579,2024-01-25 02:00:00.000000,5351,1,"Unit 6237 Box 6326, DPO AA 30355",14897,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+580,2024-01-25 03:00:00.000000,4236,1,"3379 Alexander Route Apt. 292, South Sandraside, HI 60572",15037,1,Số tiền giao dịch lớn.,10
+581,2024-01-25 04:00:00.000000,8955,0,"96948 Hess Trafficway, Rachaelton, MN 06594",17427,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+582,2024-01-25 05:00:00.000000,6027,0,"3758 Brian Viaduct Apt. 047, Pattersonberg, WI 58973",18605,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+583,2024-01-25 06:00:00.000000,4318,1,"7276 Valerie Junctions Apt. 164, Ricemouth, MT 32952",12014,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+584,2024-01-25 07:00:00.000000,4798,1,"9223 Jackson Harbor Apt. 290, Rebeccaside, OK 04083",11381,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+585,2024-01-25 08:00:00.000000,4899,1,"43272 Renee Trail Apt. 138, New Janicechester, IN 19887",11098,1,Số tiền giao dịch lớn.,5
+586,2024-01-25 09:00:00.000000,9485,0,"PSC 4722, Box 3619, APO AA 20002",13426,1,Số tiền giao dịch lớn.,10
+587,2024-01-25 10:00:00.000000,3759,1,"Unit 1849 Box 7747, DPO AA 77751",13655,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+588,2024-01-25 11:00:00.000000,9323,0,"63479 Amber Manor Apt. 831, Danielside, TN 16319",17938,1,Số tiền giao dịch lớn.,1
+589,2024-01-25 12:00:00.000000,6669,1,"489 Craig Well, South Jonathanfort, AL 66513",19101,1,Số tiền giao dịch lớn.,1
+590,2024-01-25 13:00:00.000000,8697,1,"251 Tonya Landing, Quinnville, NC 49699",10187,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+591,2024-01-25 14:00:00.000000,9136,1,"97283 Mcdaniel Grove, North Joseph, AR 64073",15409,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+592,2024-01-25 15:00:00.000000,9626,1,"084 Lopez Underpass Apt. 421, Karenview, IN 50648",12092,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+593,2024-01-25 16:00:00.000000,3122,0,"234 Daniel Prairie, East Christinemouth, VA 07014",12130,1,Số tiền giao dịch lớn.,1
+594,2024-01-25 17:00:00.000000,6580,0,"40425 Kimberly Neck, South Rebecca, NJ 58390",15242,1,Số tiền giao dịch lớn.,1
+595,2024-01-25 18:00:00.000000,554,1,"61434 Obrien Village, Lake Michellefurt, MA 80991",18549,1,Số giao dịch trong 7 ngày quá nhiều.,15
+596,2024-01-25 19:00:00.000000,1264,0,"PSC 0849, Box 0412, APO AE 03720",15647,1,Số giao dịch trong 7 ngày quá nhiều.,20
+597,2024-01-25 20:00:00.000000,1581,1,"7790 Clark Hollow, Howardview, FL 76484",15185,1,Số giao dịch trong 7 ngày quá nhiều.,20
+598,2024-01-25 21:00:00.000000,7626,1,"15596 Walker Vista, East Robert, IN 08477",15776,1,Số tiền giao dịch lớn.,5
+599,2024-01-25 22:00:00.000000,873,1,"52977 Michael Station, Thomasstad, CA 23807",17913,0,,10
+600,2024-01-25 23:00:00.000000,978,1,"5530 White Shore, Hughesfort, IL 67591",17547,1,Số giao dịch trong 7 ngày quá nhiều.,20
+601,2024-01-26 00:00:00.000000,5079,0,"713 Boyd Keys Suite 127, Lake Barbara, CT 87001",17823,1,Số tiền giao dịch lớn.,1
+602,2024-01-26 01:00:00.000000,183,1,"94125 Nielsen Streets Apt. 114, South Steven, ME 21112",17355,1,Số giao dịch trong 7 ngày quá nhiều.,20
+603,2024-01-26 02:00:00.000000,2155,1,"722 Eric Mount Apt. 517, New Thomas, ND 56965",16465,0,,5
+604,2024-01-26 03:00:00.000000,3677,0,"21454 Hunter Mission Suite 406, Louisfurt, MP 81199",11497,1,Số tiền giao dịch lớn.,5
+605,2024-01-26 04:00:00.000000,6366,1,"69024 Shane View Apt. 302, Michaelhaven, NV 15063",12555,1,Số tiền giao dịch lớn.,10
+606,2024-01-26 05:00:00.000000,1902,1,"USNV Vazquez, FPO AA 83861",15409,1,Số giao dịch trong 7 ngày quá nhiều.,20
+607,2024-01-26 06:00:00.000000,4960,1,"37246 Tammy Turnpike, Lake Reginaldstad, ID 52806",12951,1,Số tiền giao dịch lớn.,1
+608,2024-01-26 07:00:00.000000,4225,0,"38919 Eric Wall Apt. 738, New Maryshire, MO 65693",11238,1,Số tiền giao dịch lớn.,1
+609,2024-01-26 08:00:00.000000,5398,1,"2035 May Grove, Benjaminmouth, MN 90297",19165,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+610,2024-01-26 09:00:00.000000,9492,0,"9152 Teresa Gardens Apt. 857, Port Amanda, WI 87987",14727,1,Số tiền giao dịch lớn.,1
+611,2024-01-26 10:00:00.000000,6240,1,"610 George Land Apt. 377, Johnsonland, MO 72112",13965,1,Số tiền giao dịch lớn.,10
+612,2024-01-26 11:00:00.000000,1306,1,"038 Chen Manor Suite 218, Lake Ernestmouth, NV 43646",15686,0,,10
+613,2024-01-26 12:00:00.000000,3426,0,"3126 Stephanie Forest, Joshuaton, WY 54823",19242,1,Số tiền giao dịch lớn.,1
+614,2024-01-26 13:00:00.000000,5695,1,"PSC 1928, Box 5148, APO AA 76868",13701,1,Số tiền giao dịch lớn.,1
+615,2024-01-26 14:00:00.000000,3536,1,"09839 Pitts Freeway, Tracyton, CT 01816",12780,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+616,2024-01-26 15:00:00.000000,3634,0,"PSC 5198, Box 4528, APO AA 87959",17398,1,Số tiền giao dịch lớn.,1
+617,2024-01-26 16:00:00.000000,9638,0,"5332 Johnston Freeway, Martinezside, MO 48874",11588,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+618,2024-01-26 17:00:00.000000,8103,0,"430 Gardner Locks Apt. 006, Lake Kevinchester, WA 54837",12368,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+619,2024-01-26 18:00:00.000000,3380,0,"9331 Jennifer Villages, South Michelleberg, PR 51770",15789,1,Số tiền giao dịch lớn.,1
+620,2024-01-26 19:00:00.000000,2753,0,"882 Miller Stream, Wardhaven, PW 51004",10436,0,,5
+621,2024-01-26 20:00:00.000000,8712,1,"37496 Michael Unions Apt. 515, Sherrytown, NJ 91737",12828,1,Số tiền giao dịch lớn.,5
+622,2024-01-26 21:00:00.000000,8170,0,"884 Ruben Falls Suite 398, New Austin, MS 15203",11556,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+623,2024-01-26 22:00:00.000000,7164,1,"25341 Janice Inlet, Port Donaldberg, WV 65808",17570,1,Số tiền giao dịch lớn.,1
+624,2024-01-26 23:00:00.000000,1403,1,"90626 Stone Stream, Margaretport, PW 93257",17480,0,,5
+625,2024-01-27 00:00:00.000000,5113,1,"100 Cuevas Mall Apt. 824, North Carlosbury, IN 96120",19496,1,Số tiền giao dịch lớn.,1
+626,2024-01-27 01:00:00.000000,8599,0,"95280 Carpenter Ramp Apt. 702, Ashleybury, IN 90058",10182,1,Số tiền giao dịch lớn.,1
+627,2024-01-27 02:00:00.000000,7625,0,"46980 Stephanie Tunnel Apt. 422, Yolandaview, RI 05669",17190,1,Số tiền giao dịch lớn.,1
+628,2024-01-27 03:00:00.000000,717,1,"9344 Eric Lodge Suite 046, Port Jordanport, NY 37985",16687,1,Số giao dịch trong 7 ngày quá nhiều.,20
+629,2024-01-27 04:00:00.000000,4518,0,"452 Nicole Port, Lake Thomas, MI 08569",15565,1,Số tiền giao dịch lớn.,1
+630,2024-01-27 05:00:00.000000,9387,0,"617 Jacob Lights Apt. 673, Smithberg, CO 02049",17241,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+631,2024-01-27 06:00:00.000000,6869,0,"3524 Jamie Tunnel Suite 903, Calhountown, HI 30827",17651,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+632,2024-01-27 07:00:00.000000,3769,0,"84652 Beth View Suite 550, Clarkhaven, GU 55748",15575,1,Số tiền giao dịch lớn.,5
+633,2024-01-27 08:00:00.000000,2795,1,"9830 Mejia Circle Apt. 318, South Brandonbury, AR 84359",11589,0,,5
+634,2024-01-27 09:00:00.000000,7533,1,"10006 Jose Lane Suite 862, New William, NM 98597",19779,1,Số tiền giao dịch lớn.,5
+635,2024-01-27 10:00:00.000000,589,0,"Unit 1616 Box 2238, DPO AP 60153",18851,0,,5
+636,2024-01-27 11:00:00.000000,5014,1,"126 Frank Green Suite 359, New Ronald, NV 50031",10159,1,Số tiền giao dịch lớn.,5
+637,2024-01-27 12:00:00.000000,4885,0,"606 Kevin Stream Apt. 735, South Stephanie, MA 21612",16555,1,Số tiền giao dịch lớn.,5
+638,2024-01-27 13:00:00.000000,3825,0,"6625 Lisa Burg Suite 807, Gouldburgh, IL 67112",19203,1,Số tiền giao dịch lớn.,5
+639,2024-01-27 14:00:00.000000,6092,1,"65313 Kristina Harbor Suite 548, Lynnchester, PW 51450",18244,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+640,2024-01-27 15:00:00.000000,7152,1,"7283 Martin Island Apt. 190, West James, IN 56760",16846,1,Số tiền giao dịch lớn.,1
+641,2024-01-27 16:00:00.000000,7362,1,"207 Gregory Villages, Johnstonton, VA 20188",12307,1,Số tiền giao dịch lớn.,10
+642,2024-01-27 17:00:00.000000,5370,0,"047 White Ports Suite 225, Riveraview, ME 78570",11228,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+643,2024-01-27 18:00:00.000000,6182,1,"39059 Martinez Prairie, Annaland, NH 85298",17226,1,Số tiền giao dịch lớn.,10
+644,2024-01-27 19:00:00.000000,7941,0,"993 Fisher Ford, Lake Amandamouth, SC 18843",15590,1,Số tiền giao dịch lớn.,10
+645,2024-01-27 20:00:00.000000,2829,1,"98885 Reyes Flats, South Evan, NM 05071",16919,0,,1
+646,2024-01-27 21:00:00.000000,974,1,"2081 Williamson Falls Apt. 181, Luisland, FM 59898",15585,0,,1
+647,2024-01-27 22:00:00.000000,1631,0,"6434 Brown Point, Carlport, AR 63769",19227,0,,1
+648,2024-01-27 23:00:00.000000,7764,0,"1121 Lewis Row Apt. 785, Lake Michelletown, MA 11769",16046,1,Số tiền giao dịch lớn.,5
+649,2024-01-28 00:00:00.000000,3374,0,"87477 Williams Meadows, East David, WI 10439",14945,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+650,2024-01-28 01:00:00.000000,5763,0,"6463 Randy Branch Apt. 565, Paulfurt, ND 17153",17927,1,Số tiền giao dịch lớn.,5
+651,2024-01-28 02:00:00.000000,7076,0,"930 Joy Mill Suite 209, Hernandezland, SD 74250",17016,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+652,2024-01-28 03:00:00.000000,305,0,"819 Knight Island, Maddoxtown, GU 01083",17758,1,Số giao dịch trong 7 ngày quá nhiều.,15
+653,2024-01-28 04:00:00.000000,4854,0,"8457 Ward Overpass Suite 975, Matthewtown, LA 96144",15086,1,Số tiền giao dịch lớn.,10
+654,2024-01-28 05:00:00.000000,1888,0,"22386 Michael Rue, Jamesborough, WA 06780",19456,0,,10
+655,2024-01-28 06:00:00.000000,59,1,"8690 Jeffrey Views Suite 662, Danielleton, MD 62470",17161,1,Số giao dịch trong 7 ngày quá nhiều.,15
+656,2024-01-28 07:00:00.000000,2921,0,"87249 Allison Passage Apt. 930, Port Jordan, IN 51046",11884,1,Số giao dịch trong 7 ngày quá nhiều.,15
+657,2024-01-28 08:00:00.000000,9039,0,"532 Anthony Turnpike, Port Davidmouth, MH 61321",11809,1,Số tiền giao dịch lớn.,5
+658,2024-01-28 09:00:00.000000,7459,1,"568 Caleb Route, East Garrett, CA 51977",13167,1,Số tiền giao dịch lớn.,5
+659,2024-01-28 10:00:00.000000,7468,0,"164 Martinez Wells, Mooreborough, KS 57249",16352,1,Số tiền giao dịch lớn.,10
+660,2024-01-28 11:00:00.000000,5174,1,"687 Kyle Union Apt. 385, New Kaylahaven, AR 25259",19009,1,Số tiền giao dịch lớn.,1
+661,2024-01-28 12:00:00.000000,1065,1,"353 Daniel Knolls, South John, VA 04033",16056,1,Số giao dịch trong 7 ngày quá nhiều.,15
+662,2024-01-28 13:00:00.000000,2243,0,"86904 Bethany Village, Port Cassandraview, NE 73192",12437,0,,5
+663,2024-01-28 14:00:00.000000,8465,1,"USS Edwards, FPO AA 18813",16468,1,Số tiền giao dịch lớn.,10
+664,2024-01-28 15:00:00.000000,7499,0,"13589 Brown Field Apt. 326, North Samuelshire, AK 00808",19080,1,Số tiền giao dịch lớn.,5
+665,2024-01-28 16:00:00.000000,4208,1,"58951 Diaz Drive Apt. 745, Parrishborough, GA 97389",15951,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+666,2024-01-28 17:00:00.000000,3975,1,"5843 Sandra Fort, South Chadfort, AK 14568",15276,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+667,2024-01-28 18:00:00.000000,7020,1,"14374 Jennifer Point Suite 050, Erikport, TN 96654",18859,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+668,2024-01-28 19:00:00.000000,6988,0,"398 Brian Mills Suite 038, North Katherineland, TN 88588",17818,1,Số tiền giao dịch lớn.,1
+669,2024-01-28 20:00:00.000000,4834,0,"44689 Valdez Walk Apt. 958, Port Danielchester, MT 05693",14728,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+670,2024-01-28 21:00:00.000000,4050,1,"9895 Aaron Station, Gibsonchester, GA 53670",12624,1,Số tiền giao dịch lớn.,10
+671,2024-01-28 22:00:00.000000,1683,1,"81598 Peggy Parkways Apt. 081, Perryfurt, IL 05662",15738,0,,5
+672,2024-01-28 23:00:00.000000,7316,0,"9791 Sandra Ridges Suite 286, East Johnfurt, PR 40689",14232,1,Số tiền giao dịch lớn.,10
+673,2024-01-29 00:00:00.000000,8752,0,"USCGC Lawrence, FPO AP 80366",15793,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+674,2024-01-29 01:00:00.000000,434,1,"844 Michael Throughway Suite 654, South Randy, AS 70393",14523,1,Số giao dịch trong 7 ngày quá nhiều.,20
+675,2024-01-29 02:00:00.000000,454,1,"274 Fox Trafficway Apt. 076, Kellybury, MI 88095",15571,1,Số giao dịch trong 7 ngày quá nhiều.,20
+676,2024-01-29 03:00:00.000000,8225,0,"Unit 4400 Box 3908, DPO AP 23935",19010,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+677,2024-01-29 04:00:00.000000,2050,0,"734 Park Forges Suite 271, Jeffreyton, WA 56595",19298,0,,10
+678,2024-01-29 05:00:00.000000,9910,0,"5151 Hammond Fort, Denisebury, OR 13901",12224,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+679,2024-01-29 06:00:00.000000,6039,0,"852 Michael Shores Suite 250, Kendramouth, SC 75412",18389,1,Số tiền giao dịch lớn.,5
+680,2024-01-29 07:00:00.000000,1510,0,"03078 James Ridge, Lake Shaun, AR 82778",16091,0,,5
+681,2024-01-29 08:00:00.000000,7240,1,"7072 Dawson Cliff Apt. 114, Matthewburgh, VA 64183",18662,1,Số tiền giao dịch lớn.,10
+682,2024-01-29 09:00:00.000000,7190,0,"028 Melton Court, Elizabethborough, GA 92172",16361,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+683,2024-01-29 10:00:00.000000,3686,1,"0953 Thomas Square Suite 184, Zacharyland, ID 85458",11948,1,Số tiền giao dịch lớn.,1
+684,2024-01-29 11:00:00.000000,4859,0,"543 Bethany Common, Ronaldview, IL 14837",17094,1,Số tiền giao dịch lớn.,10
+685,2024-01-29 12:00:00.000000,4228,1,"3903 Lisa Fort Apt. 401, Hansonhaven, WV 43401",16318,1,Số tiền giao dịch lớn.,10
+686,2024-01-29 13:00:00.000000,7295,0,"521 Richard Haven, West Johnstad, GU 10338",13796,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+687,2024-01-29 14:00:00.000000,6650,0,"4767 Barton Forge Apt. 144, New Amberstad, SC 42036",10234,1,Số tiền giao dịch lớn.,5
+688,2024-01-29 15:00:00.000000,6047,1,"758 Smith Dale Apt. 538, North Scott, MP 11989",19120,1,Số tiền giao dịch lớn.,10
+689,2024-01-29 16:00:00.000000,2098,1,"0974 Porter Radial Suite 498, Jessicastad, KY 78945",13607,0,,10
+690,2024-01-29 17:00:00.000000,4830,0,"38220 Parker Well, West Tina, VA 99048",18043,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+691,2024-01-29 18:00:00.000000,766,0,"65635 Colon Plaza Apt. 153, New Brittanyfort, AZ 33646",10522,1,Số giao dịch trong 7 ngày quá nhiều.,20
+692,2024-01-29 19:00:00.000000,7989,0,"116 Silva Station Suite 345, North Ricardo, AL 28269",15904,1,Số tiền giao dịch lớn.,1
+693,2024-01-29 20:00:00.000000,5615,0,"54705 Joshua Village, Port Blakestad, MI 75460",14888,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+694,2024-01-29 21:00:00.000000,4594,0,"676 Kelley Shoals, Phillipstad, NC 10020",19821,1,Số tiền giao dịch lớn.,1
+695,2024-01-29 22:00:00.000000,5026,1,"3443 Amy Orchard Apt. 009, East Amy, MP 35202",15832,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+696,2024-01-29 23:00:00.000000,3469,1,"61449 Powell Pass, Aliciatown, MP 08796",17122,1,Số tiền giao dịch lớn.,5
+697,2024-01-30 00:00:00.000000,7289,0,"45735 George Glens Suite 869, North Katelynport, AS 11420",15842,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+698,2024-01-30 01:00:00.000000,9816,1,"1597 Jerry Isle Suite 137, Matthewview, FL 15859",11316,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+699,2024-01-30 02:00:00.000000,299,1,"Unit 5986 Box 0922, DPO AA 85305",11124,1,Số giao dịch trong 7 ngày quá nhiều.,20
+700,2024-01-30 03:00:00.000000,8915,1,"9453 Michael Extensions Suite 395, Smithfurt, CA 70372",15621,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+701,2024-01-30 04:00:00.000000,820,0,"2277 Joshua Manor, Lauriechester, NM 32953",15423,1,Số giao dịch trong 7 ngày quá nhiều.,15
+702,2024-01-30 05:00:00.000000,4413,1,"69351 Bridges Square Apt. 034, New Laura, IA 26326",12587,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+703,2024-01-30 06:00:00.000000,1127,0,"7365 Cooper Cliff Suite 387, Danielstad, WY 08077",19215,1,Số giao dịch trong 7 ngày quá nhiều.,15
+704,2024-01-30 07:00:00.000000,8477,1,"47187 Smith Knoll Suite 366, Burgessmouth, NV 20859",15672,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+705,2024-01-30 08:00:00.000000,8630,0,"46095 Harris Plaza, North Stephen, RI 24542",11378,1,Số tiền giao dịch lớn.,5
+706,2024-01-30 09:00:00.000000,7951,1,"980 Sabrina Gateway Apt. 010, Vasquezborough, MD 55302",13374,1,Số tiền giao dịch lớn.,1
+707,2024-01-30 10:00:00.000000,4908,0,"5623 David Shoals Suite 244, West Derek, IL 55082",11519,1,Số tiền giao dịch lớn.,10
+708,2024-01-30 11:00:00.000000,6594,0,"USNS Nguyen, FPO AE 68003",15777,1,Số tiền giao dịch lớn.,1
+709,2024-01-30 12:00:00.000000,4769,1,"107 Mathews Freeway, Fryshire, NY 06617",17935,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+710,2024-01-30 13:00:00.000000,2864,0,"718 Jose Stream, New Jacquelineview, TN 33823",16093,0,,5
+711,2024-01-30 14:00:00.000000,3424,0,"USNS Rodriguez, FPO AE 96008",18418,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+712,2024-01-30 15:00:00.000000,1302,0,"96938 Johnson Ports Suite 826, East Jorge, ID 78459",15355,0,,5
+713,2024-01-30 16:00:00.000000,7046,0,"Unit 8053 Box 9135, DPO AA 58643",14968,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+714,2024-01-30 17:00:00.000000,4723,0,"982 Byrd Lane Apt. 993, Williamhaven, MD 57109",19083,1,Số tiền giao dịch lớn.,5
+715,2024-01-30 18:00:00.000000,4580,0,"813 Patrick Mews, Wilsonstad, NH 74860",15574,1,Số tiền giao dịch lớn.,5
+716,2024-01-30 19:00:00.000000,6931,0,"3329 Sanchez Plaza, Garciaborough, SC 70584",14072,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+717,2024-01-30 20:00:00.000000,6999,0,"5503 Carr Mountain, Williamsstad, KS 98977",12257,1,Số tiền giao dịch lớn.,5
+718,2024-01-30 21:00:00.000000,9571,1,"PSC 1537, Box 6921, APO AA 02254",18588,1,Số tiền giao dịch lớn.,10
+719,2024-01-30 22:00:00.000000,6291,1,"7826 Perez Park Suite 397, West Catherine, GA 97506",14424,1,Số tiền giao dịch lớn.,10
+720,2024-01-30 23:00:00.000000,8067,0,"7565 Johnson Dale, West Martinberg, HI 75160",13237,1,Số tiền giao dịch lớn.,5
+721,2024-01-31 00:00:00.000000,6991,0,"54355 Carmen Passage Apt. 189, Michaelfort, CA 63962",13893,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+722,2024-01-31 01:00:00.000000,9600,1,"34987 Claudia Garden, Owensfurt, WI 47777",12005,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+723,2024-01-31 02:00:00.000000,7052,1,"663 Hall Terrace, Loritown, MD 82444",12016,1,Số tiền giao dịch lớn.,10
+724,2024-01-31 03:00:00.000000,1381,1,"PSC 9982, Box 2977, APO AA 12887",19388,1,Số giao dịch trong 7 ngày quá nhiều.,20
+725,2024-01-31 04:00:00.000000,4311,0,"90183 Todd Crescent, Port Brandifurt, RI 89805",11772,1,Số tiền giao dịch lớn.,5
+726,2024-01-31 05:00:00.000000,7698,1,"78505 Daniel Haven, Hendersonshire, AK 20262",18353,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+727,2024-01-31 06:00:00.000000,9600,0,"977 Jessica Courts Apt. 253, Carolynchester, MP 18108",13976,1,Số tiền giao dịch lớn.,1
+728,2024-01-31 07:00:00.000000,5165,0,"29704 Reed Inlet, Kellymouth, AK 06927",11751,1,Số tiền giao dịch lớn.,10
+729,2024-01-31 08:00:00.000000,4687,1,"20912 Taylor Row, Rowlandview, WY 90836",18967,1,Số tiền giao dịch lớn.,5
+730,2024-01-31 09:00:00.000000,4904,0,"132 Margaret Terrace Apt. 179, Nicolehaven, KY 31780",17430,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+731,2024-01-31 10:00:00.000000,3227,0,"229 Hull Spur Apt. 291, Lake Jordanberg, FM 95671",17170,1,Số tiền giao dịch lớn.,5
+732,2024-01-31 11:00:00.000000,7780,0,"9875 Lisa Square, Danielshire, KY 41762",16469,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+733,2024-01-31 12:00:00.000000,2230,0,"370 Mitchell Lodge Suite 837, Blackfurt, VI 11996",19131,0,,5
+734,2024-01-31 13:00:00.000000,4942,1,"48490 Cooley Ridge Apt. 270, New Edwardbury, WY 99064",13220,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+735,2024-01-31 14:00:00.000000,7093,1,"717 Michael Turnpike, East Courtneyton, WI 57264",10539,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+736,2024-01-31 15:00:00.000000,187,0,"30524 Suzanne Spurs, New Amanda, NE 70150",11461,1,Số giao dịch trong 7 ngày quá nhiều.,20
+737,2024-01-31 16:00:00.000000,6377,0,"607 Angela Crossroad Suite 079, Erichaven, GU 86416",15184,1,Số tiền giao dịch lớn.,1
+738,2024-01-31 17:00:00.000000,3522,1,"1009 Holden Knoll Suite 302, West Brianview, MP 29364",18547,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+739,2024-01-31 18:00:00.000000,5499,0,"4551 Frances Trail Suite 032, Davisfurt, WV 34851",10234,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+740,2024-01-31 19:00:00.000000,2882,1,"86797 Kaitlin Pines, Michaelton, MA 76519",11548,0,,1
+741,2024-01-31 20:00:00.000000,3629,0,"5243 Morgan Village Apt. 546, Lake Breannafort, CO 29392",17480,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+742,2024-01-31 21:00:00.000000,6021,0,"329 Weber Plaza, West Michaelfort, AK 94043",14213,1,Số tiền giao dịch lớn.,5
+743,2024-01-31 22:00:00.000000,4214,1,"PSC 4177, Box 0427, APO AA 03513",11673,1,Số tiền giao dịch lớn.,1
+744,2024-01-31 23:00:00.000000,7991,1,"59895 Kristy Spurs Apt. 169, South Jonathanmouth, PR 48099",16708,1,Số tiền giao dịch lớn.,10
+745,2024-02-01 00:00:00.000000,5619,1,"3558 Charles Via Suite 973, Dukeshire, WY 02222",17982,1,Số tiền giao dịch lớn.,1
+746,2024-02-01 01:00:00.000000,4350,1,"7486 Christopher Freeway Suite 970, Lopezshire, AR 41212",12100,1,Số tiền giao dịch lớn.,1
+747,2024-02-01 02:00:00.000000,6319,0,"4650 Duncan Ranch, Bishopville, PW 21476",13748,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+748,2024-02-01 03:00:00.000000,3868,1,"436 Curtis Villages, Lake Madisonmouth, MD 36225",13173,1,Số tiền giao dịch lớn.,5
+749,2024-02-01 04:00:00.000000,1956,0,"USNV Hoover, FPO AE 83556",11815,0,,10
+750,2024-02-01 05:00:00.000000,6304,1,"039 Kelly Rest Apt. 114, New Wayneville, MH 97414",13841,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+751,2024-02-01 06:00:00.000000,810,1,"2351 Taylor Rest, South Susan, DE 58923",18016,1,Số giao dịch trong 7 ngày quá nhiều.,20
+752,2024-02-01 07:00:00.000000,7880,0,"015 Christopher Fords Apt. 692, Pricehaven, OH 80130",17011,1,Số tiền giao dịch lớn.,1
+753,2024-02-01 08:00:00.000000,7400,1,"3213 Richard Villages, Jimborough, NC 74932",14493,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+754,2024-02-01 09:00:00.000000,6288,1,"735 David Spring, Adkinsstad, MS 49685",10674,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+755,2024-02-01 10:00:00.000000,6140,1,"475 Ashley Viaduct Apt. 243, West Kaylashire, NE 79868",18088,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+756,2024-02-01 11:00:00.000000,6081,1,"13612 Williams Extension Apt. 710, Chavezfort, SC 51118",18578,1,Số tiền giao dịch lớn.,10
+757,2024-02-01 12:00:00.000000,7737,0,"2400 Brenda Corners, Port Steventon, PW 23959",12158,1,Số tiền giao dịch lớn.,5
+758,2024-02-01 13:00:00.000000,9141,0,"0520 Kelly Haven Suite 620, Port Lynn, WA 59400",12661,1,Số tiền giao dịch lớn.,10
+759,2024-02-01 14:00:00.000000,9961,1,"Unit 2138 Box 4665, DPO AP 07780",12064,1,Số tiền giao dịch lớn.,5
+760,2024-02-01 15:00:00.000000,8522,1,"612 Anthony Turnpike Suite 375, Judithbury, KS 98739",13253,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+761,2024-02-01 16:00:00.000000,1937,1,"USNV Campbell, FPO AA 61411",14979,0,,5
+762,2024-02-01 17:00:00.000000,3316,0,"3906 Hill Spur Apt. 183, West Tamara, AZ 61467",17703,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+763,2024-02-01 18:00:00.000000,716,0,"32578 Randy Shore Suite 355, West Blake, SD 08895",18931,0,,1
+764,2024-02-01 19:00:00.000000,4238,0,"2854 Danny Crest, Kristiburgh, NM 81863",11401,1,Số tiền giao dịch lớn.,1
+765,2024-02-01 20:00:00.000000,721,0,"997 Blake Harbors, Wilsonland, PR 69966",13259,1,Số giao dịch trong 7 ngày quá nhiều.,20
+766,2024-02-01 21:00:00.000000,6827,1,"24716 Aguirre Keys, West Paul, OK 63370",13923,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+767,2024-02-01 22:00:00.000000,7620,1,"290 Jones Cape Suite 867, Port Robin, NY 34187",14214,1,Số tiền giao dịch lớn.,10
+768,2024-02-01 23:00:00.000000,8006,1,"6067 Hendricks Lakes Suite 850, New Michellehaven, NJ 61547",13227,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+769,2024-02-02 00:00:00.000000,5174,0,"4653 Ramirez Place Suite 646, Lindseyton, MA 19128",12745,1,Số tiền giao dịch lớn.,1
+770,2024-02-02 01:00:00.000000,5635,1,"7308 Thomas Walk Apt. 082, New Larry, SC 79058",16091,1,Số tiền giao dịch lớn.,1
+771,2024-02-02 02:00:00.000000,4827,0,"5205 Roberts Motorway, Lake Carlosberg, IA 55970",13866,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+772,2024-02-02 03:00:00.000000,3950,0,"746 Butler Key, Mathewsfort, TX 49421",15818,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+773,2024-02-02 04:00:00.000000,6727,1,"45008 Ruth Orchard Suite 959, South Daniel, CA 33231",12222,1,Số tiền giao dịch lớn.,1
+774,2024-02-02 05:00:00.000000,7031,1,"45267 Diana Ways Apt. 373, North William, OH 08792",12792,1,Số tiền giao dịch lớn.,10
+775,2024-02-02 06:00:00.000000,6426,1,"47008 Henderson Dale, West Ruth, GA 83658",19889,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+776,2024-02-02 07:00:00.000000,573,0,"339 Robert Tunnel, Jessicaview, MA 56635",14063,1,Số giao dịch trong 7 ngày quá nhiều.,20
+777,2024-02-02 08:00:00.000000,2443,0,"508 Williams Spurs Suite 356, Gonzalezview, NC 49498",11524,1,Số giao dịch trong 7 ngày quá nhiều.,15
+778,2024-02-02 09:00:00.000000,2643,1,"90967 Roberson Pines, Kellyburgh, SD 50384",18224,1,Số giao dịch trong 7 ngày quá nhiều.,20
+779,2024-02-02 10:00:00.000000,9995,1,"628 Figueroa Heights Apt. 236, East Jamiefort, UT 01372",16198,1,Số tiền giao dịch lớn.,1
+780,2024-02-02 11:00:00.000000,7290,0,"009 James Pike, Archerport, IA 99697",14025,1,Số tiền giao dịch lớn.,1
+781,2024-02-02 12:00:00.000000,6987,1,"8489 Cook Pass Apt. 583, Torresport, AL 68921",12566,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+782,2024-02-02 13:00:00.000000,6240,0,"6023 Johnson Stravenue, Melissaberg, CA 94511",12803,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+783,2024-02-02 14:00:00.000000,5290,0,"47120 Vasquez Isle, Alexisbury, NE 28469",13709,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+784,2024-02-02 15:00:00.000000,6543,1,"Unit 0470 Box 0652, DPO AP 96295",16155,1,Số tiền giao dịch lớn.,10
+785,2024-02-02 16:00:00.000000,2928,1,"25824 Kathleen Springs, Amberland, OR 86217",10719,1,Số giao dịch trong 7 ngày quá nhiều.,20
+786,2024-02-02 17:00:00.000000,4193,1,"676 Robinson Key Apt. 639, East Robertville, IN 07231",16516,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+787,2024-02-02 18:00:00.000000,3694,1,"24708 Maria Shores Suite 503, Patriciatown, MN 05218",14579,1,Số tiền giao dịch lớn.,5
+788,2024-02-02 19:00:00.000000,4482,0,"07221 Arthur Ways, Gilmoreborough, DC 37427",10972,1,Số tiền giao dịch lớn.,5
+789,2024-02-02 20:00:00.000000,1326,0,"92358 Charlotte Inlet Suite 773, New Alyssaville, LA 95202",13718,0,,1
+790,2024-02-02 21:00:00.000000,5861,0,"573 Scott Parkways Suite 303, West Kimberlybury, NY 48219",17395,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+791,2024-02-02 22:00:00.000000,352,1,"275 Jill Harbors Suite 941, East Denisefurt, ME 09535",14402,1,Số giao dịch trong 7 ngày quá nhiều.,15
+792,2024-02-02 23:00:00.000000,688,0,"39942 Shannon Loaf Suite 517, Jennifermouth, MH 42104",14552,0,,5
+793,2024-02-03 00:00:00.000000,105,1,"6323 Pamela Park, West Abigailborough, NY 78292",12207,1,Số giao dịch trong 7 ngày quá nhiều.,20
+794,2024-02-03 01:00:00.000000,8767,1,"929 Cynthia Motorway Suite 984, Stevenmouth, VA 34869",14426,1,Số tiền giao dịch lớn.,1
+795,2024-02-03 02:00:00.000000,8200,1,"9458 Mary Fall Apt. 494, Emilymouth, NY 11638",16919,1,Số tiền giao dịch lớn.,10
+796,2024-02-03 03:00:00.000000,2175,1,"09334 Fuentes Gateway, Henrychester, MA 80208",18835,1,Số giao dịch trong 7 ngày quá nhiều.,20
+797,2024-02-03 04:00:00.000000,414,1,"764 Ariel Ville Apt. 057, Hoodborough, SC 34837",18386,1,Số giao dịch trong 7 ngày quá nhiều.,20
+798,2024-02-03 05:00:00.000000,6859,1,"81069 Doyle Landing Apt. 984, Matthewfurt, OH 97524",18680,1,Số tiền giao dịch lớn.,10
+799,2024-02-03 06:00:00.000000,4671,0,"49592 Ronald Drives Suite 324, Yustad, OK 03833",12204,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+800,2024-02-03 07:00:00.000000,5176,1,"79255 Gomez Harbors, Port Joseph, IL 18751",15345,1,Số tiền giao dịch lớn.,1
+801,2024-02-03 08:00:00.000000,5172,0,"4707 Jacqueline Shoals Apt. 773, North Kelly, OK 31277",13276,1,Số tiền giao dịch lớn.,1
+802,2024-02-03 09:00:00.000000,1696,0,"PSC 8906, Box 5979, APO AA 19143",11102,0,,10
+803,2024-02-03 10:00:00.000000,968,1,"617 Green Centers Suite 021, New Lisa, ND 76033",15243,1,Số giao dịch trong 7 ngày quá nhiều.,15
+804,2024-02-03 11:00:00.000000,2847,1,"31619 Donovan Plaza Suite 541, North Amanda, VA 79947",16614,0,,5
+805,2024-02-03 12:00:00.000000,6556,1,"1010 Michael Prairie Apt. 826, Shannonville, MT 50766",19433,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+806,2024-02-03 13:00:00.000000,5920,0,"95990 Barbara Landing Apt. 175, South Shawnaview, CA 05688",18707,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+807,2024-02-03 14:00:00.000000,1581,1,"2868 Gomez Stream Suite 062, Gentryville, KY 93306",15223,0,,5
+808,2024-02-03 15:00:00.000000,8222,0,"PSC 6384, Box 6010, APO AP 18036",18584,1,Số tiền giao dịch lớn.,10
+809,2024-02-03 16:00:00.000000,3395,1,"4911 Justin Mills Apt. 861, Port Ernestview, MT 34675",10630,1,Số tiền giao dịch lớn.,10
+810,2024-02-03 17:00:00.000000,7723,1,"8305 Taylor Glens Suite 834, Lake Keith, MO 79903",19171,1,Số tiền giao dịch lớn.,5
+811,2024-02-03 18:00:00.000000,6999,0,"USCGC Romero, FPO AP 80326",16683,1,Số tiền giao dịch lớn.,1
+812,2024-02-03 19:00:00.000000,6932,0,"8096 Brittney Highway, Port Zachary, KS 49290",10277,1,Số tiền giao dịch lớn.,5
+813,2024-02-03 20:00:00.000000,1956,1,"974 Harris Junctions, North Stephanie, IA 60803",10232,1,Số giao dịch trong 7 ngày quá nhiều.,20
+814,2024-02-03 21:00:00.000000,3136,0,"Unit 8334 Box 2222, DPO AA 71622",19744,1,Số tiền giao dịch lớn.,1
+815,2024-02-03 22:00:00.000000,8202,0,"090 Jennifer Roads Apt. 710, Lake Jeffreyfurt, DC 89492",15690,1,Số tiền giao dịch lớn.,10
+816,2024-02-03 23:00:00.000000,5800,0,"4004 David Inlet, Port Stephaniefort, IL 63571",17659,1,Số tiền giao dịch lớn.,5
+817,2024-02-04 00:00:00.000000,8955,0,"893 Wells Motorway Apt. 616, Dennisfurt, AL 45754",10025,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+818,2024-02-04 01:00:00.000000,1112,0,"9876 Henry Island Suite 923, South Laura, OH 91554",17468,1,Số giao dịch trong 7 ngày quá nhiều.,15
+819,2024-02-04 02:00:00.000000,2026,1,"2594 Briana Well, East Ashleyview, CO 39819",16410,1,Số giao dịch trong 7 ngày quá nhiều.,20
+820,2024-02-04 03:00:00.000000,1346,1,"2982 Michael Freeway, East Amberchester, MS 57055",18652,1,Số giao dịch trong 7 ngày quá nhiều.,15
+821,2024-02-04 04:00:00.000000,6279,0,"125 Tina Common Suite 532, East Denise, DC 89923",13764,1,Số tiền giao dịch lớn.,5
+822,2024-02-04 05:00:00.000000,7691,1,"544 Robert Alley, Port Denisetown, MO 70800",16599,1,Số tiền giao dịch lớn.,5
+823,2024-02-04 06:00:00.000000,175,1,"492 Juan Summit Suite 765, Norrisside, AR 22284",15102,1,Số giao dịch trong 7 ngày quá nhiều.,15
+824,2024-02-04 07:00:00.000000,4682,0,"20503 Jones Island Apt. 092, Markville, AS 37906",17006,1,Số tiền giao dịch lớn.,5
+825,2024-02-04 08:00:00.000000,6338,1,"2725 Newman Prairie Suite 858, Davidbury, CA 41745",13483,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+826,2024-02-04 09:00:00.000000,3646,0,"220 Thomas Views Suite 784, West Loganstad, NV 93426",11994,1,Số tiền giao dịch lớn.,1
+827,2024-02-04 10:00:00.000000,6218,0,"68409 Robin Stravenue, Lake Robinfort, MP 49103",18682,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+828,2024-02-04 11:00:00.000000,9845,1,"38551 Ricky Village Suite 663, West Davidbury, KS 50850",11072,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+829,2024-02-04 12:00:00.000000,7611,0,"8866 Grant Common Suite 645, Lake Tinaland, NV 10892",16707,1,Số tiền giao dịch lớn.,5
+830,2024-02-04 13:00:00.000000,8308,0,"531 Holt Glen Suite 226, New Jessica, MT 59715",10215,1,Số tiền giao dịch lớn.,1
+831,2024-02-04 14:00:00.000000,282,0,"01730 Hughes Turnpike, East Nathanton, NV 70698",17605,0,,5
+832,2024-02-04 15:00:00.000000,9411,0,"9098 Melissa Mountain, West Kaitlynhaven, ND 84681",19915,1,Số tiền giao dịch lớn.,10
+833,2024-02-04 16:00:00.000000,6421,0,"3573 Shelby Orchard Suite 903, Dariustown, PR 17336",19784,1,Số tiền giao dịch lớn.,5
+834,2024-02-04 17:00:00.000000,4256,1,"653 Patricia Point, New Willieport, CT 89300",12606,1,Số tiền giao dịch lớn.,5
+835,2024-02-04 18:00:00.000000,9735,1,"8996 Morales Falls, Lake Sharon, IN 75063",18350,1,Số tiền giao dịch lớn.,5
+836,2024-02-04 19:00:00.000000,7993,0,"77220 Victoria Forge, New Patrick, NC 84446",14781,1,Số tiền giao dịch lớn.,1
+837,2024-02-04 20:00:00.000000,6941,0,"2830 Simmons Key Apt. 620, Stacyside, OK 54302",13313,1,Số tiền giao dịch lớn.,5
+838,2024-02-04 21:00:00.000000,6788,1,"40149 Karen Place, Ericland, VA 35192",19968,1,Số tiền giao dịch lớn.,1
+839,2024-02-04 22:00:00.000000,2522,0,"0126 Perry Oval Apt. 041, New Katie, AL 27859",17763,1,Số giao dịch trong 7 ngày quá nhiều.,15
+840,2024-02-04 23:00:00.000000,2789,1,"4525 Bailey Island, South Patriciamouth, VA 26526",15939,0,,10
+841,2024-02-05 00:00:00.000000,5451,0,"626 Kelly Lodge, Carlsonside, KY 81769",12295,1,Số tiền giao dịch lớn.,1
+842,2024-02-05 01:00:00.000000,1811,0,"USNV George, FPO AA 72850",15685,1,Số giao dịch trong 7 ngày quá nhiều.,15
+843,2024-02-05 02:00:00.000000,926,0,"464 Mason Camp, Carterside, TX 55194",11696,0,,1
+844,2024-02-05 03:00:00.000000,3862,0,"516 Chad Loop Apt. 093, South William, MD 24819",11946,1,Số tiền giao dịch lớn.,1
+845,2024-02-05 04:00:00.000000,9554,0,"2674 Jennifer Islands Suite 465, New Jessicaport, AK 27549",12783,1,Số tiền giao dịch lớn.,10
+846,2024-02-05 05:00:00.000000,1510,0,"5290 Hannah Dam Suite 973, New Stephanie, OR 91657",13644,1,Số giao dịch trong 7 ngày quá nhiều.,20
+847,2024-02-05 06:00:00.000000,1783,0,"815 Fernandez Streets Suite 639, New Jeffery, RI 65006",15241,1,Số giao dịch trong 7 ngày quá nhiều.,20
+848,2024-02-05 07:00:00.000000,1655,1,"8972 Williams Pines, Jenniferfurt, UT 48857",16420,0,,1
+849,2024-02-05 08:00:00.000000,5672,1,"46916 Brittany Expressway, South Danny, SC 78636",17557,1,Số tiền giao dịch lớn.,5
+850,2024-02-05 09:00:00.000000,6817,1,"797 Stephanie Courts Apt. 858, North Mary, CA 46896",12645,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+851,2024-02-05 10:00:00.000000,7036,0,"4971 Nelson Shoals, East Kelly, AK 04905",16589,1,Số tiền giao dịch lớn.,5
+852,2024-02-05 11:00:00.000000,3567,0,"5631 Emma Trail, Burnettborough, PW 75216",16353,1,Số tiền giao dịch lớn.,5
+853,2024-02-05 12:00:00.000000,3785,0,"808 Wu Village Apt. 304, Donnaside, NJ 51773",11932,1,Số tiền giao dịch lớn.,1
+854,2024-02-05 13:00:00.000000,9402,0,"2989 Graves Cliff Suite 600, Kevinland, OH 86924",11757,1,Số tiền giao dịch lớn.,1
+855,2024-02-05 14:00:00.000000,8484,0,"786 Connie Ville Suite 021, Johnbury, NM 41397",15085,1,Số tiền giao dịch lớn.,1
+856,2024-02-05 15:00:00.000000,2640,0,"8011 Griffith Glens, Whitechester, IA 43574",15637,0,,1
+857,2024-02-05 16:00:00.000000,1113,0,"3139 Roman Island, Sharonview, MN 36648",11116,1,Số giao dịch trong 7 ngày quá nhiều.,20
+858,2024-02-05 17:00:00.000000,4374,1,"41847 Jeremy Summit, Sarahton, AZ 72561",10492,1,Số tiền giao dịch lớn.,1
+859,2024-02-05 18:00:00.000000,9161,0,"86937 Austin Orchard Apt. 768, Juanton, OK 90871",18811,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+860,2024-02-05 19:00:00.000000,5392,1,"037 Tiffany Port Suite 691, Gomezshire, HI 92112",17888,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+861,2024-02-05 20:00:00.000000,55,1,"USS Nguyen, FPO AE 30274",16474,0,,1
+862,2024-02-05 21:00:00.000000,7539,0,"3063 Edward Islands, East David, ID 47635",19738,1,Số tiền giao dịch lớn.,10
+863,2024-02-05 22:00:00.000000,8709,0,"1668 Mitchell Haven Apt. 902, Port Leah, NC 67471",14958,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+864,2024-02-05 23:00:00.000000,8245,1,"6064 Warner Forges, Lake Joseph, HI 51812",19797,1,Số tiền giao dịch lớn.,5
+865,2024-02-06 00:00:00.000000,6016,1,"2810 Sheena Plain Apt. 448, New Jeffrey, NJ 28553",19467,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+866,2024-02-06 01:00:00.000000,8887,0,"87794 Rush Lodge Suite 475, Port Paula, NJ 04327",12743,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+867,2024-02-06 02:00:00.000000,167,0,"347 Madison Ramp Apt. 073, New Dwaynebury, GU 97537",17866,0,,10
+868,2024-02-06 03:00:00.000000,2601,1,"4839 White Court, Port Austin, GA 43099",17160,0,,5
+869,2024-02-06 04:00:00.000000,5610,0,"039 Bradley Ridges Suite 917, Susanton, FM 15289",15451,1,Số tiền giao dịch lớn.,5
+870,2024-02-06 05:00:00.000000,4339,0,"69678 Yu Brook, Myersville, CA 61708",15258,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+871,2024-02-06 06:00:00.000000,896,0,"286 Brennan Mission Suite 535, New Paul, ND 30841",18548,0,,1
+872,2024-02-06 07:00:00.000000,6366,1,"692 Ebony Glen, Michaelchester, MT 03375",17186,1,Số tiền giao dịch lớn.,10
+873,2024-02-06 08:00:00.000000,6519,1,"USCGC Anderson, FPO AE 43933",16102,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+874,2024-02-06 09:00:00.000000,9383,1,"19102 Blanchard Path, East Taylor, WV 33658",19061,1,Số tiền giao dịch lớn.,10
+875,2024-02-06 10:00:00.000000,8965,0,"8823 Robinson Cliff Apt. 630, East Katieton, ND 00691",19077,1,Số tiền giao dịch lớn.,1
+876,2024-02-06 11:00:00.000000,274,0,"72317 Andrea Walk Apt. 215, Tinaview, GU 62986",19475,0,,1
+877,2024-02-06 12:00:00.000000,4258,1,"72653 Jacqueline Springs Apt. 397, Donnaton, NJ 78602",10619,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+878,2024-02-06 13:00:00.000000,6333,1,"9596 Natalie Port, West Kaylaville, AL 88783",10882,1,Số tiền giao dịch lớn.,1
+879,2024-02-06 14:00:00.000000,2098,1,"19155 Rebecca Avenue, South Julia, HI 97662",18988,1,Số giao dịch trong 7 ngày quá nhiều.,15
+880,2024-02-06 15:00:00.000000,6283,0,"49446 Smith Vista Apt. 574, Davidsonland, PA 52611",13642,1,Số tiền giao dịch lớn.,5
+881,2024-02-06 16:00:00.000000,9815,1,"USNV Foley, FPO AP 67623",11296,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+882,2024-02-06 17:00:00.000000,1878,1,"234 Misty Hollow, Port Jonathanfort, RI 06124",18436,0,,10
+883,2024-02-06 18:00:00.000000,1967,0,"537 Dwayne Ford, Robertmouth, OR 96371",12895,1,Số giao dịch trong 7 ngày quá nhiều.,15
+884,2024-02-06 19:00:00.000000,4284,0,"11877 Taylor Canyon Apt. 916, East Jennifer, MN 97800",16593,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+885,2024-02-06 20:00:00.000000,7038,0,"1986 Catherine Village Apt. 598, Eddiemouth, LA 74018",10929,1,Số tiền giao dịch lớn.,1
+886,2024-02-06 21:00:00.000000,2076,1,"36372 Brown Pass, Christopherview, IA 20522",15366,0,,1
+887,2024-02-06 22:00:00.000000,3794,0,"89491 Ann Expressway, North Eric, MS 20078",18711,1,Số tiền giao dịch lớn.,1
+888,2024-02-06 23:00:00.000000,9143,0,"41067 Rasmussen Square, South Robertoport, NH 83175",13212,1,Số tiền giao dịch lớn.,1
+889,2024-02-07 00:00:00.000000,59,1,"9045 Jennifer Dale Suite 279, New Markshire, IA 16428",12409,0,,10
+890,2024-02-07 01:00:00.000000,310,0,"695 Paula Field Apt. 202, Sarahville, RI 77443",18199,1,Số giao dịch trong 7 ngày quá nhiều.,15
+891,2024-02-07 02:00:00.000000,6088,1,"USCGC Taylor, FPO AE 61442",13423,1,Số tiền giao dịch lớn.,5
+892,2024-02-07 03:00:00.000000,9915,1,"498 Parsons Valley Apt. 967, Sanchezmouth, MP 03859",16976,1,Số tiền giao dịch lớn.,10
+893,2024-02-07 04:00:00.000000,2269,0,"11946 Melissa Forest, Annberg, MH 07225",17594,0,,10
+894,2024-02-07 05:00:00.000000,7091,0,"0200 Morrison Mountain Apt. 594, Maryside, VA 18611",15158,1,Số tiền giao dịch lớn.,5
+895,2024-02-07 06:00:00.000000,2110,0,"388 Douglas Route Apt. 360, East Joshuafurt, PW 79890",13667,0,,5
+896,2024-02-07 07:00:00.000000,5337,0,"98942 Reid Orchard Suite 087, Reedfort, IL 85009",15973,1,Số tiền giao dịch lớn.,1
+897,2024-02-07 08:00:00.000000,1669,0,"6824 Jordan Green, Kevintown, CO 44099",16236,0,,10
+898,2024-02-07 09:00:00.000000,8562,0,"7453 Michelle Gateway Apt. 220, West Juliashire, PW 28047",18277,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+899,2024-02-07 10:00:00.000000,1392,1,"668 Lindsay Forest Apt. 377, Dixonberg, DC 69204",12468,0,,5
+900,2024-02-07 11:00:00.000000,2882,1,"3991 Nancy Squares, South Aarontown, WI 09974",16217,0,,5
+901,2024-02-07 12:00:00.000000,2874,0,"234 Carlos Knoll, Cherylton, MN 93345",13619,1,Số giao dịch trong 7 ngày quá nhiều.,15
+902,2024-02-07 13:00:00.000000,2044,1,"44929 Claire Extension Apt. 678, Port Adrianton, KS 75578",11636,1,Số giao dịch trong 7 ngày quá nhiều.,20
+903,2024-02-07 14:00:00.000000,3540,0,"7064 Bennett Expressway, Port Jenniferstad, AS 31888",18155,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+904,2024-02-07 15:00:00.000000,9360,1,"395 Leslie Divide Apt. 374, Lake Mitchelltown, NH 58418",13583,1,Số tiền giao dịch lớn.,5
+905,2024-02-07 16:00:00.000000,8034,1,"11632 Kelley Road, East Toddburgh, PA 69459",14009,1,Số tiền giao dịch lớn.,1
+906,2024-02-07 17:00:00.000000,1654,1,"24369 Alicia Pine Apt. 626, Bowerstown, WI 64500",13326,1,Số giao dịch trong 7 ngày quá nhiều.,15
+907,2024-02-07 18:00:00.000000,285,0,"946 Gould Cliffs, Jessicabury, NY 71101",18148,1,Số giao dịch trong 7 ngày quá nhiều.,20
+908,2024-02-07 19:00:00.000000,1958,1,"5842 David Locks, Lindamouth, MP 78495",12217,0,,5
+909,2024-02-07 20:00:00.000000,8617,0,"689 Mullins Drives, Port Tyler, MA 87276",14967,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+910,2024-02-07 21:00:00.000000,3580,1,"684 Taylor Point, Brendamouth, CO 96560",12369,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+911,2024-02-07 22:00:00.000000,5306,1,"281 Williams Parks, Hortonchester, MN 74924",13638,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+912,2024-02-07 23:00:00.000000,2685,1,"55113 Adams Way, West Matthew, KS 55593",19135,0,,10
+913,2024-02-08 00:00:00.000000,8212,1,"756 Randolph Knoll, Dylanport, NM 05566",15722,1,Số tiền giao dịch lớn.,5
+914,2024-02-08 01:00:00.000000,9812,1,"4736 Robinson Mount, North Michaelburgh, WY 95955",14444,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+915,2024-02-08 02:00:00.000000,2610,0,"8018 Smith Stravenue Suite 818, Lake Danieltown, GA 35414",17618,0,,10
+916,2024-02-08 03:00:00.000000,5465,0,"8554 Jeffery Crossroad, Lisatown, HI 85482",13947,1,Số tiền giao dịch lớn.,10
+917,2024-02-08 04:00:00.000000,3441,1,"PSC 3777, Box 5437, APO AP 04118",11676,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+918,2024-02-08 05:00:00.000000,6001,1,"918 Jeffrey Port, East Christopher, NY 84421",11196,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+919,2024-02-08 06:00:00.000000,5518,1,"0961 Patrick Road Apt. 766, Travisbury, IN 58629",12787,1,Số tiền giao dịch lớn.,10
+920,2024-02-08 07:00:00.000000,8057,1,"216 Lewis Common Apt. 514, Millermouth, PW 75973",17432,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+921,2024-02-08 08:00:00.000000,9114,0,"8900 Kimberly Freeway, East Jimmy, OK 60449",19653,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+922,2024-02-08 09:00:00.000000,9494,1,"0972 Clay Overpass Apt. 636, Haileyberg, AL 40822",17927,1,Số tiền giao dịch lớn.,1
+923,2024-02-08 10:00:00.000000,6463,0,"010 Eileen Vista Apt. 192, Garrettside, MN 51642",13318,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+924,2024-02-08 11:00:00.000000,6991,1,"418 Alexis Brooks Apt. 519, Barnettview, NJ 44597",18858,1,Số tiền giao dịch lớn.,10
+925,2024-02-08 12:00:00.000000,9556,0,"6128 Lewis Glen, Lake Christopher, GA 29401",16689,1,Số tiền giao dịch lớn.,10
+926,2024-02-08 13:00:00.000000,4870,1,"65892 Robertson Cove Apt. 794, Donaldshire, AR 26119",12176,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+927,2024-02-08 14:00:00.000000,2948,1,"46186 Barnes Ridges Apt. 950, Jacobburgh, TX 79814",13743,1,Số giao dịch trong 7 ngày quá nhiều.,20
+928,2024-02-08 15:00:00.000000,7596,0,"9880 Oneill Manors, Smithview, WY 19900",18792,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+929,2024-02-08 16:00:00.000000,127,1,"44892 Jasmine Turnpike, East Sheri, CO 25469",14422,0,,10
+930,2024-02-08 17:00:00.000000,7627,1,"22731 Nancy Shores, Jacquelineville, ND 72364",13824,1,Số tiền giao dịch lớn.,5
+931,2024-02-08 18:00:00.000000,4277,1,"49957 Short Well Suite 812, Port William, DE 03973",19171,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+932,2024-02-08 19:00:00.000000,650,0,"785 Tami Springs Suite 793, Amandaland, TN 62719",12451,1,Số giao dịch trong 7 ngày quá nhiều.,15
+933,2024-02-08 20:00:00.000000,1115,1,"Unit 0492 Box 4742, DPO AP 57432",10628,1,Số giao dịch trong 7 ngày quá nhiều.,20
+934,2024-02-08 21:00:00.000000,2186,1,"76723 Williams Pines Apt. 924, Reedhaven, NM 08765",19821,1,Số giao dịch trong 7 ngày quá nhiều.,15
+935,2024-02-08 22:00:00.000000,9560,0,"621 Emily Trail, Aprilchester, NJ 81100",17778,1,Số tiền giao dịch lớn.,10
+936,2024-02-08 23:00:00.000000,6993,0,"4591 Franklin Forges Apt. 899, Nicholeton, DC 34956",13696,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+937,2024-02-09 00:00:00.000000,7854,0,"107 Peggy Groves, Bowmanmouth, PA 19653",13674,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+938,2024-02-09 01:00:00.000000,6615,1,"PSC 6530, Box 4934, APO AP 59054",13929,1,Số tiền giao dịch lớn.,10
+939,2024-02-09 02:00:00.000000,6034,1,"Unit 9102 Box 8726, DPO AA 66664",12765,1,Số tiền giao dịch lớn.,5
+940,2024-02-09 03:00:00.000000,5192,1,"6674 Williams Lights Suite 159, West Marissaland, OH 26683",14369,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+941,2024-02-09 04:00:00.000000,4720,0,"696 Joshua Estate, West Shannon, CT 21752",18307,1,Số tiền giao dịch lớn.,5
+942,2024-02-09 05:00:00.000000,2240,1,"714 Frances Fort, East Patricialand, KY 40941",14956,0,,5
+943,2024-02-09 06:00:00.000000,9234,1,"Unit 2347 Box 8591, DPO AP 74328",10692,1,Số tiền giao dịch lớn.,1
+944,2024-02-09 07:00:00.000000,2762,0,"0899 Melissa Flats, Blankenshipville, FM 47532",13162,1,Số giao dịch trong 7 ngày quá nhiều.,20
+945,2024-02-09 08:00:00.000000,2242,0,"174 White Mountains Apt. 642, Kyleburgh, TX 43209",11105,1,Số giao dịch trong 7 ngày quá nhiều.,15
+946,2024-02-09 09:00:00.000000,1298,0,"356 Becky Knolls, Port Masonview, KY 15895",13008,0,,5
+947,2024-02-09 10:00:00.000000,4083,0,"8687 Montoya Villages, Gregoryland, NH 64810",12161,1,Số tiền giao dịch lớn.,1
+948,2024-02-09 11:00:00.000000,2047,0,"74813 Richardson Path, South Jenniferview, DC 93163",18345,0,,10
+949,2024-02-09 12:00:00.000000,3737,1,"765 Michael Road, Christinaview, IN 44492",13699,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+950,2024-02-09 13:00:00.000000,4068,0,"75178 Collins Trail Suite 416, Morganview, NE 17031",13786,1,Số tiền giao dịch lớn.,5
+951,2024-02-09 14:00:00.000000,2020,1,"23313 Jones Lakes, Priceton, WI 25710",19256,1,Số giao dịch trong 7 ngày quá nhiều.,20
+952,2024-02-09 15:00:00.000000,8439,1,"94451 Thomas Road Suite 795, Tinamouth, MI 24639",14200,1,Số tiền giao dịch lớn.,1
+953,2024-02-09 16:00:00.000000,5815,0,"2137 Lori Shores Suite 192, Denisebury, TN 85952",11913,1,Số tiền giao dịch lớn.,5
+954,2024-02-09 17:00:00.000000,1252,0,"099 Jennifer Drives Apt. 305, Juliechester, NC 08177",19408,1,Số giao dịch trong 7 ngày quá nhiều.,20
+955,2024-02-09 18:00:00.000000,8185,0,"38977 Smith Creek, New Jennifer, AR 91312",15520,1,Số tiền giao dịch lớn.,5
+956,2024-02-09 19:00:00.000000,5617,1,"343 Courtney Fork, East Victor, PA 95590",11772,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+957,2024-02-09 20:00:00.000000,7717,0,"PSC 2671, Box 7702, APO AA 50369",12780,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+958,2024-02-09 21:00:00.000000,5792,0,"4845 Rogers Fall, Lake Lisa, LA 44408",17423,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+959,2024-02-09 22:00:00.000000,5838,0,"14502 Nguyen Landing, South Melissa, WV 52529",12871,1,Số tiền giao dịch lớn.,1
+960,2024-02-09 23:00:00.000000,5458,0,"3549 Andrea Mills Apt. 269, East Alexisside, AK 54310",10660,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+961,2024-02-10 00:00:00.000000,8719,0,"0416 Cook Parkways, Jenningstown, NY 69537",16242,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+962,2024-02-10 01:00:00.000000,9496,1,"PSC 9606, Box 0466, APO AA 64440",11132,1,Số tiền giao dịch lớn.,5
+963,2024-02-10 02:00:00.000000,972,1,"20604 Kathleen Crossroad Suite 681, Michaelburgh, RI 49565",10699,0,,10
+964,2024-02-10 03:00:00.000000,469,1,"488 Michael Isle, Jacobport, NJ 51786",17470,1,Số giao dịch trong 7 ngày quá nhiều.,20
+965,2024-02-10 04:00:00.000000,2254,0,"USS Adams, FPO AP 71296",16297,1,Số giao dịch trong 7 ngày quá nhiều.,20
+966,2024-02-10 05:00:00.000000,1170,0,"281 Day Hills Apt. 093, West Johnmouth, WY 73184",17812,1,Số giao dịch trong 7 ngày quá nhiều.,15
+967,2024-02-10 06:00:00.000000,1000,0,"3797 Jackson Squares, New Darrell, OH 78106",14557,0,,1
+968,2024-02-10 07:00:00.000000,2386,1,"941 Lauren Forest, Traceymouth, VT 26810",12179,0,,5
+969,2024-02-10 08:00:00.000000,5423,0,"9639 Caleb Village Suite 788, West Michael, MD 22683",19065,1,Số tiền giao dịch lớn.,1
+970,2024-02-10 09:00:00.000000,2293,0,"79229 Elizabeth Avenue, East Janet, AR 05315",18275,0,,5
+971,2024-02-10 10:00:00.000000,2695,0,"69030 Mark Radial, East Johntown, MH 80298",11422,0,,5
+972,2024-02-10 11:00:00.000000,4662,1,"770 Villarreal Ways, New John, AR 73894",13180,1,Số tiền giao dịch lớn.,1
+973,2024-02-10 12:00:00.000000,1915,0,"791 Jeffrey Forest Suite 233, New Michaelport, AK 94190",14316,1,Số giao dịch trong 7 ngày quá nhiều.,20
+974,2024-02-10 13:00:00.000000,6078,1,"005 Phillip Bridge Apt. 418, Kellybury, MD 92859",16696,1,Số tiền giao dịch lớn.,5
+975,2024-02-10 14:00:00.000000,7376,0,"2185 John Corners Apt. 917, East Katherinebury, MD 45316",19583,1,Số tiền giao dịch lớn.,1
+976,2024-02-10 15:00:00.000000,6421,1,"79325 Carl Wall, North Erik, OR 62636",10614,1,Số tiền giao dịch lớn.,5
+977,2024-02-10 16:00:00.000000,6409,1,"159 Moody Tunnel Apt. 240, Smallfort, PR 21294",14570,1,Số tiền giao dịch lớn.,10
+978,2024-02-10 17:00:00.000000,7913,1,"2733 Frederick Fall, Landryville, OK 51173",10270,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+979,2024-02-10 18:00:00.000000,3278,0,"679 Gary Fall Suite 427, Pricestad, IA 82536",12468,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+980,2024-02-10 19:00:00.000000,3769,0,"366 Nelson Way, Port Bradley, IL 48367",19582,1,Số tiền giao dịch lớn.,5
+981,2024-02-10 20:00:00.000000,2421,1,"85671 Benjamin Mountain, Pollardside, MP 73966",13607,0,,10
+982,2024-02-10 21:00:00.000000,2941,1,"51393 Steven Harbors Suite 219, Morrischester, WA 06432",13075,1,Số giao dịch trong 7 ngày quá nhiều.,15
+983,2024-02-10 22:00:00.000000,3806,0,"4677 Michael Lock, Evanshaven, TN 54798",10289,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,15
+984,2024-02-10 23:00:00.000000,4275,0,"21449 Juarez Isle Suite 001, East Alexander, FL 87726",18120,1,Số tiền giao dịch lớn.,5
+985,2024-02-11 00:00:00.000000,144,1,"58065 Amanda Village Suite 565, Fordton, PR 67216",16614,0,,1
+986,2024-02-11 01:00:00.000000,2724,0,"PSC 0671, Box 2299, APO AE 78512",13252,0,,5
+987,2024-02-11 02:00:00.000000,6948,0,"3634 Gonzalez Trail, Fitzpatrickfurt, NC 12291",17415,1,Số tiền giao dịch lớn.,10
+988,2024-02-11 03:00:00.000000,843,0,"233 Katelyn Junction, Port Gabriela, AK 13015",16771,1,Số giao dịch trong 7 ngày quá nhiều.,15
+989,2024-02-11 04:00:00.000000,2166,0,"3094 Martin Harbors, Port Danielhaven, NJ 65477",10278,0,,5
+990,2024-02-11 05:00:00.000000,5829,1,"85373 Wayne Common Suite 138, Brittanyland, DE 78587",10580,1,Số tiền giao dịch lớn.,1
+991,2024-02-11 06:00:00.000000,6216,0,"2114 Judith Passage, Nicolestad, AS 74946",14958,1,Số tiền giao dịch lớn.,5
+992,2024-02-11 07:00:00.000000,864,0,"32981 Griffin Greens, Torresberg, GU 59089",18445,1,Số giao dịch trong 7 ngày quá nhiều.,20
+993,2024-02-11 08:00:00.000000,395,1,"704 Ortiz Mews, Christinaland, IN 99194",14276,0,,1
+994,2024-02-11 09:00:00.000000,8604,1,"545 Hawkins Islands Suite 103, Brewermouth, MS 73635",17997,1,Số tiền giao dịch lớn.,10
+995,2024-02-11 10:00:00.000000,2493,0,"USNS Garcia, FPO AE 34855",14776,1,Số giao dịch trong 7 ngày quá nhiều.,15
+996,2024-02-11 11:00:00.000000,7833,0,"69180 Thompson Creek, Jacobshire, GA 32212",10824,1,Số tiền giao dịch lớn.,5
+997,2024-02-11 12:00:00.000000,1034,0,"58743 Jennifer Rue Apt. 306, Frankburgh, MA 69794",13832,0,,1
+998,2024-02-11 13:00:00.000000,7840,0,"49280 Mooney Mission, South Jasonland, MP 50478",18891,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+999,2024-02-11 14:00:00.000000,9881,1,"PSC 3127, Box 6678, APO AP 46385",15445,1,Số tiền giao dịch lớn.,1
+1000,2024-02-11 15:00:00.000000,877,1,"808 Gallegos Street, Stephaniechester, TN 64862",11380,1,Số giao dịch trong 7 ngày quá nhiều.,20
+1001,2024-11-11 06:21:11.763427,500,1,"PSC 0455, Box 2637, APO AP 34676",13543,1,Số giao dịch trong 7 ngày quá nhiều.,15
+1002,2024-11-11 06:30:53.690443,500,1,"629 Davis Ridge, Petersonmouth, AR 62453",13543,0,,4
+1003,2024-11-11 06:30:58.305891,5000,1,"01822 Norman Corner, Travisberg, NY 12050",13543,1,Số tiền giao dịch lớn.,4
+1004,2024-11-11 06:31:04.034117,5000,1,"3605 Adam Route Suite 221, Nguyenchester, TN 91411",13543,1,Số giao dịch trong 7 ngày quá nhiều. Số tiền giao dịch lớn.,20
+1005,2024-11-11 06:31:18.599614,300,1,"5473 Erin Harbors, Hamiltonshire, AK 43197",13543,1,Số giao dịch trong 7 ngày quá nhiều.,20
+1006,2024-11-11 06:31:23.463361,300,1,"625 Nathan View Suite 391, New Donna, WV 23372",13543,0,,2
+1007,2024-11-11 06:31:28.454645,3000,1,"1031 Hall Drives, Jonesmouth, WI 67641",13543,0,,2

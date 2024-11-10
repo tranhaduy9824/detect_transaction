@@ -1,10 +1,9 @@
 import pandas as pd
 import numpy as np
 from faker import Faker
-import sys
-
-# Cấu hình lại mã hóa đầu ra của Python thành UTF-8
-sys.stdout.reconfigure(encoding='utf-8')
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.preprocessing import LabelEncoder
+import joblib
 
 # Khởi tạo Faker để tạo địa chỉ giả
 fake = Faker()
@@ -48,7 +47,7 @@ for i in range(n_transactions):
 # Tạo DataFrame
 data = {
     'transaction_id': range(1, n_transactions + 1),
-    'time': pd.date_range(start='2024-01-01', periods=n_transactions, freq='H'),
+    'time': pd.date_range(start='2024-01-01', periods=n_transactions, freq='h'),
     'amount': amounts,
     'transaction_type': np.random.choice(['online', 'in-store'], size=n_transactions),
     'address': [fake.address().replace('\n', ', ') for _ in range(n_transactions)],
@@ -61,11 +60,16 @@ data = {
 # Tạo DataFrame
 df = pd.DataFrame(data)
 
-# Kiểm tra lại dữ liệu
-print(df.head())
+# Chuyển đổi cột transaction_type thành số
+label_encoder = LabelEncoder()
+df['transaction_type'] = label_encoder.fit_transform(df['transaction_type'])
 
-# Xuất dữ liệu vào tệp CSV
-df.to_csv('sample_transactions.csv', index=False)
+# Huấn luyện mô hình dự đoán
+X = df[['amount', 'customer_id', 'transaction_type', 'transaction_count_last_7_days']]
+y = df['is_fraud']
+rf_model = RandomForestClassifier()
+rf_model.fit(X, y)
 
-# In thông báo sau khi tạo CSV thành công
-print("Tệp CSV đã được tạo thành công với dữ liệu hợp lý!")
+# Lưu mô hình vào tệp
+joblib.dump(rf_model, 'rf_model.pkl')
+joblib.dump(label_encoder, 'label_encoder.pkl')
