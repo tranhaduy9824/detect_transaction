@@ -16,24 +16,24 @@ n_transactions = 1000  # Tăng số lượng giao dịch để có dữ liệu �
 # Tạo số tiền giao dịch và gán thêm yếu tố gian lận hợp lý
 amounts = np.random.randint(50, 10000, size=n_transactions)
 
-# Giả sử giao dịch gian lận thường có số tiền lớn hoặc số giao dịch cao trong 7 ngày qua
+# Giả sử giao dịch gian lận thường có số tiền lớn hoặc số giao dịch cao trong 1 ngày
 fraud_labels = []
 fraud_reasons = []
-transaction_count_last_7_days = np.random.choice([1, 5, 10, 15, 20], size=n_transactions)
+transaction_count_last_1_days = np.random.choice([1, 5, 10, 15, 20], size=n_transactions)
 
 # Tạo nhãn gian lận dựa trên các tiêu chí:
 for i in range(n_transactions):
     amount = amounts[i]
-    count_last_7_days = transaction_count_last_7_days[i]
+    count_last_1_days = transaction_count_last_1_days[i]
     
     # Mặc định là không gian lận và không có lý do gian lận
     is_fraud = 0
     fraud_reason = ""
 
-    # Kiểm tra số lượng giao dịch trong 7 ngày qua
-    if count_last_7_days > 10:
+    # Kiểm tra số lượng giao dịch trong 1 ngày qua
+    if count_last_1_days > 10:
         is_fraud = 1
-        fraud_reason = "Số giao dịch trong 7 ngày quá nhiều."
+        fraud_reason = "Số giao dịch trong 1 ngày quá nhiều."
 
     # Kiểm tra số tiền giao dịch
     if amount > 3000:
@@ -55,7 +55,7 @@ data = {
     'customer_id': np.random.randint(10000, 20000, size=n_transactions),
     'is_fraud': fraud_labels,
     'fraud_reason': fraud_reasons,
-    'transaction_count_last_7_days': transaction_count_last_7_days,
+    'transaction_count_last_1_days': transaction_count_last_1_days,
 }
 
 # Tạo DataFrame

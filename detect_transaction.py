@@ -22,16 +22,16 @@ st.title("Dự đoán giao dịch gian lận")
 amount = st.number_input("Nhập số tiền giao dịch:", min_value=0)
 customer_id = st.number_input("Nhập mã khách hàng:", min_value=0)
 transaction_type = st.selectbox("Chọn loại giao dịch:", ["online", "in-store"])
-transaction_count_last_7_days = st.number_input("Nhập số lượng giao dịch trong 7 ngày qua:", min_value=0)
+transaction_count_last_1_days = st.number_input("Nhập số lượng giao dịch trong 1 ngày:", min_value=0)
 
 if st.button("Dự đoán"):
     # Kiểm tra điều kiện gian lận
     is_fraud = 0
     fraud_reason = ""
 
-    if transaction_count_last_7_days > 10:
+    if transaction_count_last_1_days > 10:
         is_fraud = 1
-        fraud_reason = "Số giao dịch trong 7 ngày quá nhiều."
+        fraud_reason = "Số giao dịch trong 1 ngày quá nhiều."
 
     if amount > 3000:
         is_fraud = 1
@@ -49,7 +49,7 @@ if st.button("Dự đoán"):
         'customer_id': customer_id,
         'is_fraud': is_fraud,
         'fraud_reason': fraud_reason.strip(),
-        'transaction_count_last_7_days': transaction_count_last_7_days,
+        'transaction_count_last_1_days': transaction_count_last_1_days,
     }
 
     # Thêm giao dịch mới vào DataFrame
@@ -69,7 +69,7 @@ if st.button("Dự đoán"):
         'amount': amount,
         'customer_id': customer_id,
         'transaction_type': label_encoder.transform([transaction_type])[0],
-        'transaction_count_last_7_days': transaction_count_last_7_days,
+        'transaction_count_last_1_days': transaction_count_last_1_days,
     }])
     model_prediction = rf_model.predict(model_input.values)
     model_result = "Gian lận" if model_prediction[0] == 1 else "Không gian lận"
