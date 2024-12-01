@@ -73,14 +73,14 @@ for customer_id in range(10000, 20000):
         transaction_times[customer_id].append(current_time)
 
 # Số tiền lớn liên tiếp (ngưỡng bất thường)
-def is_large_transactions_consecutive(rolling_history, customer_id, threshold=5000, count=3):
+def is_large_transactions_consecutive(rolling_history, customer_id, threshold=3000, count=3):
     history = [amt for amt, _ in rolling_history.get(customer_id, [])]
     if len(history) < count:
         return False, ""
     
     # Kiểm tra 3 giao dịch liên tiếp vượt ngưỡng
     for i in range(len(history) - count + 1):
-        if all(amount > threshold for amount in history[i:i+count]):
+        if all(amount >= threshold for amount in history[i:i+count]):
             return True, f"3 giao dịch liên tiếp số tiền lớn hơn {threshold}."
     return False, ""
 
