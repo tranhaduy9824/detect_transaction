@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-from faker import Faker
 import streamlit as st
 import joblib
 from datetime import datetime
@@ -9,9 +8,6 @@ import json
 # Tải mô hình và label encoder từ tệp
 rf_model = joblib.load('rf_model.pkl')
 label_encoder = joblib.load('label_encoder.pkl')
-
-# Khởi tạo Faker để tạo địa chỉ giả
-fake = Faker()
 
 # Tải lại DataFrame từ tệp CSV
 df = pd.read_csv('sample_transactions.csv')
@@ -25,19 +21,15 @@ st.title("Dự đoán giao dịch gian lận")
 
 amount = st.number_input("Nhập số tiền giao dịch:", min_value=0)
 customer_id = st.number_input("Nhập mã khách hàng:", min_value=0)
-transaction_type = st.selectbox("Chọn loại giao dịch:", ["online", "in-store"])
 
 # Kiểm tra nếu khách hàng bị chặn
 if customer_id in blocked_customers:
     st.error(f"Mã khách hàng {customer_id} đã bị chặn do có giao dịch gian lận trước đó!")
 else:
-    # Tự động tính số lượng giao dịch trong 1 ngày
     current_time = pd.Timestamp.now()
-    one_day_ago = current_time - pd.Timedelta(days=1)
-
-    # Lọc giao dịch trong 1 ngày của khách hàng
-    customer_transactions = df[(df['customer_id'] == customer_id) & (df['time'] >= one_day_ago)]
-    transaction_count_last_1_days = len(customer_transactions)
+    
+    transaction_count_last_1_days = df.loc[df['customer_id'] == customer_id, 'transaction_count_last_1_days']
+    transaction_count_last_1_days = transaction_count_last_1_days.values[0] if len(transaction_count_last_1_days) > 0 else 0
 
     # Hiển thị số lượng giao dịch tự động tính toán
     st.write(f"Số lượng giao dịch trong 1 ngày: {transaction_count_last_1_days}")
@@ -53,6 +45,9 @@ else:
         current_transaction = [amount, current_time.strftime("%Y-%m-%d %H:%M:%S")]
         rolling_history.append(current_transaction)
 
+        # Debug: In rolling history ra để kiểm tra
+        st.write("Cập nhật Rolling History:", rolling_history)
+
         # Tính toán thống kê từ rolling_history
         def process_rolling_history(rolling_history):
             try:
@@ -67,7 +62,6 @@ else:
         model_input = pd.DataFrame([{
             'amount': float(amount),
             'customer_id': int(customer_id),
-            'transaction_type': label_encoder.transform([transaction_type])[0],
             'transaction_count_last_1_days': int(transaction_count_last_1_days),
             'rolling_history_mean': rolling_mean,
             'rolling_history_std': rolling_std
@@ -88,24 +82,23 @@ else:
         if customer_id in df['customer_id'].values:
             # Cập nhật dòng tương ứng
             df.loc[df['customer_id'] == customer_id, 'is_abnormal'] = model_prediction[0]
-            df.loc[df['customer_id'] == customer_id, 'fraud_reason'] = model_result
             df.loc[df['customer_id'] == customer_id, 'rolling_history'] = json.dumps(rolling_history)
+            df.loc[df['customer_id'] == customer_id, 'transaction_count_last_1_days'] = len(rolling_history)
+            df.loc[df['customer_id'] == customer_id, 'time'] = current_time
+            df.loc[df['customer_id'] == customer_id, 'amount'] = amount
         else:
             # Thêm dòng mới nếu không tồn tại
             new_transaction = {
                 'transaction_id': len(df) + 1,
                 'time': current_time,
                 'amount': amount,
-                'transaction_type': label_encoder.transform([transaction_type])[0],
-                'address': fake.address().replace('\n', ', '),
                 'customer_id': customer_id,
                 'is_abnormal': model_prediction[0],
-                'fraud_reason': model_result,
                 'transaction_count_last_1_days': transaction_count_last_1_days + 1,
                 'rolling_history': json.dumps(rolling_history)
             }
             df = pd.concat([df, pd.DataFrame([new_transaction])], ignore_index=True)
-
+            
         df.to_csv('sample_transactions.csv', index=False)
 
         # Hiển thị DataFrame cập nhật

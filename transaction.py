@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-from faker import Faker
 from collections import defaultdict
 import sys
 import json
@@ -10,9 +9,6 @@ from models import RandomForest
 
 # Cấu hình Python để in UTF-8
 sys.stdout.reconfigure(encoding='utf-8')
-
-# Khởi tạo Faker
-fake = Faker()
 
 # Đặt seed cho ngẫu nhiên để đảm bảo tái hiện kết quả
 np.random.seed(42)
@@ -66,9 +62,13 @@ transaction_count_last_1_days = []  # Danh sách chứa số giao dịch trong 1
 # Tạo dữ liệu cho khách hàng
 for customer_id in range(10000, 20000):
     count_last_1_days = np.random.choice([0, 4, 9, 14, 19])
+    
+    # Chọn ngày cố định là 1/12/2024
+    base_date = pd.Timestamp('2024-12-02')  # Tất cả giao dịch của khách hàng sẽ ở ngày này
+    
     for _ in range(count_last_1_days):
         amount = np.random.randint(50, 10000)
-        current_time = pd.Timestamp('2024-01-01') - pd.Timedelta(hours=np.random.randint(1, 24))
+        current_time = base_date + pd.Timedelta(hours=np.random.randint(1, 24))  # Các giao dịch đều trong ngày 01/12/2024
         rolling_transaction_history[customer_id].append((amount, current_time))
         transaction_times[customer_id].append(current_time)
 
@@ -111,7 +111,7 @@ def is_small_transactions_consecutive(rolling_history, customer_id, threshold=50
 # Thêm logic mới vào phần gán nhãn
 for i in range(n_transactions):
     customer_id = np.random.randint(10000, 20000)
-    current_time = pd.Timestamp('2024-01-01') + pd.Timedelta(hours=i)
+    current_time = pd.Timestamp('2024-12-02') + pd.Timedelta(hours=i)  # Cố định ngày 01/12/2024
     count_last_1_days = len(transaction_times[customer_id]) + 1
     transaction_count_last_1_days.append(count_last_1_days)
     amount = np.random.randint(50, 10000)
@@ -119,7 +119,19 @@ for i in range(n_transactions):
     is_abnormal = 0
     reason = ""
 
-    # Số tiền lớn liên tiếp
+    if count_last_1_days > 10:
+        is_abnormal = 1
+        if reason:
+            reason += " "
+        reason += "Số giao dịch trong 1 ngày quá nhiều."
+
+    if amount > 7000:
+        is_abnormal = 1
+        if reason:
+            reason += " "
+        reason += "Số tiền giao dịch lớn."
+
+    # Các kiểm tra khác (giống như trước)
     large_consecutive, large_consecutive_reason = is_large_transactions_consecutive(
         rolling_transaction_history, customer_id
     )
@@ -127,7 +139,6 @@ for i in range(n_transactions):
         is_abnormal = 1
         reason += large_consecutive_reason
 
-    # Giao dịch bất thường vào ban khuya
     night_abnormal, night_abnormal_reason = is_abnormal_at_night(
         rolling_transaction_history, customer_id, current_time
     )
@@ -137,7 +148,6 @@ for i in range(n_transactions):
             reason += " "
         reason += night_abnormal_reason
 
-    # Giao dịch liên tiếp dưới ngưỡng
     small_consecutive, small_consecutive_reason = is_small_transactions_consecutive(
         rolling_transaction_history, customer_id
     )
@@ -147,7 +157,6 @@ for i in range(n_transactions):
             reason += " "
         reason += small_consecutive_reason
 
-    # Các tiêu chí khác như trước
     abnormal, abnormal_reason = is_continuously_abnormal(rolling_transaction_history, customer_id, amount)
     if abnormal:
         is_abnormal = 1
@@ -164,19 +173,6 @@ for i in range(n_transactions):
             reason += " "
         reason += frequent_reason
 
-    if count_last_1_days > 10:
-        is_abnormal = 1
-        if reason:
-            reason += " "
-        reason += "Số giao dịch trong 1 ngày quá nhiều."
-
-    if amount > 7000:  # Số tiền giao dịch quá lớn
-        is_abnormal = 1
-        if reason:
-            reason += " "
-        reason += "Số tiền giao dịch lớn."
-
-    # Cập nhật lịch sử và sắp xếp theo thời gian
     rolling_transaction_history[customer_id].append((amount, current_time))
     transaction_times[customer_id].append(current_time)
     rolling_transaction_history[customer_id] = sorted(rolling_transaction_history[customer_id], key=lambda x: x[1])
@@ -185,21 +181,11 @@ for i in range(n_transactions):
     rolling_histories.append([(amt, t) for amt, t in rolling_transaction_history[customer_id]])
     transaction_counts.append(len(rolling_transaction_history[customer_id]))
 
-# Cân bằng dữ liệu (giảm nhãn bất thường nếu cần)
-if sum(labels) > n_transactions // 2:
-    idx_abnormal = [i for i, label in enumerate(labels) if label == 1]
-    to_remove = len(idx_abnormal) - n_transactions // 2
-    for idx in np.random.choice(idx_abnormal, to_remove, replace=False):
-        labels[idx] = 0
-        reasons[idx] = ""
-
 # Tạo DataFrame
 data = {
     'transaction_id': range(1, n_transactions + 1),
-    'time': pd.date_range(start='2024-01-01', periods=n_transactions, freq='H'),
+    'time': pd.date_range(start='2024-12-02', periods=n_transactions, freq='H'),
     'amount': amounts,
-    'transaction_type': np.random.choice(['online', 'in-store'], size=n_transactions),
-    'address': [fake.address().replace('\n', ', ') for _ in range(n_transactions)],
     'customer_id': np.random.randint(10000, 20000, size=n_transactions),
     'is_abnormal': labels,
     'reason': reasons,
