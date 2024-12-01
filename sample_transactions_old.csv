@@ -1,0 +1,1028 @@
+transaction_id,time,amount,transaction_type,address,customer_id,is_fraud,fraud_reason,transaction_count_last_1_days
+1,2024-01-01 00:00:00.000000,7320,online,"9176 Kelly Stream, Bradleyshire, ID 59169",16823,1,Số tiền giao dịch lớn.,10
+2,2024-01-01 01:00:00.000000,910,online,"9175 Robin Forks Apt. 316, Fisherstad, ID 64011",12105,1,Số giao dịch trong 1 ngày quá nhiều.,15
+3,2024-01-01 02:00:00.000000,5440,in-store,"1157 Pamela Row Suite 980, East Thomasmouth, IN 07560",13867,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+4,2024-01-01 03:00:00.000000,5241,online,"5294 Perez Lodge, South Christopherland, UT 39485",17193,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+5,2024-01-01 04:00:00.000000,5784,in-store,"16534 Wright Parkways Suite 853, Andradeview, NH 08813",14976,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+6,2024-01-01 05:00:00.000000,6315,online,"61944 Joanne Parkway, Danielside, AZ 89647",12113,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+7,2024-01-01 06:00:00.000000,516,in-store,"87979 Trujillo Drive Apt. 739, Nicholsonfort, OH 91025",15879,1,Số giao dịch trong 1 ngày quá nhiều.,20
+8,2024-01-01 07:00:00.000000,4476,online,"8687 Jason Hill, Caldwellstad, WI 91275",13970,1,Số tiền giao dịch lớn.,5
+9,2024-01-01 08:00:00.000000,5628,in-store,"441 Benson Squares Apt. 746, Lake Kimhaven, KY 53094",19259,1,Số tiền giao dịch lớn.,1
+10,2024-01-01 09:00:00.000000,8372,online,"548 Carroll Prairie, New Donald, OR 29066",17264,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+11,2024-01-01 10:00:00.000000,1735,online,"3409 Carolyn Skyway, Trevorview, MA 20571",11577,0,,5
+12,2024-01-01 11:00:00.000000,819,online,"80535 David Islands, East Jerry, NM 08870",19203,0,,1
+13,2024-01-01 12:00:00.000000,6999,in-store,"14764 Russell Park, Hopkinsburgh, WI 93379",12274,1,Số tiền giao dịch lớn.,10
+14,2024-01-01 13:00:00.000000,2483,online,"880 Miller Stravenue Suite 557, Sarafurt, MP 93858",14869,1,Số giao dịch trong 1 ngày quá nhiều.,20
+15,2024-01-01 14:00:00.000000,5361,in-store,"6061 Courtney Row Apt. 599, New Keithview, NY 54155",16744,1,Số tiền giao dịch lớn.,1
+16,2024-01-01 15:00:00.000000,5101,in-store,"5084 Shaw Land Apt. 284, Aprilburgh, MN 59454",12426,1,Số tiền giao dịch lớn.,10
+17,2024-01-01 16:00:00.000000,6470,online,"326 Patrick Orchard, Elizabethville, VI 96169",15546,1,Số tiền giao dịch lớn.,1
+18,2024-01-01 17:00:00.000000,1234,online,"334 Mary Garden, North Mathew, PA 39721",16852,1,Số giao dịch trong 1 ngày quá nhiều.,20
+19,2024-01-01 18:00:00.000000,4605,online,"Unit 4664 Box 3361, DPO AE 66294",12551,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+20,2024-01-01 19:00:00.000000,3435,in-store,"525 Huff Alley, South Sabrinaview, WI 86611",16411,1,Số tiền giao dịch lớn.,5
+21,2024-01-01 20:00:00.000000,6446,online,"36079 Erica Fork Apt. 722, Amychester, LA 73842",10007,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+22,2024-01-01 21:00:00.000000,8716,in-store,"911 Julie Unions Apt. 521, Kramerborough, MH 14644",18087,1,Số tiền giao dịch lớn.,1
+23,2024-01-01 22:00:00.000000,9324,in-store,"668 Ryan Passage, North Stanley, ME 31937",12555,1,Số tiền giao dịch lớn.,1
+24,2024-01-01 23:00:00.000000,2608,online,"8238 Russell Meadows, East William, SC 86633",10475,0,,10
+25,2024-01-02 00:00:00.000000,7899,online,"PSC 3331, Box 4581, APO AE 31756",15416,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+26,2024-01-02 01:00:00.000000,2097,online,"846 Michael Grove Apt. 399, Lanehaven, MO 80933",18676,0,,1
+27,2024-01-02 02:00:00.000000,2797,online,"74673 Kelly Junction, Port Jennifer, MN 28631",17239,1,Số giao dịch trong 1 ngày quá nhiều.,20
+28,2024-01-02 03:00:00.000000,9217,online,"9857 Miller Neck, Teresafurt, DE 29806",16710,1,Số tiền giao dịch lớn.,1
+29,2024-01-02 04:00:00.000000,239,online,"86310 Marshall Crossroad Suite 794, Mariamouth, OK 86760",15000,0,,5
+30,2024-01-02 05:00:00.000000,2784,in-store,"6914 Brent Knolls, Jeffreyberg, FM 83192",14654,1,Số giao dịch trong 1 ngày quá nhiều.,15
+31,2024-01-02 06:00:00.000000,3055,in-store,"86027 Hernandez Prairie, East Angela, WY 77604",18078,1,Số tiền giao dịch lớn.,1
+32,2024-01-02 07:00:00.000000,4708,in-store,"098 West Shore Suite 503, Escobarmouth, FL 67702",16063,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+33,2024-01-02 08:00:00.000000,1949,online,"44179 Christine Mews, New Donaldbury, VI 28896",12285,0,,5
+34,2024-01-02 09:00:00.000000,7784,in-store,"4435 Malone Manor Suite 429, Hopkinsport, RI 60103",15223,1,Số tiền giao dịch lớn.,1
+35,2024-01-02 10:00:00.000000,1317,in-store,"677 Brown Square, Jacksonmouth, AR 94931",16971,0,,10
+36,2024-01-02 11:00:00.000000,1578,in-store,"95408 Marshall Flat Apt. 577, Matthewburgh, SC 43912",13525,1,Số giao dịch trong 1 ngày quá nhiều.,15
+37,2024-01-02 12:00:00.000000,3606,in-store,"101 Stephanie Motorway Suite 321, East Seth, MH 98594",12822,1,Số tiền giao dịch lớn.,1
+38,2024-01-02 13:00:00.000000,3940,in-store,"5634 Munoz Walks Suite 258, South Austin, MP 33344",14943,1,Số tiền giao dịch lớn.,5
+39,2024-01-02 14:00:00.000000,8888,online,"7162 Moore Terrace, Bennettton, NC 23176",16530,1,Số tiền giao dịch lớn.,10
+40,2024-01-02 15:00:00.000000,5443,online,"PSC 8460, Box 9686, APO AP 58581",10258,1,Số tiền giao dịch lớn.,5
+41,2024-01-02 16:00:00.000000,8842,in-store,"9825 Kelli Lane Apt. 116, South Kevinside, AZ 40628",10282,1,Số tiền giao dịch lớn.,5
+42,2024-01-02 17:00:00.000000,8483,in-store,"5610 Armstrong Forks, Michaelstad, PW 57761",11898,1,Số tiền giao dịch lớn.,10
+43,2024-01-02 18:00:00.000000,7563,in-store,"306 Willis Rest, East Lisachester, UT 83048",14135,1,Số tiền giao dịch lớn.,5
+44,2024-01-02 19:00:00.000000,2662,online,"8482 Campbell Springs, Williamsmouth, FM 89338",16629,0,,10
+45,2024-01-02 20:00:00.000000,7091,online,"9667 Gill Glen Apt. 700, South Annebury, NV 51588",13200,1,Số tiền giao dịch lớn.,1
+46,2024-01-02 21:00:00.000000,9605,in-store,"46687 Gary Crest, East Kyle, NH 06315",15110,1,Số tiền giao dịch lớn.,10
+47,2024-01-02 22:00:00.000000,6285,online,"282 Callahan Village, South Jamieton, ME 42723",17167,1,Số tiền giao dịch lớn.,10
+48,2024-01-02 23:00:00.000000,5536,online,"USNV Rodgers, FPO AA 98404",10612,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+49,2024-01-03 00:00:00.000000,7149,in-store,"9792 Johns Trail Suite 166, Kellyfurt, VA 85594",10687,1,Số tiền giao dịch lớn.,10
+50,2024-01-03 01:00:00.000000,9720,online,"PSC 3758, Box 3704, APO AP 24462",13690,1,Số tiền giao dịch lớn.,10
+51,2024-01-03 02:00:00.000000,825,online,"29004 Cody Crescent, East Alishastad, AR 82905",18804,0,,1
+52,2024-01-03 03:00:00.000000,8276,in-store,"Unit 0921 Box 3626, DPO AP 37931",12307,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+53,2024-01-03 04:00:00.000000,3202,online,"PSC 1682, Box 0467, APO AE 22224",17133,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+54,2024-01-03 05:00:00.000000,1635,online,"PSC 7972, Box 9336, APO AP 85244",16509,0,,1
+55,2024-01-03 06:00:00.000000,3993,in-store,"1423 Alex Branch, North Aaron, VI 78545",19973,1,Số tiền giao dịch lớn.,1
+56,2024-01-03 07:00:00.000000,7605,online,"9249 Kelly Trail, Jonesside, SC 62440",15906,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+57,2024-01-03 08:00:00.000000,3123,online,"0789 Samuel Pass Suite 012, Johnsontown, PW 42177",12591,1,Số tiền giao dịch lớn.,10
+58,2024-01-03 09:00:00.000000,1071,in-store,"522 Timothy Way Apt. 217, Jacksonville, FL 36635",17183,0,,5
+59,2024-01-03 10:00:00.000000,3893,in-store,"35470 Martinez Harbor Apt. 302, South Susanhaven, OH 62333",15248,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+60,2024-01-03 11:00:00.000000,8039,in-store,"721 Gonzalez Turnpike Suite 001, New Jeremy, GA 69219",18766,1,Số tiền giao dịch lớn.,5
+61,2024-01-03 12:00:00.000000,9742,online,"853 Howell Fork Suite 371, New Jaime, KY 06291",15108,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+62,2024-01-03 13:00:00.000000,6923,in-store,"810 Erin Fields Apt. 205, Nathanton, FL 01868",13604,1,Số tiền giao dịch lớn.,1
+63,2024-01-03 14:00:00.000000,5725,online,"USNS Conrad, FPO AA 40577",10669,1,Số tiền giao dịch lớn.,1
+64,2024-01-03 15:00:00.000000,211,in-store,"3430 Arnold Haven Suite 372, South Jennifer, FM 45773",14364,1,Số giao dịch trong 1 ngày quá nhiều.,15
+65,2024-01-03 16:00:00.000000,4347,online,"77819 Amy Valleys, North Heather, ID 86979",17329,1,Số tiền giao dịch lớn.,1
+66,2024-01-03 17:00:00.000000,1045,in-store,"925 Aguilar Park, North Amy, MH 53905",11283,0,,1
+67,2024-01-03 18:00:00.000000,7679,in-store,"8116 Sandra Stream Apt. 980, Floresborough, IA 28076",10923,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+68,2024-01-03 19:00:00.000000,9517,in-store,"7285 Turner Landing Suite 878, Jensenfurt, NY 67424",11125,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+69,2024-01-03 20:00:00.000000,1066,in-store,"51376 Johnson Manors Apt. 088, Jeffreyton, MS 58575",11529,1,Số giao dịch trong 1 ngày quá nhiều.,20
+70,2024-01-03 21:00:00.000000,7919,online,"05168 Wright Plain, Lloydfort, PR 53447",19786,1,Số tiền giao dịch lớn.,1
+71,2024-01-03 22:00:00.000000,6489,in-store,"782 Middleton Villages Suite 032, Port Samanthaborough, PW 92549",18438,1,Số tiền giao dịch lớn.,1
+72,2024-01-03 23:00:00.000000,7942,in-store,"7244 Sharon Vista, West Elizabeth, VI 33398",13711,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+73,2024-01-04 00:00:00.000000,6913,online,"621 Laura Shoals Suite 866, West Jeffreyside, NJ 75365",18004,1,Số tiền giao dịch lớn.,10
+74,2024-01-04 01:00:00.000000,7966,in-store,"327 Anderson Junction Apt. 971, East Donald, OK 74628",19752,1,Số tiền giao dịch lớn.,10
+75,2024-01-04 02:00:00.000000,8579,online,"282 Reyes Highway Apt. 795, North Donald, SC 57387",16274,1,Số tiền giao dịch lớn.,10
+76,2024-01-04 03:00:00.000000,928,in-store,"2106 Douglas Land Apt. 793, Lake Mitchellland, NE 88219",13864,1,Số giao dịch trong 1 ngày quá nhiều.,20
+77,2024-01-04 04:00:00.000000,9318,in-store,"518 Jeanette Islands, Port Robert, MI 49291",17833,1,Số tiền giao dịch lớn.,1
+78,2024-01-04 05:00:00.000000,4937,in-store,"7735 Smith Squares, Deanborough, LA 50204",16788,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+79,2024-01-04 06:00:00.000000,4909,online,"719 Laura Junction Apt. 849, East Timothyburgh, SD 35281",10226,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+80,2024-01-04 07:00:00.000000,6381,in-store,"PSC 3734, Box 9501, APO AE 19415",10264,1,Số tiền giao dịch lớn.,10
+81,2024-01-04 08:00:00.000000,8621,in-store,"11329 Jennifer Islands, South Shelly, VI 54080",19587,1,Số tiền giao dịch lớn.,5
+82,2024-01-04 09:00:00.000000,8734,in-store,"12714 Valerie Forge, Port Larryton, AK 42604",10645,1,Số tiền giao dịch lớn.,1
+83,2024-01-04 10:00:00.000000,7258,online,"96624 Sarah Village Suite 470, Vincentfort, AL 05491",17544,1,Số tiền giao dịch lớn.,10
+84,2024-01-04 11:00:00.000000,5326,online,"71916 Gallagher Meadows, Arnoldhaven, CO 92947",15569,1,Số tiền giao dịch lớn.,5
+85,2024-01-04 12:00:00.000000,2112,in-store,"23752 Fernandez Wall Suite 074, Port Michael, AL 20139",12990,0,,5
+86,2024-01-04 13:00:00.000000,114,online,"4102 Stephen Inlet Apt. 305, North John, FM 57808",12504,1,Số giao dịch trong 1 ngày quá nhiều.,15
+87,2024-01-04 14:00:00.000000,8056,in-store,"9393 Mercado Islands, Stevensport, WY 09888",19346,1,Số tiền giao dịch lớn.,1
+88,2024-01-04 15:00:00.000000,2618,in-store,"25988 Christopher Greens Suite 321, Weaverborough, NM 13982",10587,0,,5
+89,2024-01-04 16:00:00.000000,5513,in-store,"772 Velasquez Coves Apt. 049, Lake Staceyburgh, VI 33786",19177,1,Số tiền giao dịch lớn.,10
+90,2024-01-04 17:00:00.000000,2077,in-store,"USCGC Branch, FPO AA 03992",14079,1,Số giao dịch trong 1 ngày quá nhiều.,15
+91,2024-01-04 18:00:00.000000,2745,in-store,"1650 William Gardens, North Jane, WI 98807",13348,0,,1
+92,2024-01-04 19:00:00.000000,9737,in-store,"185 Roth Highway, Lake Adam, VA 31653",16299,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+93,2024-01-04 20:00:00.000000,5308,in-store,"USS Cobb, FPO AP 31425",13831,1,Số tiền giao dịch lớn.,10
+94,2024-01-04 21:00:00.000000,5668,online,"74190 Morris Ford Apt. 271, South William, ME 36563",19433,1,Số tiền giao dịch lớn.,5
+95,2024-01-04 22:00:00.000000,6786,online,"31185 Raymond Throughway, Port Glenhaven, MI 09698",18381,1,Số tiền giao dịch lớn.,5
+96,2024-01-04 23:00:00.000000,441,online,"51322 John Port Apt. 253, Port Patrickton, IL 08320",19172,0,,10
+97,2024-01-05 00:00:00.000000,5942,online,"821 Thomas Crossing, South Chelsey, AK 79404",19890,1,Số tiền giao dịch lớn.,5
+98,2024-01-05 01:00:00.000000,3611,online,"643 Santiago Drive Apt. 350, Port Philip, NM 68621",11715,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+99,2024-01-05 02:00:00.000000,6234,online,"180 Paul Unions, New Lorraineshire, MN 72827",16450,1,Số tiền giao dịch lớn.,1
+100,2024-01-05 03:00:00.000000,3149,online,"58702 Sanders Junctions Apt. 769, Biancashire, DE 60926",15433,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+101,2024-01-05 04:00:00.000000,6328,in-store,"74843 Hamilton Brook, West Larryview, OR 55033",11098,1,Số tiền giao dịch lớn.,5
+102,2024-01-05 05:00:00.000000,8442,in-store,"8767 Williams Forge, Tonymouth, NV 39382",17096,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+103,2024-01-05 06:00:00.000000,3154,in-store,"28410 Michael Falls Apt. 549, North Danielmouth, NY 22699",12326,1,Số tiền giao dịch lớn.,1
+104,2024-01-05 07:00:00.000000,7265,in-store,"USS Miller, FPO AA 79389",19087,1,Số tiền giao dịch lớn.,1
+105,2024-01-05 08:00:00.000000,2504,online,"576 Gutierrez Road Apt. 223, New Michael, MP 24846",16416,0,,10
+106,2024-01-05 09:00:00.000000,9046,online,"11364 Bond Ports, Richardsonbury, VI 46499",16980,1,Số tiền giao dịch lớn.,10
+107,2024-01-05 10:00:00.000000,2781,in-store,"9826 Susan Wells, Port Diana, FM 73379",16763,1,Số giao dịch trong 1 ngày quá nhiều.,20
+108,2024-01-05 11:00:00.000000,8204,in-store,"4465 Taylor Stravenue Suite 510, Myersside, AL 50640",11674,1,Số tiền giao dịch lớn.,1
+109,2024-01-05 12:00:00.000000,9812,online,"7679 William Rapids Suite 872, North Henrychester, ME 07741",17950,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+110,2024-01-05 13:00:00.000000,5106,in-store,"79533 Brian Cliff, Aaronview, WV 11663",19122,1,Số tiền giao dịch lớn.,10
+111,2024-01-05 14:00:00.000000,8160,in-store,"7949 Emily Manor Apt. 631, Janetshire, WA 70613",18915,1,Số tiền giao dịch lớn.,10
+112,2024-01-05 15:00:00.000000,3890,in-store,"51084 Joseph Lock Suite 472, North Zachary, DC 56074",16049,1,Số tiền giao dịch lớn.,1
+113,2024-01-05 16:00:00.000000,1078,in-store,"90590 Meyer Ford Apt. 563, Lake Patriciamouth, OR 01440",11089,1,Số giao dịch trong 1 ngày quá nhiều.,15
+114,2024-01-05 17:00:00.000000,7435,online,"USNS Rowe, FPO AE 26772",14578,1,Số tiền giao dịch lớn.,5
+115,2024-01-05 18:00:00.000000,552,in-store,"149 Moody Shore Apt. 211, East Danielton, SC 34650",19127,0,,10
+116,2024-01-05 19:00:00.000000,6960,in-store,"509 Wagner Extensions Apt. 130, Lake Gary, KS 80563",10155,1,Số tiền giao dịch lớn.,10
+117,2024-01-05 20:00:00.000000,9112,online,"75800 Mckinney Manor, South Reginaport, DE 36223",19262,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+118,2024-01-05 21:00:00.000000,6988,online,"948 Delgado Villages Apt. 173, Michelleport, PR 64952",11958,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+119,2024-01-05 22:00:00.000000,4538,in-store,"4998 Vang Islands, Port Ryanton, LA 84790",16344,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+120,2024-01-05 23:00:00.000000,256,online,"325 Chen Plain, North Angelamouth, MD 76523",15779,1,Số giao dịch trong 1 ngày quá nhiều.,20
+121,2024-01-06 00:00:00.000000,5184,in-store,"41081 Martin Square, South Austinville, NJ 02732",16144,1,Số tiền giao dịch lớn.,5
+122,2024-01-06 01:00:00.000000,6027,in-store,"286 Jessica Corner Apt. 779, Michaelshire, NY 48098",15063,1,Số tiền giao dịch lớn.,5
+123,2024-01-06 02:00:00.000000,7771,online,"310 Roger Extension Suite 418, Thompsonfort, FL 07870",13830,1,Số tiền giao dịch lớn.,1
+124,2024-01-06 03:00:00.000000,7085,in-store,"PSC 1411, Box 4777, APO AA 41517",19046,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+125,2024-01-06 04:00:00.000000,1534,in-store,"8651 Carter Points Suite 890, Joshuaview, TX 59520",18831,0,,10
+126,2024-01-06 05:00:00.000000,7908,in-store,"639 Paul Loop Apt. 568, South Matthew, CT 31467",19794,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+127,2024-01-06 06:00:00.000000,913,in-store,"41635 Gomez Roads Suite 379, Christinaview, NJ 46577",16659,0,,10
+128,2024-01-06 07:00:00.000000,2840,online,"08801 Frazier Plains Suite 499, South Jacobtown, MO 58768",10441,1,Số giao dịch trong 1 ngày quá nhiều.,15
+129,2024-01-06 08:00:00.000000,7458,online,"69209 Osborne Street Apt. 553, Obrienberg, KS 03299",16040,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+130,2024-01-06 09:00:00.000000,8805,in-store,"PSC 1366, Box 2203, APO AE 57124",15925,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+131,2024-01-06 10:00:00.000000,5166,online,"0963 Melton Course, Fitzgeraldborough, NE 67002",17358,1,Số tiền giao dịch lớn.,5
+132,2024-01-06 11:00:00.000000,6069,in-store,"PSC 6845, Box 5801, APO AP 92972",14628,1,Số tiền giao dịch lớn.,5
+133,2024-01-06 12:00:00.000000,1807,in-store,"1602 Allen Underpass, Royfurt, RI 22114",16370,0,,1
+134,2024-01-06 13:00:00.000000,7624,in-store,"944 John Throughway Apt. 432, New Emilyland, MO 71899",19528,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+135,2024-01-06 14:00:00.000000,6424,in-store,"9961 Fernandez Center, West Jennifer, TX 35081",10948,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+136,2024-01-06 15:00:00.000000,6942,in-store,"86472 Brewer Springs Suite 629, Port Toddstad, MP 99617",18179,1,Số tiền giao dịch lớn.,10
+137,2024-01-06 16:00:00.000000,1728,online,"USS Johnson, FPO AP 87312",16115,0,,5
+138,2024-01-06 17:00:00.000000,3292,in-store,"66365 Christine Springs, Jennaborough, OH 72481",10459,1,Số tiền giao dịch lớn.,5
+139,2024-01-06 18:00:00.000000,4686,online,"747 Janet Bridge, Port Derrick, KY 98102",17568,1,Số tiền giao dịch lớn.,10
+140,2024-01-06 19:00:00.000000,1109,online,"148 Victor Course Apt. 501, Lindashire, ID 12649",14646,1,Số giao dịch trong 1 ngày quá nhiều.,15
+141,2024-01-06 20:00:00.000000,6718,in-store,"PSC 6057, Box 7115, APO AP 24421",10392,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+142,2024-01-06 21:00:00.000000,9964,in-store,"5764 John Forge Apt. 706, South Justintown, ME 99769",11787,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+143,2024-01-06 22:00:00.000000,3207,in-store,"092 Thompson Grove, Miguelview, LA 90677",17374,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+144,2024-01-06 23:00:00.000000,5965,in-store,"3594 Taylor Trail, Martinezville, TX 19000",11138,1,Số tiền giao dịch lớn.,1
+145,2024-01-07 00:00:00.000000,9839,in-store,"97695 Tina Crest Apt. 334, Lake Lisahaven, MS 46342",14741,1,Số tiền giao dịch lớn.,5
+146,2024-01-07 01:00:00.000000,2743,online,"59927 Sullivan Mills Suite 954, Brownburgh, CA 67935",17418,1,Số giao dịch trong 1 ngày quá nhiều.,20
+147,2024-01-07 02:00:00.000000,3677,in-store,"7705 Jones Mews Suite 151, South Cathy, PW 95609",16362,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+148,2024-01-07 03:00:00.000000,9605,in-store,"411 Susan Ramp, North Robert, AZ 53793",12454,1,Số tiền giao dịch lớn.,10
+149,2024-01-07 04:00:00.000000,5500,online,"452 Cory Views, North Jonathan, PR 02340",19658,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+150,2024-01-07 05:00:00.000000,1713,online,"6300 Rodriguez Square Suite 720, Jenniferside, AL 10430",13674,0,,5
+151,2024-01-07 06:00:00.000000,9771,in-store,"644 Maureen Mountains, Morenohaven, NJ 50362",11377,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+152,2024-01-07 07:00:00.000000,5642,online,"0004 James Point Suite 169, East Samuel, NY 18321",16701,1,Số tiền giao dịch lớn.,1
+153,2024-01-07 08:00:00.000000,7442,in-store,"35729 Brown Ramp, Taylorport, NH 09543",12597,1,Số tiền giao dịch lớn.,5
+154,2024-01-07 09:00:00.000000,1356,online,"0525 David Skyway, Stewartchester, PW 94127",10141,0,,10
+155,2024-01-07 10:00:00.000000,6826,online,"657 Jeanette Lock, Bellmouth, WY 26614",12659,1,Số tiền giao dịch lớn.,1
+156,2024-01-07 11:00:00.000000,5914,in-store,"557 Hutchinson Oval, Lake Brittany, HI 89596",14596,1,Số tiền giao dịch lớn.,5
+157,2024-01-07 12:00:00.000000,9524,online,"Unit 2493 Box 9614, DPO AE 77609",19031,1,Số tiền giao dịch lớn.,10
+158,2024-01-07 13:00:00.000000,7576,online,"PSC 5316, Box 9096, APO AP 40039",15661,1,Số tiền giao dịch lớn.,1
+159,2024-01-07 14:00:00.000000,8951,online,"57555 Warner Meadow Apt. 383, Emmaport, FL 25200",16142,1,Số tiền giao dịch lớn.,1
+160,2024-01-07 15:00:00.000000,5625,online,"77717 Fred Inlet, South Erinshire, MP 28638",15626,1,Số tiền giao dịch lớn.,5
+161,2024-01-07 16:00:00.000000,5580,online,"0994 Arthur Corners, Port Leslie, CA 94326",18787,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+162,2024-01-07 17:00:00.000000,4463,online,"Unit 3387 Box 1074, DPO AE 96923",18472,1,Số tiền giao dịch lớn.,1
+163,2024-01-07 18:00:00.000000,3798,in-store,"69636 Tyler Courts Apt. 954, Tracyfort, TX 59575",10423,1,Số tiền giao dịch lớn.,1
+164,2024-01-07 19:00:00.000000,713,in-store,"777 Trevor Trafficway, West Heather, DE 72550",16999,0,,10
+165,2024-01-07 20:00:00.000000,2048,online,"614 Christopher Cliff Apt. 956, Danielside, OH 27503",14249,1,Số giao dịch trong 1 ngày quá nhiều.,15
+166,2024-01-07 21:00:00.000000,8044,in-store,"577 Smith Summit Suite 245, Lake Jacobmouth, OK 13033",11750,1,Số tiền giao dịch lớn.,5
+167,2024-01-07 22:00:00.000000,1545,in-store,"963 Thompson Ranch, Shannonfurt, NC 42280",14757,0,,5
+168,2024-01-07 23:00:00.000000,3354,in-store,"4245 Rose Ridge Apt. 167, Jessicabury, AR 48496",11967,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+169,2024-01-08 00:00:00.000000,3813,online,"33531 Knight Corner Suite 616, New Danielfort, HI 98071",14088,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+170,2024-01-08 01:00:00.000000,5282,in-store,"7569 Thomas Throughway, East Rickey, SD 04972",14178,1,Số tiền giao dịch lớn.,5
+171,2024-01-08 02:00:00.000000,1903,online,"PSC 2999, Box 0880, APO AP 63264",17789,1,Số giao dịch trong 1 ngày quá nhiều.,20
+172,2024-01-08 03:00:00.000000,6635,in-store,"87319 Garcia Haven, Port Brenda, MH 88067",12946,1,Số tiền giao dịch lớn.,10
+173,2024-01-08 04:00:00.000000,1341,online,"724 Amy Spur Apt. 415, New Matthew, PR 41860",19641,0,,5
+174,2024-01-08 05:00:00.000000,3631,online,"338 Jeffrey Divide, North Tammy, NY 08778",15394,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+175,2024-01-08 06:00:00.000000,7604,in-store,"Unit 8044 Box 4163, DPO AA 22194",17880,1,Số tiền giao dịch lớn.,5
+176,2024-01-08 07:00:00.000000,7330,in-store,"7726 Lane View Apt. 731, Watsonbury, OK 48338",15075,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+177,2024-01-08 08:00:00.000000,1686,online,"3757 Jeffrey Ville, Jeremyside, PW 79371",17230,0,,1
+178,2024-01-08 09:00:00.000000,3746,in-store,"309 Anderson Parkway Suite 893, North Michelle, FL 04526",11531,1,Số tiền giao dịch lớn.,5
+179,2024-01-08 10:00:00.000000,748,in-store,"USNS Aguirre, FPO AE 06413",12990,0,,1
+180,2024-01-08 11:00:00.000000,4787,in-store,"80456 Jeffrey Parkways Apt. 060, Freemanhaven, KY 77365",17155,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+181,2024-01-08 12:00:00.000000,904,online,"534 Collier Groves Apt. 452, Port Ericatown, GA 97950",14493,0,,1
+182,2024-01-08 13:00:00.000000,8214,online,"0017 Jason Locks, South Cathy, NC 70662",19335,1,Số tiền giao dịch lớn.,5
+183,2024-01-08 14:00:00.000000,5905,in-store,"918 Morris Pike, Jonesland, NY 55755",10933,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+184,2024-01-08 15:00:00.000000,7442,in-store,"3802 Diaz Plaza, East Lance, ND 99727",11460,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+185,2024-01-08 16:00:00.000000,6578,in-store,"78888 Vargas Unions Suite 216, East Mariahfort, TN 12745",12723,1,Số tiền giao dịch lớn.,5
+186,2024-01-08 17:00:00.000000,5299,online,"6976 Danielle Orchard Apt. 574, Port Tylerberg, WA 67022",10285,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+187,2024-01-08 18:00:00.000000,5222,online,"338 Breanna Haven, West Gregory, PW 35807",10264,1,Số tiền giao dịch lớn.,10
+188,2024-01-08 19:00:00.000000,1757,in-store,"USNS Green, FPO AP 31230",16816,0,,1
+189,2024-01-08 20:00:00.000000,5841,in-store,"PSC 1975, Box 0865, APO AP 43103",11762,1,Số tiền giao dịch lớn.,10
+190,2024-01-08 21:00:00.000000,9975,in-store,"8592 Burgess Row, Sancheztown, PA 84334",10040,1,Số tiền giao dịch lớn.,5
+191,2024-01-08 22:00:00.000000,5585,in-store,"33008 Tyler Cliffs Suite 073, South Josephmouth, AR 65274",15827,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+192,2024-01-08 23:00:00.000000,4981,in-store,"925 Miller Divide, West Troyside, MO 98982",18259,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+193,2024-01-09 00:00:00.000000,3560,in-store,"PSC 6632, Box 4240, APO AA 55861",10987,1,Số tiền giao dịch lớn.,1
+194,2024-01-09 01:00:00.000000,252,online,"14072 Allison Pine Suite 750, West Briana, MS 95620",17804,1,Số giao dịch trong 1 ngày quá nhiều.,20
+195,2024-01-09 02:00:00.000000,4268,in-store,"180 Robert Trafficway, Mitchellburgh, NM 22277",17789,1,Số tiền giao dịch lớn.,5
+196,2024-01-09 03:00:00.000000,9008,online,"USS Jackson, FPO AA 15643",15717,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+197,2024-01-09 04:00:00.000000,4439,in-store,"213 Arias Greens, Jasonview, MA 68476",13198,1,Số tiền giao dịch lớn.,1
+198,2024-01-09 05:00:00.000000,2377,in-store,"5367 White Junctions Suite 107, Yorkport, MI 36488",15374,0,,5
+199,2024-01-09 06:00:00.000000,8054,online,"702 Daniel Burgs Apt. 895, Lake Cassandra, DE 09767",14790,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+200,2024-01-09 07:00:00.000000,2981,online,"57395 Rivera Oval Apt. 824, West Molly, SD 38648",17183,1,Số giao dịch trong 1 ngày quá nhiều.,15
+201,2024-01-09 08:00:00.000000,7827,online,"0999 Megan Vista, Howardtown, UT 99204",12524,1,Số tiền giao dịch lớn.,5
+202,2024-01-09 09:00:00.000000,247,online,"USNV Rose, FPO AP 73680",19277,0,,5
+203,2024-01-09 10:00:00.000000,7175,in-store,"6903 Coleman Island, Kingville, KY 62641",12479,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+204,2024-01-09 11:00:00.000000,1980,online,"732 Jared Alley Suite 105, South Johnburgh, GA 81908",19885,0,,10
+205,2024-01-09 12:00:00.000000,6337,in-store,"00261 Jackson Orchard, South Thomaschester, OK 80121",15154,1,Số tiền giao dịch lớn.,1
+206,2024-01-09 13:00:00.000000,8850,online,"758 Krista Branch Suite 062, Port Keithchester, TN 42411",10778,1,Số tiền giao dịch lớn.,10
+207,2024-01-09 14:00:00.000000,9389,in-store,"423 Vaughan Plain, Dicksonburgh, MS 73373",19777,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+208,2024-01-09 15:00:00.000000,4332,in-store,"275 Warren Haven, Evanston, AK 05702",11492,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+209,2024-01-09 16:00:00.000000,2561,in-store,"773 Leslie Viaduct Suite 851, Lake Markstad, NV 62798",10660,0,,10
+210,2024-01-09 17:00:00.000000,709,in-store,"77127 Mcmahon Flats Suite 856, South John, IN 60214",11348,0,,5
+211,2024-01-09 18:00:00.000000,2861,in-store,"9120 Jensen Spurs, Danielleville, KY 16623",19491,1,Số giao dịch trong 1 ngày quá nhiều.,20
+212,2024-01-09 19:00:00.000000,7148,in-store,"Unit 7796 Box 7498, DPO AE 32963",17851,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+213,2024-01-09 20:00:00.000000,6596,online,"524 Joseph Parks Apt. 740, Jenniferborough, ME 33589",17156,1,Số tiền giao dịch lớn.,10
+214,2024-01-09 21:00:00.000000,9611,in-store,"952 Barbara Estates Apt. 236, Lake Stevenside, MH 41662",12044,1,Số tiền giao dịch lớn.,10
+215,2024-01-09 22:00:00.000000,2036,online,"Unit 2492 Box 0696, DPO AA 27162",17368,1,Số giao dịch trong 1 ngày quá nhiều.,15
+216,2024-01-09 23:00:00.000000,8388,online,"8281 Jonathon Branch Apt. 840, Port Jenniferstad, FM 43861",13516,1,Số tiền giao dịch lớn.,1
+217,2024-01-10 00:00:00.000000,2961,in-store,"744 Sanchez Tunnel, West Ashleyfurt, AS 47441",19250,0,,10
+218,2024-01-10 01:00:00.000000,1784,online,"730 Sherman Ferry Suite 616, New Lisa, NE 35977",19168,0,,10
+219,2024-01-10 02:00:00.000000,1893,in-store,"6935 Tyrone Viaduct, Herreraville, PW 83510",14577,0,,5
+220,2024-01-10 03:00:00.000000,8730,online,"PSC 5829, Box 0242, APO AE 70185",10727,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+221,2024-01-10 04:00:00.000000,3026,in-store,"1788 Carl Hills, Nunezmouth, ME 85948",17468,1,Số tiền giao dịch lớn.,1
+222,2024-01-10 05:00:00.000000,2009,online,"5753 Matthew Shore Apt. 160, West Michelle, SD 57061",10342,0,,5
+223,2024-01-10 06:00:00.000000,5809,in-store,"083 Cooper Valleys, Castilloburgh, WV 55552",11447,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+224,2024-01-10 07:00:00.000000,6744,in-store,"4676 Davis Row, Jacobsport, MH 42122",16581,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+225,2024-01-10 08:00:00.000000,2435,in-store,"367 Alexander Corner Apt. 295, Stephenmouth, IL 43095",16317,0,,10
+226,2024-01-10 09:00:00.000000,4786,in-store,"18323 Johnson Ferry, Ashleyfort, SC 67652",10526,1,Số tiền giao dịch lớn.,10
+227,2024-01-10 10:00:00.000000,1852,online,"3483 Kelli Hill Suite 813, Bethanyville, VA 74355",16748,1,Số giao dịch trong 1 ngày quá nhiều.,15
+228,2024-01-10 11:00:00.000000,8205,in-store,"119 West Villages, Port Zacharyhaven, RI 26641",10405,1,Số tiền giao dịch lớn.,10
+229,2024-01-10 12:00:00.000000,8170,online,"9960 Turner Wall, Gonzalezville, VI 93646",17986,1,Số tiền giao dịch lớn.,1
+230,2024-01-10 13:00:00.000000,6666,online,"6149 Reilly Mountain Apt. 872, East Joe, MN 74549",19765,1,Số tiền giao dịch lớn.,10
+231,2024-01-10 14:00:00.000000,5584,online,"3678 Bennett Estate Suite 143, Port Edwin, GA 84117",13740,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+232,2024-01-10 15:00:00.000000,4111,in-store,"22303 John Dam Apt. 980, New Elizabeth, IA 79037",11846,1,Số tiền giao dịch lớn.,10
+233,2024-01-10 16:00:00.000000,312,online,"103 Johnson Hills Apt. 611, Port Steven, MO 68633",11478,0,,5
+234,2024-01-10 17:00:00.000000,6337,online,"49970 Javier Islands, West Joelchester, ME 48999",10771,1,Số tiền giao dịch lớn.,1
+235,2024-01-10 18:00:00.000000,8865,online,"46113 Cruz Parkways, South Davidland, AR 81291",15525,1,Số tiền giao dịch lớn.,5
+236,2024-01-10 19:00:00.000000,9258,in-store,"213 William Brooks Apt. 066, North Annefurt, VI 44556",18770,1,Số tiền giao dịch lớn.,5
+237,2024-01-10 20:00:00.000000,2099,in-store,"USCGC Hendricks, FPO AA 74766",10193,1,Số giao dịch trong 1 ngày quá nhiều.,20
+238,2024-01-10 21:00:00.000000,5473,online,"49489 Jones Villages, Hughesfort, MD 84708",12007,1,Số tiền giao dịch lớn.,1
+239,2024-01-10 22:00:00.000000,4598,in-store,"19103 Nicholas Coves, Port Michael, NY 16376",11185,1,Số tiền giao dịch lớn.,1
+240,2024-01-10 23:00:00.000000,3158,in-store,"Unit 0718 Box 2918, DPO AE 35510",12394,1,Số tiền giao dịch lớn.,1
+241,2024-01-11 00:00:00.000000,7208,online,"71590 David Falls Suite 430, West Markburgh, PW 41002",19984,1,Số tiền giao dịch lớn.,1
+242,2024-01-11 01:00:00.000000,7450,online,"19407 Scott Avenue Suite 026, Wagnerport, GU 51135",19302,1,Số tiền giao dịch lớn.,1
+243,2024-01-11 02:00:00.000000,3220,in-store,"837 Russell Alley Suite 542, East Jennifer, ME 60346",14005,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+244,2024-01-11 03:00:00.000000,9924,online,"122 Richard Plain, East Dakota, WY 31251",17429,1,Số tiền giao dịch lớn.,10
+245,2024-01-11 04:00:00.000000,2305,in-store,"5501 Vanessa Villages, Lake Heather, CO 58628",12261,0,,5
+246,2024-01-11 05:00:00.000000,1204,in-store,"58987 James Burg Apt. 729, Odonnellfort, WA 18108",13736,0,,1
+247,2024-01-11 06:00:00.000000,4549,in-store,"USNS Murphy, FPO AE 78049",16716,1,Số tiền giao dịch lớn.,10
+248,2024-01-11 07:00:00.000000,6345,in-store,"753 James Cliff, Jensenfort, HI 39339",14875,1,Số tiền giao dịch lớn.,10
+249,2024-01-11 08:00:00.000000,6247,in-store,"USNS Weiss, FPO AE 95698",18921,1,Số tiền giao dịch lớn.,5
+250,2024-01-11 09:00:00.000000,9938,in-store,"984 Jones Ville, Nicolemouth, PA 92493",14378,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+251,2024-01-11 10:00:00.000000,1698,online,"8572 David Cove, Jonathanberg, PW 78675",17815,1,Số giao dịch trong 1 ngày quá nhiều.,15
+252,2024-01-11 11:00:00.000000,5589,online,"257 Rose Common Suite 240, Williamschester, ME 02075",13451,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+253,2024-01-11 12:00:00.000000,9687,in-store,"029 Jeffrey Fork Suite 033, Kaylaview, MA 96271",17616,1,Số tiền giao dịch lớn.,10
+254,2024-01-11 13:00:00.000000,4249,in-store,"083 William Ford, Cindyberg, ND 76845",19836,1,Số tiền giao dịch lớn.,5
+255,2024-01-11 14:00:00.000000,8495,in-store,"6016 Cody Course Apt. 330, West Charlotteton, VA 13812",12800,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+256,2024-01-11 15:00:00.000000,2607,online,"957 Newman Lodge Suite 429, Jennifershire, UT 47061",18333,0,,10
+257,2024-01-11 16:00:00.000000,5642,in-store,"35540 Myers Hollow, East Martin, GU 85799",15410,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+258,2024-01-11 17:00:00.000000,148,online,"4812 Burns Inlet Apt. 824, New Matthewfort, NV 44658",11455,1,Số giao dịch trong 1 ngày quá nhiều.,15
+259,2024-01-11 18:00:00.000000,2250,in-store,"3016 Stewart Roads Apt. 486, Lake Juliemouth, NY 35968",16892,0,,10
+260,2024-01-11 19:00:00.000000,3011,in-store,"98967 Sheila Field, Brownview, MD 45981",15808,1,Số tiền giao dịch lớn.,10
+261,2024-01-11 20:00:00.000000,5023,online,"788 Mcdaniel Island, West Pamelaborough, WI 75728",16796,1,Số tiền giao dịch lớn.,1
+262,2024-01-11 21:00:00.000000,4483,online,"0715 Michael Row, Vernonmouth, CA 06905",14796,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+263,2024-01-11 22:00:00.000000,2919,in-store,"2649 David Mill, Bairdmouth, AL 34192",15093,0,,1
+264,2024-01-11 23:00:00.000000,1006,in-store,"72254 Ronnie Centers Suite 174, Kennethview, OR 50348",11325,0,,5
+265,2024-01-12 00:00:00.000000,8402,in-store,"77024 Kathleen Parkway Apt. 489, Clarkstad, DC 41985",14976,1,Số tiền giao dịch lớn.,1
+266,2024-01-12 01:00:00.000000,5749,online,"132 Lopez Ports Suite 947, North Brandiland, AZ 17603",19405,1,Số tiền giao dịch lớn.,1
+267,2024-01-12 02:00:00.000000,6994,online,"2941 Rose Pines, Brianborough, DC 55109",11159,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+268,2024-01-12 03:00:00.000000,4543,online,"1635 Carter Crescent, West Shellyport, WY 24337",14650,1,Số tiền giao dịch lớn.,10
+269,2024-01-12 04:00:00.000000,9542,online,"3304 Alexander Loaf Apt. 915, Johnsonmouth, LA 72069",14987,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+270,2024-01-12 05:00:00.000000,4961,online,"356 Lewis Squares Apt. 270, Williamstown, NY 58418",14697,1,Số tiền giao dịch lớn.,1
+271,2024-01-12 06:00:00.000000,4037,online,"Unit 8724 Box 4900, DPO AP 59573",10340,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+272,2024-01-12 07:00:00.000000,9769,in-store,"0046 Diana View, Jamestown, PA 13741",13828,1,Số tiền giao dịch lớn.,1
+273,2024-01-12 08:00:00.000000,6065,in-store,"1052 Jessica Landing Suite 122, Chloetown, PR 17208",11968,1,Số tiền giao dịch lớn.,5
+274,2024-01-12 09:00:00.000000,1268,online,"876 Rick Brooks Suite 697, Ricefort, CA 69991",10703,0,,1
+275,2024-01-12 10:00:00.000000,4546,in-store,"13379 Melissa Field, Youngshire, TN 93310",15482,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+276,2024-01-12 11:00:00.000000,4785,in-store,"7828 Randy Shoals, Chadshire, NM 77639",16376,1,Số tiền giao dịch lớn.,10
+277,2024-01-12 12:00:00.000000,4605,online,"4341 Shields Brooks Suite 382, North Rebeccamouth, SC 48034",11800,1,Số tiền giao dịch lớn.,5
+278,2024-01-12 13:00:00.000000,9196,in-store,"0597 Torres Trail Suite 758, South Williamburgh, WI 27694",15463,1,Số tiền giao dịch lớn.,1
+279,2024-01-12 14:00:00.000000,8100,online,"51723 George Passage Apt. 674, Normanfurt, MO 14653",14912,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+280,2024-01-12 15:00:00.000000,3496,online,"88280 Gonzalez Spring Apt. 421, Timothymouth, UT 97623",14648,1,Số tiền giao dịch lớn.,5
+281,2024-01-12 16:00:00.000000,1095,in-store,"39367 Jacob Ford Apt. 689, Walkermouth, NC 88794",10855,0,,5
+282,2024-01-12 17:00:00.000000,6943,online,"597 John Curve, Jeffreyfort, NY 44774",12866,1,Số tiền giao dịch lớn.,1
+283,2024-01-12 18:00:00.000000,1743,online,"56656 Paul Village Apt. 834, Alishachester, AK 90081",10182,0,,5
+284,2024-01-12 19:00:00.000000,3486,online,"3127 Alexander Unions Suite 693, Timothyfurt, AZ 99400",13112,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+285,2024-01-12 20:00:00.000000,8804,online,"21495 Vincent Harbor Apt. 848, Jasontown, LA 54858",15670,1,Số tiền giao dịch lớn.,5
+286,2024-01-12 21:00:00.000000,5945,online,"39275 Anderson Walks Apt. 364, Davisland, NV 79971",14492,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+287,2024-01-12 22:00:00.000000,3404,online,"496 Katelyn Glen Suite 144, Stevenbury, AR 31320",15823,1,Số tiền giao dịch lớn.,1
+288,2024-01-12 23:00:00.000000,275,online,"291 Jennifer Highway Suite 043, Sarahshire, UT 17599",11517,0,,10
+289,2024-01-13 00:00:00.000000,4943,online,"406 Scott Station Suite 439, East Rachelberg, AR 05087",15002,1,Số tiền giao dịch lớn.,5
+290,2024-01-13 01:00:00.000000,7072,in-store,"0904 Joseph Pines, Tomport, SD 34978",11356,1,Số tiền giao dịch lớn.,10
+291,2024-01-13 02:00:00.000000,9201,in-store,"58650 Andrea Throughway, Robertton, HI 68027",13629,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+292,2024-01-13 03:00:00.000000,5650,in-store,"163 Tanya Rest Suite 732, Kennethchester, SD 44525",13628,1,Số tiền giao dịch lớn.,5
+293,2024-01-13 04:00:00.000000,8046,online,"361 Kyle Pike, South Vanessa, MS 21290",18210,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+294,2024-01-13 05:00:00.000000,9057,online,"429 Hood Expressway Suite 216, Heatherland, CO 64789",16132,1,Số tiền giao dịch lớn.,10
+295,2024-01-13 06:00:00.000000,7733,in-store,"37623 Patton Trafficway Apt. 837, Port Morganborough, WA 11175",19324,1,Số tiền giao dịch lớn.,5
+296,2024-01-13 07:00:00.000000,4692,in-store,"1191 Andrew Radial Suite 369, Dianaland, NH 45723",16588,1,Số tiền giao dịch lớn.,10
+297,2024-01-13 08:00:00.000000,7729,in-store,"32800 Clark Rest, Taylorshire, NY 79795",13311,1,Số tiền giao dịch lớn.,5
+298,2024-01-13 09:00:00.000000,8258,online,"69725 Victoria Haven Suite 342, Staffordport, WA 32392",16048,1,Số tiền giao dịch lớn.,1
+299,2024-01-13 10:00:00.000000,7389,in-store,"972 Cody Spur, Gonzalezside, DC 33408",16246,1,Số tiền giao dịch lớn.,10
+300,2024-01-13 11:00:00.000000,9485,in-store,"866 Johnston Forks Suite 892, East Angela, HI 88439",10987,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+301,2024-01-13 12:00:00.000000,2255,online,"06048 Ross Island Suite 544, West Allison, OK 82985",13321,1,Số giao dịch trong 1 ngày quá nhiều.,15
+302,2024-01-13 13:00:00.000000,1119,in-store,"111 Sylvia Points Suite 306, Robertland, KS 14678",14615,1,Số giao dịch trong 1 ngày quá nhiều.,20
+303,2024-01-13 14:00:00.000000,3494,online,"518 Barton Green Apt. 129, Codybury, AZ 70865",18365,1,Số tiền giao dịch lớn.,5
+304,2024-01-13 15:00:00.000000,1110,online,"871 Reyes Plains Apt. 091, Alexanderfurt, MH 60273",13741,0,,10
+305,2024-01-13 16:00:00.000000,2377,online,"4848 Bridges Road, Raymondmouth, VT 16955",13052,1,Số giao dịch trong 1 ngày quá nhiều.,20
+306,2024-01-13 17:00:00.000000,3470,in-store,"35095 Trujillo Court Apt. 657, East William, CA 84189",16574,1,Số tiền giao dịch lớn.,10
+307,2024-01-13 18:00:00.000000,351,in-store,"78950 Edwards Well, Port Williamton, HI 67802",10726,0,,5
+308,2024-01-13 19:00:00.000000,656,online,"07560 Karen Wells, West Steven, SD 47735",13760,1,Số giao dịch trong 1 ngày quá nhiều.,15
+309,2024-01-13 20:00:00.000000,3220,in-store,"USS Tran, FPO AA 58632",15806,1,Số tiền giao dịch lớn.,1
+310,2024-01-13 21:00:00.000000,749,in-store,"194 Hernandez Isle, North Mariaville, NM 32971",11875,1,Số giao dịch trong 1 ngày quá nhiều.,15
+311,2024-01-13 22:00:00.000000,5138,in-store,"052 Sandra Via Suite 741, Lake Joseph, MS 18555",16993,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+312,2024-01-13 23:00:00.000000,9381,in-store,"47977 Curtis Street Suite 074, Charlesport, DE 91296",14033,1,Số tiền giao dịch lớn.,1
+313,2024-01-14 00:00:00.000000,240,online,"13099 Aguirre Port Apt. 370, West Natasha, NM 62325",15443,1,Số giao dịch trong 1 ngày quá nhiều.,20
+314,2024-01-14 01:00:00.000000,1030,in-store,"538 Jessica Square, Lauraport, ME 05771",10989,0,,5
+315,2024-01-14 02:00:00.000000,3025,online,"3475 Frank Avenue Suite 876, Randolphstad, VA 13664",13744,1,Số tiền giao dịch lớn.,1
+316,2024-01-14 03:00:00.000000,6152,online,"6145 Jose Garden, Patrickstad, OH 43976",18611,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+317,2024-01-14 04:00:00.000000,1234,in-store,"176 Damon Squares Suite 032, South Kathleen, AL 22367",10593,0,,5
+318,2024-01-14 05:00:00.000000,3377,online,"536 Hernandez Flats Suite 186, Christinatown, ME 71521",11774,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+319,2024-01-14 06:00:00.000000,3444,in-store,"86824 Gonzalez Trail Suite 451, New James, SC 42347",10935,1,Số tiền giao dịch lớn.,5
+320,2024-01-14 07:00:00.000000,8369,in-store,"52697 James View, Ericborough, KY 77440",13808,1,Số tiền giao dịch lớn.,10
+321,2024-01-14 08:00:00.000000,1866,online,"325 Smith Locks Apt. 260, Bakertown, NM 21512",10331,0,,5
+322,2024-01-14 09:00:00.000000,5904,online,"74152 Alexandria Parkways Suite 671, West Krista, PW 55756",17922,1,Số tiền giao dịch lớn.,5
+323,2024-01-14 10:00:00.000000,6759,online,"14857 Caroline Dam Apt. 599, Port Kellyshire, NE 36893",12702,1,Số tiền giao dịch lớn.,10
+324,2024-01-14 11:00:00.000000,619,online,"8715 Nicholas Bypass Apt. 497, Jamesberg, WV 15134",15889,1,Số giao dịch trong 1 ngày quá nhiều.,20
+325,2024-01-14 12:00:00.000000,5492,in-store,"89497 Peter Branch, Aaronhaven, ND 11876",15054,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+326,2024-01-14 13:00:00.000000,1945,in-store,"9858 Nancy Park Suite 276, Lake Stephanieport, ME 34160",13868,0,,5
+327,2024-01-14 14:00:00.000000,2783,in-store,"6575 Candice Ridges Suite 425, New Jaclyn, IL 96167",14200,0,,10
+328,2024-01-14 15:00:00.000000,3913,online,"84511 Fields Via Suite 866, South Jason, PW 18286",10201,1,Số tiền giao dịch lớn.,10
+329,2024-01-14 16:00:00.000000,7505,online,"734 Kelly Brook Suite 047, Phillipsfort, IN 99543",12497,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+330,2024-01-14 17:00:00.000000,4064,online,"USNV Campbell, FPO AE 70960",11842,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+331,2024-01-14 18:00:00.000000,1736,in-store,"0374 Brett Common Suite 960, Robertsborough, DE 09441",19101,0,,1
+332,2024-01-14 19:00:00.000000,3059,online,"30551 Miranda Route, Lake Hunterborough, GA 80508",14658,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+333,2024-01-14 20:00:00.000000,7856,in-store,"3977 Lynn Neck Suite 178, Dunnport, WV 44582",17544,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+334,2024-01-14 21:00:00.000000,204,online,"6424 Montgomery Common Suite 386, Williamsshire, ID 84929",17718,1,Số giao dịch trong 1 ngày quá nhiều.,15
+335,2024-01-14 22:00:00.000000,1459,in-store,"PSC 0913, Box 3212, APO AA 94607",10770,0,,1
+336,2024-01-14 23:00:00.000000,834,in-store,"Unit 5322 Box 7441, DPO AE 64660",13155,1,Số giao dịch trong 1 ngày quá nhiều.,15
+337,2024-01-15 00:00:00.000000,8146,online,"861 Ellen Ridge, North Penny, WY 11281",11628,1,Số tiền giao dịch lớn.,1
+338,2024-01-15 01:00:00.000000,7610,online,"5573 Aguilar Village, Wilsonfurt, MI 36095",10386,1,Số tiền giao dịch lớn.,5
+339,2024-01-15 02:00:00.000000,7393,in-store,"Unit 5965 Box 0433, DPO AP 31278",16031,1,Số tiền giao dịch lớn.,1
+340,2024-01-15 03:00:00.000000,7256,in-store,"09952 Ford Shoal Apt. 086, Lake Brandon, SD 60930",16439,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+341,2024-01-15 04:00:00.000000,5646,online,"81245 Blanchard Circles Apt. 794, Port Andrew, AS 16934",16401,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+342,2024-01-15 05:00:00.000000,5851,online,"3261 Michael Spurs, Lake Sharonstad, CO 05004",14008,1,Số tiền giao dịch lớn.,1
+343,2024-01-15 06:00:00.000000,2856,in-store,"PSC 2405, Box 3933, APO AE 42573",12466,0,,1
+344,2024-01-15 07:00:00.000000,587,online,"44744 Griffin Point Apt. 400, North Kyleview, DC 26390",12282,0,,10
+345,2024-01-15 08:00:00.000000,6036,in-store,"USCGC Ellis, FPO AP 48603",11856,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+346,2024-01-15 09:00:00.000000,1891,in-store,"USCGC Smith, FPO AA 69796",17980,0,,5
+347,2024-01-15 10:00:00.000000,8766,online,"512 Shawna Tunnel Apt. 304, Chrisfort, OH 88068",11998,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+348,2024-01-15 11:00:00.000000,7021,online,"USNV Vance, FPO AP 52700",15476,1,Số tiền giao dịch lớn.,5
+349,2024-01-15 12:00:00.000000,5675,online,"Unit 6565 Box 7866, DPO AE 38980",19428,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+350,2024-01-15 13:00:00.000000,3000,online,"042 Chen Islands, Brownburgh, UT 89061",14669,0,,1
+351,2024-01-15 14:00:00.000000,8042,online,"PSC 0198, Box 7263, APO AE 66808",19342,1,Số tiền giao dịch lớn.,1
+352,2024-01-15 15:00:00.000000,4830,in-store,"91449 Norman Radial, Ambershire, FM 61457",14318,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+353,2024-01-15 16:00:00.000000,2418,in-store,"211 Andrea Streets Suite 475, Judybury, AS 60550",17064,0,,1
+354,2024-01-15 17:00:00.000000,6705,online,"Unit 5108 Box 3324, DPO AA 78003",17446,1,Số tiền giao dịch lớn.,1
+355,2024-01-15 18:00:00.000000,8223,online,"39012 Vargas Valleys, North Kelly, OR 84902",11431,1,Số tiền giao dịch lớn.,1
+356,2024-01-15 19:00:00.000000,4545,online,"25619 Miller Key Suite 299, Angelaburgh, MP 27553",15624,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+357,2024-01-15 20:00:00.000000,9213,in-store,"501 Brandt Neck Suite 749, Hoffmanfort, WY 79624",17461,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+358,2024-01-15 21:00:00.000000,6052,online,"0429 Jesse Path Suite 132, West Tonya, MN 76196",11819,1,Số tiền giao dịch lớn.,10
+359,2024-01-15 22:00:00.000000,6664,online,"3636 Timothy Crescent Suite 391, New Melissa, KY 75677",11130,1,Số tiền giao dịch lớn.,5
+360,2024-01-15 23:00:00.000000,9408,in-store,"5326 Jeffrey Vista, West Lauraside, VA 90010",16563,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+361,2024-01-16 00:00:00.000000,5969,in-store,"613 Barber Valleys, South Amy, AK 55380",12658,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+362,2024-01-16 01:00:00.000000,903,online,"094 Morrison Circle, Catherinechester, WV 53026",13500,1,Số giao dịch trong 1 ngày quá nhiều.,20
+363,2024-01-16 02:00:00.000000,4196,online,"044 Andrea Tunnel Suite 175, Pattersonmouth, HI 06645",18566,1,Số tiền giao dịch lớn.,10
+364,2024-01-16 03:00:00.000000,3819,online,"18068 Brittany Street Apt. 889, Gonzalezview, ME 08680",12120,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+365,2024-01-16 04:00:00.000000,624,in-store,"6353 Parks Gateway, North Amyberg, WV 69466",14020,0,,10
+366,2024-01-16 05:00:00.000000,1198,online,"144 Adam Plain Suite 895, Michaelton, GU 96920",13259,1,Số giao dịch trong 1 ngày quá nhiều.,20
+367,2024-01-16 06:00:00.000000,6343,online,"74248 Benjamin Parks, Tamaraport, KS 03596",11823,1,Số tiền giao dịch lớn.,5
+368,2024-01-16 07:00:00.000000,6507,online,"4400 Underwood Burg, East John, SD 84158",11474,1,Số tiền giao dịch lớn.,1
+369,2024-01-16 08:00:00.000000,7559,in-store,"78079 Hall Park, Jonathanchester, MA 61832",12242,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+370,2024-01-16 09:00:00.000000,9957,in-store,"174 Hendricks Creek Suite 002, Lake Thomas, TX 03598",13243,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+371,2024-01-16 10:00:00.000000,4827,online,"Unit 0760 Box 0708, DPO AA 60064",16990,1,Số tiền giao dịch lớn.,10
+372,2024-01-16 11:00:00.000000,3904,online,"622 Marc Gateway, West Michael, UT 52423",15160,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+373,2024-01-16 12:00:00.000000,2541,in-store,"735 Carla Haven Apt. 398, Stevenfort, OR 20836",13134,1,Số giao dịch trong 1 ngày quá nhiều.,20
+374,2024-01-16 13:00:00.000000,3174,in-store,"80978 Chelsea Corners Apt. 852, Edwardchester, CT 52076",12070,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+375,2024-01-16 14:00:00.000000,5741,in-store,"03660 Rogers Port Suite 954, West Michaelfort, NY 73320",10359,1,Số tiền giao dịch lớn.,10
+376,2024-01-16 15:00:00.000000,3101,in-store,"16706 Sullivan Isle Suite 014, Tonyaland, CA 68260",11141,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+377,2024-01-16 16:00:00.000000,54,in-store,"5489 Karina Drive Suite 164, North Andreafurt, MP 51680",11635,0,,5
+378,2024-01-16 17:00:00.000000,5272,in-store,"56247 Becker Pass Apt. 033, Port Heatherchester, TN 46960",14000,1,Số tiền giao dịch lớn.,10
+379,2024-01-16 18:00:00.000000,5365,in-store,"13785 Singh Springs Apt. 132, New Rodneymouth, OH 34909",13361,1,Số tiền giao dịch lớn.,5
+380,2024-01-16 19:00:00.000000,4919,in-store,"USCGC Copeland, FPO AA 31952",16583,1,Số tiền giao dịch lớn.,1
+381,2024-01-16 20:00:00.000000,926,in-store,"01355 Larry Village Apt. 299, West Charles, AS 49660",17835,0,,5
+382,2024-01-16 21:00:00.000000,9233,online,"36941 Gregory Fort, Bondtown, OK 98400",10006,1,Số tiền giao dịch lớn.,1
+383,2024-01-16 22:00:00.000000,7077,online,"951 Levine Manor, Georgeland, MA 03975",13267,1,Số tiền giao dịch lớn.,1
+384,2024-01-16 23:00:00.000000,4192,online,"4676 Mary Harbor, Penafort, NC 42424",16564,1,Số tiền giao dịch lớn.,5
+385,2024-01-17 00:00:00.000000,7016,in-store,"7596 David Valleys, Georgemouth, AR 27525",19783,1,Số tiền giao dịch lớn.,10
+386,2024-01-17 01:00:00.000000,7129,online,"PSC 2168, Box 8483, APO AP 31873",14928,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+387,2024-01-17 02:00:00.000000,8037,in-store,"PSC 3765, Box 1914, APO AP 52342",12606,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+388,2024-01-17 03:00:00.000000,6849,in-store,"38573 Simon Springs Suite 926, Kariport, MH 06615",15906,1,Số tiền giao dịch lớn.,1
+389,2024-01-17 04:00:00.000000,4515,online,"28375 Bryan Green, Dunnmouth, MO 01809",13273,1,Số tiền giao dịch lớn.,1
+390,2024-01-17 05:00:00.000000,685,in-store,"3383 Angela Cliff Apt. 681, Port Danielport, MH 73464",17611,0,,10
+391,2024-01-17 06:00:00.000000,1743,online,"Unit 5768 Box 1176, DPO AE 42987",10913,1,Số giao dịch trong 1 ngày quá nhiều.,15
+392,2024-01-17 07:00:00.000000,9924,online,"861 Wright Summit, New Paulaport, WA 77905",12011,1,Số tiền giao dịch lớn.,5
+393,2024-01-17 08:00:00.000000,4802,online,"Unit 9328 Box 0183, DPO AP 22102",11442,1,Số tiền giao dịch lớn.,1
+394,2024-01-17 09:00:00.000000,8361,in-store,"8302 Michael Dam, Nicolefort, KY 16274",15546,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+395,2024-01-17 10:00:00.000000,880,online,"8927 Robert Corners Suite 825, Lake Meganfurt, IN 83613",11829,0,,10
+396,2024-01-17 11:00:00.000000,5227,in-store,"954 Teresa Path, North Jamesfurt, WV 83843",18767,1,Số tiền giao dịch lớn.,5
+397,2024-01-17 12:00:00.000000,9611,online,"92457 Jasmine Rapids, North Brett, MS 97752",16468,1,Số tiền giao dịch lớn.,10
+398,2024-01-17 13:00:00.000000,8982,online,"4010 Johnson Turnpike, Loganbury, DC 28987",10929,1,Số tiền giao dịch lớn.,5
+399,2024-01-17 14:00:00.000000,8358,online,"391 Henry Oval Apt. 620, Michaelbury, CA 48374",13699,1,Số tiền giao dịch lớn.,5
+400,2024-01-17 15:00:00.000000,5999,in-store,"80659 Turner Walk Suite 818, Lake Dennisside, AZ 44696",19655,1,Số tiền giao dịch lớn.,1
+401,2024-01-17 16:00:00.000000,2888,in-store,"732 Lozano Well, Ramseyton, NE 26132",11054,0,,10
+402,2024-01-17 17:00:00.000000,1200,in-store,"2624 Jason Trace, West Corey, ND 49799",15744,0,,10
+403,2024-01-17 18:00:00.000000,7610,online,"738 Eric Loaf, Lorraineside, IA 62706",11900,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+404,2024-01-17 19:00:00.000000,1981,online,"86848 Pierce Way Suite 922, Lake Gregoryhaven, FM 08537",19649,1,Số giao dịch trong 1 ngày quá nhiều.,20
+405,2024-01-17 20:00:00.000000,9254,in-store,"62833 Morrison Islands, Lake Reneeview, PW 31240",16980,1,Số tiền giao dịch lớn.,1
+406,2024-01-17 21:00:00.000000,1714,in-store,"917 Christopher Road Suite 354, Dyerview, DC 20299",17069,0,,1
+407,2024-01-17 22:00:00.000000,1131,in-store,"940 Rodriguez Flats Apt. 437, East Matthew, ID 08556",19591,1,Số giao dịch trong 1 ngày quá nhiều.,15
+408,2024-01-17 23:00:00.000000,562,in-store,"8611 Matthews Freeway Suite 460, New Carlosport, DC 81394",13415,1,Số giao dịch trong 1 ngày quá nhiều.,20
+409,2024-01-18 00:00:00.000000,7855,in-store,"02978 Pam Ramp Apt. 196, Port Joshuafurt, AS 15409",10442,1,Số tiền giao dịch lớn.,5
+410,2024-01-18 01:00:00.000000,5287,in-store,"389 Monique Mission Apt. 473, Lake Katherine, MA 25090",16218,1,Số tiền giao dịch lớn.,10
+411,2024-01-18 02:00:00.000000,609,online,"USNS Clark, FPO AP 38616",14652,0,,1
+412,2024-01-18 03:00:00.000000,3722,in-store,"16197 Rodriguez Coves, Tuckerland, ND 02868",17939,1,Số tiền giao dịch lớn.,10
+413,2024-01-18 04:00:00.000000,7454,online,"542 Boone Stream Suite 040, East Sheenamouth, AK 82619",17833,1,Số tiền giao dịch lớn.,10
+414,2024-01-18 05:00:00.000000,3393,online,"718 Sydney Plaza, West Brandyhaven, FL 28037",19370,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+415,2024-01-18 06:00:00.000000,4120,in-store,"9052 Charles Landing Suite 593, New Mark, AS 60991",17597,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+416,2024-01-18 07:00:00.000000,9712,in-store,"1673 Dodson Brooks, South Nicolefurt, MN 76790",14458,1,Số tiền giao dịch lớn.,1
+417,2024-01-18 08:00:00.000000,630,online,"0039 Shannon Spurs, Harrytown, OH 74469",16591,0,,10
+418,2024-01-18 09:00:00.000000,7054,in-store,"01414 Martinez Extension Suite 663, New Bruce, AK 78286",19449,1,Số tiền giao dịch lớn.,1
+419,2024-01-18 10:00:00.000000,8180,in-store,"10440 Kenneth Spring, Michaelview, SC 72501",12309,1,Số tiền giao dịch lớn.,5
+420,2024-01-18 11:00:00.000000,3197,online,"3668 Ronald Expressway, Harpermouth, KY 99067",16268,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+421,2024-01-18 12:00:00.000000,4299,online,"PSC 0702, Box 8216, APO AP 70173",10910,1,Số tiền giao dịch lớn.,5
+422,2024-01-18 13:00:00.000000,1729,online,"43767 Turner Park, South Albertmouth, GU 73532",14340,0,,1
+423,2024-01-18 14:00:00.000000,3556,in-store,"USNV Mosley, FPO AP 57818",14009,1,Số tiền giao dịch lớn.,1
+424,2024-01-18 15:00:00.000000,7303,online,"2889 Martin Lakes, Morrisberg, FM 30678",16628,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+425,2024-01-18 16:00:00.000000,2794,in-store,"1040 Joseph Mountain Apt. 681, Carterberg, ID 85563",12169,0,,10
+426,2024-01-18 17:00:00.000000,9485,online,"091 Knight Fields, South Lisa, NC 92744",12172,1,Số tiền giao dịch lớn.,10
+427,2024-01-18 18:00:00.000000,5238,online,"201 Perez Mountain Apt. 770, North Lauraton, DE 59145",15668,1,Số tiền giao dịch lớn.,5
+428,2024-01-18 19:00:00.000000,2191,online,"USCGC Smith, FPO AA 95870",16313,1,Số giao dịch trong 1 ngày quá nhiều.,15
+429,2024-01-18 20:00:00.000000,6667,in-store,"69489 Jessica Hill Suite 800, Bridgetfurt, WI 72835",18315,1,Số tiền giao dịch lớn.,10
+430,2024-01-18 21:00:00.000000,2529,in-store,"2665 Mason Stravenue, West Jonathanmouth, RI 99751",18036,1,Số giao dịch trong 1 ngày quá nhiều.,20
+431,2024-01-18 22:00:00.000000,6534,online,"4625 Elizabeth Loop Suite 973, South John, FL 34599",16789,1,Số tiền giao dịch lớn.,5
+432,2024-01-18 23:00:00.000000,9877,online,"89890 Patricia Mountain, Bryantville, RI 80377",10785,1,Số tiền giao dịch lớn.,5
+433,2024-01-19 00:00:00.000000,7471,online,"40435 Martin Streets, Port Reginaldburgh, VI 55424",16139,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+434,2024-01-19 01:00:00.000000,9999,in-store,"2359 Myers Centers Apt. 367, Torrestown, NV 20734",16344,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+435,2024-01-19 02:00:00.000000,4502,online,"5370 Keith Path, Tanyaland, UT 35846",12416,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+436,2024-01-19 03:00:00.000000,5931,in-store,"283 Collins Burgs Apt. 744, Wardborough, OH 62247",18988,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+437,2024-01-19 04:00:00.000000,6715,online,"253 Turner Coves Apt. 727, Patriciaport, IL 98987",14154,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+438,2024-01-19 05:00:00.000000,2899,online,"5347 Watts Village, Tammyhaven, DC 94157",15619,1,Số giao dịch trong 1 ngày quá nhiều.,20
+439,2024-01-19 06:00:00.000000,7440,online,"84584 Cain Summit Apt. 000, New Jacob, DE 19808",11936,1,Số tiền giao dịch lớn.,1
+440,2024-01-19 07:00:00.000000,6955,online,"076 Owens Rapid, Port Dylanborough, NJ 55725",13807,1,Số tiền giao dịch lớn.,5
+441,2024-01-19 08:00:00.000000,2539,online,"3624 Villarreal Keys Suite 685, Port Sarah, AR 14299",17151,1,Số giao dịch trong 1 ngày quá nhiều.,20
+442,2024-01-19 09:00:00.000000,9873,online,"6954 Weiss Streets, Weberfurt, DC 27007",19493,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+443,2024-01-19 10:00:00.000000,9257,in-store,"6762 April Ridge, Larryborough, HI 48063",13236,1,Số tiền giao dịch lớn.,10
+444,2024-01-19 11:00:00.000000,9590,online,"90300 Stephanie Points Apt. 746, New Brandonmouth, OK 96104",12352,1,Số tiền giao dịch lớn.,5
+445,2024-01-19 12:00:00.000000,4661,in-store,"375 Sonya Key Apt. 995, Port Ruthport, IN 73894",11932,1,Số tiền giao dịch lớn.,10
+446,2024-01-19 13:00:00.000000,2889,online,"USCGC Gibson, FPO AA 32297",18556,0,,5
+447,2024-01-19 14:00:00.000000,8577,online,"923 Raymond Stravenue, Port Ashleyberg, IA 10845",14916,1,Số tiền giao dịch lớn.,10
+448,2024-01-19 15:00:00.000000,5928,in-store,"2609 Todd Turnpike Apt. 416, Wilsonside, MS 93188",15498,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+449,2024-01-19 16:00:00.000000,9137,online,"738 Holt Spur, New Garyberg, OR 43962",10946,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+450,2024-01-19 17:00:00.000000,6353,in-store,"2259 Sullivan Forest, New Marissamouth, KY 57577",19569,1,Số tiền giao dịch lớn.,1
+451,2024-01-19 18:00:00.000000,901,in-store,"318 Owens Walk, Lewisport, AR 07294",11439,0,,10
+452,2024-01-19 19:00:00.000000,1737,online,"997 Vincent Brook, Mendozaland, MP 84392",17730,1,Số giao dịch trong 1 ngày quá nhiều.,15
+453,2024-01-19 20:00:00.000000,6883,in-store,"627 Gary Ville, Lake Danielside, DE 40824",14857,1,Số tiền giao dịch lớn.,1
+454,2024-01-19 21:00:00.000000,2477,in-store,"67257 Baker Valley, Port John, IA 65683",10340,0,,10
+455,2024-01-19 22:00:00.000000,9810,online,"USNV Hines, FPO AP 10616",10382,1,Số tiền giao dịch lớn.,10
+456,2024-01-19 23:00:00.000000,4050,in-store,"59142 West Turnpike Apt. 119, Robertborough, VI 98844",19748,1,Số tiền giao dịch lớn.,1
+457,2024-01-20 00:00:00.000000,5102,online,"Unit 5884 Box 7419, DPO AE 30355",18491,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+458,2024-01-20 01:00:00.000000,2788,online,"20720 Myers Glen Apt. 613, Lunaside, OK 92267",10138,0,,10
+459,2024-01-20 02:00:00.000000,5782,online,"89652 Deborah Vista, Kathrynchester, PR 86135",10358,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+460,2024-01-20 03:00:00.000000,5437,online,"991 Matthew Ferry, Phillipsfort, AS 21804",14931,1,Số tiền giao dịch lớn.,1
+461,2024-01-20 04:00:00.000000,8052,in-store,"7243 Joseph Trail Suite 016, New Josephbury, AR 01079",19714,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+462,2024-01-20 05:00:00.000000,5586,online,"77224 Maria Lodge Apt. 509, East Pamelamouth, RI 50893",13456,1,Số tiền giao dịch lớn.,5
+463,2024-01-20 06:00:00.000000,3963,online,"0695 Fox Motorway, East Travis, VI 46238",11627,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+464,2024-01-20 07:00:00.000000,1116,in-store,"251 Chad Walks, South Ambershire, PR 06089",19495,0,,10
+465,2024-01-20 08:00:00.000000,7773,online,"092 Becker Fork Suite 733, Port Joshua, MS 05799",16626,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+466,2024-01-20 09:00:00.000000,4430,online,"7842 Hughes Passage Apt. 800, Oconnellberg, OK 92149",15004,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+467,2024-01-20 10:00:00.000000,4157,in-store,"USCGC Walker, FPO AA 10452",19326,1,Số tiền giao dịch lớn.,10
+468,2024-01-20 11:00:00.000000,5776,in-store,"604 Kayla Junctions, Ashleytown, DE 29301",16652,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+469,2024-01-20 12:00:00.000000,3423,in-store,"1709 Pennington Forest Apt. 697, Contrerasport, KY 69178",16416,1,Số tiền giao dịch lớn.,5
+470,2024-01-20 13:00:00.000000,8995,in-store,"1835 Garrison Hollow, Matthewchester, NY 18021",13170,1,Số tiền giao dịch lớn.,1
+471,2024-01-20 14:00:00.000000,2132,in-store,"6240 Smith Mall, Weeksburgh, AS 05159",13835,0,,10
+472,2024-01-20 15:00:00.000000,9017,in-store,"794 Thomas Hills, Castanedaside, PA 01197",18017,1,Số tiền giao dịch lớn.,5
+473,2024-01-20 16:00:00.000000,6798,in-store,"1064 Johnson Estates, Port Christopher, DC 94150",12151,1,Số tiền giao dịch lớn.,5
+474,2024-01-20 17:00:00.000000,9867,online,"555 Kristen Junction Suite 543, Josephport, NC 99219",19429,1,Số tiền giao dịch lớn.,10
+475,2024-01-20 18:00:00.000000,467,in-store,"PSC 4912, Box 5294, APO AE 21944",16905,1,Số giao dịch trong 1 ngày quá nhiều.,20
+476,2024-01-20 19:00:00.000000,8356,in-store,"22140 Richards Squares, South Aliciaborough, KY 69646",12834,1,Số tiền giao dịch lớn.,5
+477,2024-01-20 20:00:00.000000,8858,in-store,"91796 Clifford Fort, West Shawnborough, NV 59288",19190,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+478,2024-01-20 21:00:00.000000,4024,online,"7543 Smith Canyon, Johnsonbury, CO 77181",12567,1,Số tiền giao dịch lớn.,5
+479,2024-01-20 22:00:00.000000,3317,online,"029 Anthony Fork, Angelaville, NM 90510",11307,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+480,2024-01-20 23:00:00.000000,875,in-store,"77963 Mary Street, Kevinton, FL 52140",18848,1,Số giao dịch trong 1 ngày quá nhiều.,20
+481,2024-01-21 00:00:00.000000,7718,in-store,"061 Gregory Trafficway, Thomasbury, TN 89597",12660,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+482,2024-01-21 01:00:00.000000,5795,in-store,"USNS Jones, FPO AP 88319",13730,1,Số tiền giao dịch lớn.,5
+483,2024-01-21 02:00:00.000000,9758,online,"23144 Isaiah Divide, New Richardborough, GA 85541",16207,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+484,2024-01-21 03:00:00.000000,462,online,"53487 Williams Trail Suite 906, Knightberg, AR 07460",13162,0,,10
+485,2024-01-21 04:00:00.000000,7593,in-store,"3330 Martin Islands Apt. 077, East Michaelside, ND 17265",11140,1,Số tiền giao dịch lớn.,1
+486,2024-01-21 05:00:00.000000,7637,online,"9740 Mcdonald Highway, Lake Tom, ME 07825",18458,1,Số tiền giao dịch lớn.,1
+487,2024-01-21 06:00:00.000000,778,in-store,"8154 Anthony Meadow Apt. 387, West Johnhaven, DE 30762",11708,0,,1
+488,2024-01-21 07:00:00.000000,7214,online,"Unit 9187 Box 9822, DPO AP 43448",13630,1,Số tiền giao dịch lớn.,5
+489,2024-01-21 08:00:00.000000,8917,online,"987 Suarez Underpass, Lake Scott, NE 44870",13211,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+490,2024-01-21 09:00:00.000000,6038,in-store,"385 Micheal Trail Apt. 518, East Gregory, MA 07140",16538,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+491,2024-01-21 10:00:00.000000,2554,in-store,"251 Greg Mountain, Lindashire, CT 83841",19702,0,,10
+492,2024-01-21 11:00:00.000000,3017,in-store,"USCGC Santiago, FPO AE 31923",10475,1,Số tiền giao dịch lớn.,10
+493,2024-01-21 12:00:00.000000,2836,in-store,"13542 Trujillo Crest Suite 029, New Michaelview, NH 51074",17684,0,,5
+494,2024-01-21 13:00:00.000000,1172,online,"7739 Philip Valleys Apt. 453, Watsonshire, HI 09789",19168,0,,1
+495,2024-01-21 14:00:00.000000,4129,online,"298 Kelley Throughway Suite 930, Johnchester, NV 04658",11207,1,Số tiền giao dịch lớn.,5
+496,2024-01-21 15:00:00.000000,1621,online,"USNV Young, FPO AA 90658",11960,1,Số giao dịch trong 1 ngày quá nhiều.,15
+497,2024-01-21 16:00:00.000000,5123,in-store,"09909 Aguirre Squares Apt. 590, South Amanda, ND 26565",10557,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+498,2024-01-21 17:00:00.000000,5154,online,"901 Cortez Manor Suite 150, Lake Christopher, MA 68099",10882,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+499,2024-01-21 18:00:00.000000,2193,in-store,"0171 Nicholas Junction Apt. 231, Rodneybury, MI 35322",14761,1,Số giao dịch trong 1 ngày quá nhiều.,20
+500,2024-01-21 19:00:00.000000,9929,online,"8610 Henry Glen, Tylerland, NE 06635",15867,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+501,2024-01-21 20:00:00.000000,6856,in-store,"PSC 4153, Box 5670, APO AA 70056",16963,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+502,2024-01-21 21:00:00.000000,7407,in-store,"0391 Moore Tunnel Apt. 210, East Samuel, NJ 33882",17166,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+503,2024-01-21 22:00:00.000000,3490,online,"591 Williamson Ville Apt. 871, New Miranda, TN 91299",17929,1,Số tiền giao dịch lớn.,5
+504,2024-01-21 23:00:00.000000,3816,in-store,"07254 Jerry Drive Apt. 037, Lake Melaniechester, NH 20892",15347,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+505,2024-01-22 00:00:00.000000,5694,in-store,"18459 Wilcox Walks, Allenland, NH 31862",17269,1,Số tiền giao dịch lớn.,10
+506,2024-01-22 01:00:00.000000,2964,online,"687 Hernandez Isle, East Brenda, SC 28148",19802,0,,1
+507,2024-01-22 02:00:00.000000,5018,in-store,"7303 Mullins Ranch Suite 982, Thomasberg, AR 61440",18125,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+508,2024-01-22 03:00:00.000000,5967,in-store,"06837 Hendrix Passage Suite 356, Coxshire, DE 50178",12454,1,Số tiền giao dịch lớn.,1
+509,2024-01-22 04:00:00.000000,8837,in-store,"522 Vanessa Center Apt. 321, South Ginaberg, IN 24948",14494,1,Số tiền giao dịch lớn.,5
+510,2024-01-22 05:00:00.000000,778,online,"033 Larry Motorway, Lewismouth, NH 73584",11946,0,,1
+511,2024-01-22 06:00:00.000000,1415,online,"85340 Andrew Drive Apt. 213, West Ashley, SC 98512",12808,0,,5
+512,2024-01-22 07:00:00.000000,4542,in-store,"PSC 3285, Box 1942, APO AE 49163",16642,1,Số tiền giao dịch lớn.,10
+513,2024-01-22 08:00:00.000000,748,online,"395 Amy Circle, New Kariside, MO 33997",13825,0,,5
+514,2024-01-22 09:00:00.000000,7236,in-store,"613 Maria Lake, Youngfort, MS 56057",13536,1,Số tiền giao dịch lớn.,5
+515,2024-01-22 10:00:00.000000,445,in-store,"7488 Garza Grove Suite 165, Jacquelineville, NY 91938",16068,1,Số giao dịch trong 1 ngày quá nhiều.,20
+516,2024-01-22 11:00:00.000000,7450,in-store,"0297 Bradford Walk, South Sarahfurt, DC 57541",13802,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+517,2024-01-22 12:00:00.000000,8132,in-store,"2603 Cynthia Square, Lake Anthony, FL 38965",14699,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+518,2024-01-22 13:00:00.000000,4221,in-store,"5706 Le Summit Suite 111, West Ryan, FL 65438",11970,1,Số tiền giao dịch lớn.,10
+519,2024-01-22 14:00:00.000000,4410,online,"USCGC Ortiz, FPO AA 24585",15806,1,Số tiền giao dịch lớn.,10
+520,2024-01-22 15:00:00.000000,2552,in-store,"23303 Johnson Walks, East Bradley, MO 74103",16142,1,Số giao dịch trong 1 ngày quá nhiều.,15
+521,2024-01-22 16:00:00.000000,767,online,"3665 Keith Gateway Apt. 476, Maciashaven, IL 27509",12819,1,Số giao dịch trong 1 ngày quá nhiều.,20
+522,2024-01-22 17:00:00.000000,2832,online,"0103 Anderson Plaza Suite 763, Trevorfurt, MO 59037",19094,1,Số giao dịch trong 1 ngày quá nhiều.,15
+523,2024-01-22 18:00:00.000000,4996,in-store,"288 Carpenter Pass, Patriciastad, AR 18338",10364,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+524,2024-01-22 19:00:00.000000,5536,in-store,"USS Avila, FPO AE 35102",14258,1,Số tiền giao dịch lớn.,10
+525,2024-01-22 20:00:00.000000,8385,online,"PSC 5981, Box 1228, APO AE 15637",13119,1,Số tiền giao dịch lớn.,1
+526,2024-01-22 21:00:00.000000,5030,online,"3150 Boyd Forge, Gregoryview, MP 87033",11863,1,Số tiền giao dịch lớn.,10
+527,2024-01-22 22:00:00.000000,7316,online,"994 Jones Point, Jodifort, DC 62746",10115,1,Số tiền giao dịch lớn.,10
+528,2024-01-22 23:00:00.000000,4541,in-store,"465 Flores Village, West Nathanberg, FM 37817",17084,1,Số tiền giao dịch lớn.,5
+529,2024-01-23 00:00:00.000000,7242,online,"PSC 8491, Box 1676, APO AA 23757",18016,1,Số tiền giao dịch lớn.,5
+530,2024-01-23 01:00:00.000000,5638,in-store,"USCGC Moore, FPO AE 84307",12384,1,Số tiền giao dịch lớn.,5
+531,2024-01-23 02:00:00.000000,7701,in-store,"93257 Ricky Place Apt. 168, Powersborough, TX 17386",13935,1,Số tiền giao dịch lớn.,5
+532,2024-01-23 03:00:00.000000,3686,in-store,"Unit 3670 Box 7447, DPO AA 49658",17742,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+533,2024-01-23 04:00:00.000000,1217,online,"836 Wright Drive Suite 293, Kinghaven, NE 64716",15442,1,Số giao dịch trong 1 ngày quá nhiều.,15
+534,2024-01-23 05:00:00.000000,1112,in-store,"9877 Savage Radial Apt. 624, East Robert, TX 05049",12490,0,,1
+535,2024-01-23 06:00:00.000000,2206,in-store,"9096 Garza Plaza Suite 492, Colleenburgh, PA 14114",16980,0,,10
+536,2024-01-23 07:00:00.000000,7910,in-store,"8476 Wagner Plaza Apt. 829, Adrianfurt, ID 57689",19134,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+537,2024-01-23 08:00:00.000000,5211,in-store,"Unit 2951 Box 0129, DPO AP 99092",17661,1,Số tiền giao dịch lớn.,1
+538,2024-01-23 09:00:00.000000,5355,in-store,"7729 Laurie Mall, Port Christopher, TX 64752",11724,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+539,2024-01-23 10:00:00.000000,6591,online,"751 Bernard Pine Suite 184, Bettytown, AL 81531",18182,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+540,2024-01-23 11:00:00.000000,4779,in-store,"5411 Hughes Streets, Samanthamouth, WV 37055",12767,1,Số tiền giao dịch lớn.,10
+541,2024-01-23 12:00:00.000000,9398,in-store,"6882 Rojas Plaza, East Wendy, MD 03817",11137,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+542,2024-01-23 13:00:00.000000,7380,online,"682 Kayla Crossing Apt. 366, Kevinchester, AZ 81571",14117,1,Số tiền giao dịch lớn.,5
+543,2024-01-23 14:00:00.000000,5384,in-store,"14044 Chad Crossing, Port Joshuamouth, NE 27990",13420,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+544,2024-01-23 15:00:00.000000,8974,online,"017 James Viaduct Suite 264, East Zachary, NC 24781",15845,1,Số tiền giao dịch lớn.,10
+545,2024-01-23 16:00:00.000000,4380,in-store,"481 Sue Fork, Sylviafurt, GA 89587",14778,1,Số tiền giao dịch lớn.,10
+546,2024-01-23 17:00:00.000000,8060,online,"06007 Payne Spring Suite 217, Thomaschester, RI 53788",13906,1,Số tiền giao dịch lớn.,10
+547,2024-01-23 18:00:00.000000,6851,online,"209 Sarah Lodge Apt. 084, Peterhaven, WV 18859",13637,1,Số tiền giao dịch lớn.,1
+548,2024-01-23 19:00:00.000000,4896,in-store,"2378 George Mount, Lake Jenniferstad, MI 91530",12953,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+549,2024-01-23 20:00:00.000000,6781,in-store,"Unit 4651 Box 8946, DPO AA 17650",15929,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+550,2024-01-23 21:00:00.000000,7291,in-store,"65280 Garcia Forks, New Dianaborough, AL 27858",10276,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+551,2024-01-23 22:00:00.000000,1003,online,"569 Leslie Canyon, North Heatherside, MD 23552",11999,1,Số giao dịch trong 1 ngày quá nhiều.,20
+552,2024-01-23 23:00:00.000000,2589,online,"9970 Scott Terrace, New Cynthiaburgh, OR 65567",11227,1,Số giao dịch trong 1 ngày quá nhiều.,20
+553,2024-01-24 00:00:00.000000,7106,online,"69150 David Ville Suite 516, Leonfurt, AL 85740",16337,1,Số tiền giao dịch lớn.,10
+554,2024-01-24 01:00:00.000000,1592,in-store,"PSC 1048, Box 1717, APO AA 57716",13735,1,Số giao dịch trong 1 ngày quá nhiều.,15
+555,2024-01-24 02:00:00.000000,5343,online,"98865 Paul Forest, North Michael, HI 24392",10695,1,Số tiền giao dịch lớn.,10
+556,2024-01-24 03:00:00.000000,1241,online,"3045 Russo Light, Port Kristophertown, SC 60175",19501,0,,1
+557,2024-01-24 04:00:00.000000,6363,in-store,"USS Singh, FPO AA 80646",14152,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+558,2024-01-24 05:00:00.000000,6988,online,"00598 Kelly Vista, Bishopburgh, OK 35574",17901,1,Số tiền giao dịch lớn.,10
+559,2024-01-24 06:00:00.000000,2731,online,"67110 David Passage Suite 409, New Ashleymouth, CO 85641",17470,0,,10
+560,2024-01-24 07:00:00.000000,9459,in-store,"04379 Steve Ford Suite 423, South Anthonymouth, MA 75565",17537,1,Số tiền giao dịch lớn.,1
+561,2024-01-24 08:00:00.000000,1590,online,"135 Page Shores, Port Tara, AK 31188",12841,0,,5
+562,2024-01-24 09:00:00.000000,6222,in-store,"467 Wagner Cliff, Stewartchester, RI 81445",14208,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+563,2024-01-24 10:00:00.000000,5591,in-store,"5595 Jones Gardens Apt. 991, Ashleyport, RI 58028",18733,1,Số tiền giao dịch lớn.,5
+564,2024-01-24 11:00:00.000000,9630,in-store,"0796 Heather Fords, New Kathleenfurt, VT 15172",11088,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+565,2024-01-24 12:00:00.000000,1415,in-store,"766 Wilson Dam, West Madison, PR 89719",13363,0,,10
+566,2024-01-24 13:00:00.000000,8741,in-store,"9143 Terri Summit Apt. 046, East Johnmouth, WA 87891",10024,1,Số tiền giao dịch lớn.,1
+567,2024-01-24 14:00:00.000000,9922,online,"7199 Jessica Square Suite 082, East Eugenechester, TX 52207",19764,1,Số tiền giao dịch lớn.,1
+568,2024-01-24 15:00:00.000000,8752,online,"USNS Wright, FPO AP 40595",16144,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+569,2024-01-24 16:00:00.000000,7544,in-store,"893 Joseph Crescent Suite 586, Ryanville, GU 89340",15668,1,Số tiền giao dịch lớn.,5
+570,2024-01-24 17:00:00.000000,4362,in-store,"9822 Jose Port Suite 637, Bradshawbury, MI 30832",14236,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+571,2024-01-24 18:00:00.000000,1374,online,"677 Jill Fort Apt. 025, South Allisontown, WI 53603",19959,0,,10
+572,2024-01-24 19:00:00.000000,9397,in-store,"57799 Katie Loop, Mariahaven, SD 81352",18068,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+573,2024-01-24 20:00:00.000000,3191,in-store,"3827 Williams Union Apt. 237, Ortegashire, OH 94844",12235,1,Số tiền giao dịch lớn.,1
+574,2024-01-24 21:00:00.000000,7469,in-store,"582 Lisa Islands, Lake Jimmy, MP 32930",17295,1,Số tiền giao dịch lớn.,1
+575,2024-01-24 22:00:00.000000,3536,online,"451 Nicholas Rapid Suite 360, East Janeshire, TN 69799",18392,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+576,2024-01-24 23:00:00.000000,1860,online,"58148 Martinez Greens Suite 231, South Alison, LA 81334",18448,1,Số giao dịch trong 1 ngày quá nhiều.,20
+577,2024-01-25 00:00:00.000000,6638,in-store,"74335 Valdez Trail, New Austin, NY 68269",13747,1,Số tiền giao dịch lớn.,10
+578,2024-01-25 01:00:00.000000,2973,in-store,"USNV Floyd, FPO AE 83880",13175,0,,5
+579,2024-01-25 02:00:00.000000,5351,online,"414 Charles Island Suite 820, Davidmouth, TN 08614",14897,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+580,2024-01-25 03:00:00.000000,4236,online,"4131 Warren Forks Apt. 966, West Rickeyshire, AZ 27729",15037,1,Số tiền giao dịch lớn.,10
+581,2024-01-25 04:00:00.000000,8955,in-store,"54093 Hill Pine, Michaelmouth, WY 27369",17427,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+582,2024-01-25 05:00:00.000000,6027,in-store,"67755 Bradshaw Walk, East Lisa, VI 64104",18605,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+583,2024-01-25 06:00:00.000000,4318,online,"07897 Bell Place, Lake Kelseymouth, NE 69220",12014,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+584,2024-01-25 07:00:00.000000,4798,online,"30866 Ronald Street, Susanborough, IL 38257",11381,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+585,2024-01-25 08:00:00.000000,4899,online,"38842 Moss Drives Suite 205, Port Deannaton, DE 51973",11098,1,Số tiền giao dịch lớn.,5
+586,2024-01-25 09:00:00.000000,9485,in-store,"27280 Sloan Streets, New Kristina, MI 27966",13426,1,Số tiền giao dịch lớn.,10
+587,2024-01-25 10:00:00.000000,3759,online,"PSC 3890, Box 1146, APO AE 37400",13655,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+588,2024-01-25 11:00:00.000000,9323,in-store,"444 Houston Forks Apt. 448, Branchmouth, KY 06418",17938,1,Số tiền giao dịch lớn.,1
+589,2024-01-25 12:00:00.000000,6669,online,"726 Clark Path Apt. 105, New Kaylamouth, IN 76408",19101,1,Số tiền giao dịch lớn.,1
+590,2024-01-25 13:00:00.000000,8697,online,"168 Johnson Stravenue, Jakeburgh, VI 86756",10187,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+591,2024-01-25 14:00:00.000000,9136,online,"41505 Miller Mission, Powersmouth, NV 62090",15409,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+592,2024-01-25 15:00:00.000000,9626,online,"27371 Vega Ville, Dawnmouth, MS 87867",12092,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+593,2024-01-25 16:00:00.000000,3122,in-store,"763 Jason Track, Byrdtown, AL 91196",12130,1,Số tiền giao dịch lớn.,1
+594,2024-01-25 17:00:00.000000,6580,in-store,"33492 Melissa Rapid Apt. 596, North Daniel, AR 99510",15242,1,Số tiền giao dịch lớn.,1
+595,2024-01-25 18:00:00.000000,554,online,"USNV Garcia, FPO AE 70310",18549,1,Số giao dịch trong 1 ngày quá nhiều.,15
+596,2024-01-25 19:00:00.000000,1264,in-store,"91961 Marissa Hollow Suite 562, North Anthonychester, PA 16608",15647,1,Số giao dịch trong 1 ngày quá nhiều.,20
+597,2024-01-25 20:00:00.000000,1581,online,"81828 Jones Haven, West Clarence, MS 69437",15185,1,Số giao dịch trong 1 ngày quá nhiều.,20
+598,2024-01-25 21:00:00.000000,7626,online,"8853 Garcia Squares Suite 477, Deanmouth, IL 18239",15776,1,Số tiền giao dịch lớn.,5
+599,2024-01-25 22:00:00.000000,873,online,"481 Miller Hill Apt. 162, Rhondaberg, PR 21930",17913,0,,10
+600,2024-01-25 23:00:00.000000,978,online,"2878 Montoya Mission Suite 727, Lake Kayla, GU 02451",17547,1,Số giao dịch trong 1 ngày quá nhiều.,20
+601,2024-01-26 00:00:00.000000,5079,in-store,"PSC 8880, Box 8073, APO AP 47560",17823,1,Số tiền giao dịch lớn.,1
+602,2024-01-26 01:00:00.000000,183,online,"65625 Nolan Forks Suite 370, Williamsstad, IA 63356",17355,1,Số giao dịch trong 1 ngày quá nhiều.,20
+603,2024-01-26 02:00:00.000000,2155,online,"USCGC Parsons, FPO AE 93460",16465,0,,5
+604,2024-01-26 03:00:00.000000,3677,in-store,"271 Davidson Village, Heidiberg, AZ 17510",11497,1,Số tiền giao dịch lớn.,5
+605,2024-01-26 04:00:00.000000,6366,online,"26116 Leon Islands Apt. 263, Port Emily, MT 60126",12555,1,Số tiền giao dịch lớn.,10
+606,2024-01-26 05:00:00.000000,1902,online,"937 Donald Freeway Apt. 338, Sierraberg, TX 64004",15409,1,Số giao dịch trong 1 ngày quá nhiều.,20
+607,2024-01-26 06:00:00.000000,4960,online,"29306 Carlos Inlet, West Bryanside, MO 85333",12951,1,Số tiền giao dịch lớn.,1
+608,2024-01-26 07:00:00.000000,4225,in-store,"512 Allen Glen, Casemouth, PR 84111",11238,1,Số tiền giao dịch lớn.,1
+609,2024-01-26 08:00:00.000000,5398,online,"02374 Evan Highway, Kinghaven, DE 36735",19165,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+610,2024-01-26 09:00:00.000000,9492,in-store,"0457 Williams Mill Apt. 926, Nicholasberg, FM 39940",14727,1,Số tiền giao dịch lớn.,1
+611,2024-01-26 10:00:00.000000,6240,online,"878 Walker Mountains Suite 141, Muellerside, MN 43812",13965,1,Số tiền giao dịch lớn.,10
+612,2024-01-26 11:00:00.000000,1306,online,"94312 Fitzpatrick Heights Apt. 827, North Angela, SC 71805",15686,0,,10
+613,2024-01-26 12:00:00.000000,3426,in-store,"USNS Martin, FPO AE 09958",19242,1,Số tiền giao dịch lớn.,1
+614,2024-01-26 13:00:00.000000,5695,online,"USS Mitchell, FPO AE 08189",13701,1,Số tiền giao dịch lớn.,1
+615,2024-01-26 14:00:00.000000,3536,online,"26135 Odonnell Forks, Johnsonberg, AK 21059",12780,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+616,2024-01-26 15:00:00.000000,3634,in-store,"5345 Steve Island Apt. 554, Nelsonside, GU 09778",17398,1,Số tiền giao dịch lớn.,1
+617,2024-01-26 16:00:00.000000,9638,in-store,"129 Mcbride Village, Penaland, MS 53674",11588,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+618,2024-01-26 17:00:00.000000,8103,in-store,"0719 Hendrix Green, Lake Amandamouth, MA 66750",12368,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+619,2024-01-26 18:00:00.000000,3380,in-store,"904 Eric Extension, Lake Daniel, WV 78720",15789,1,Số tiền giao dịch lớn.,1
+620,2024-01-26 19:00:00.000000,2753,in-store,"70725 Cameron Street, Randyville, NM 21292",10436,0,,5
+621,2024-01-26 20:00:00.000000,8712,online,"163 Ortiz Falls, South Stevenchester, WI 83157",12828,1,Số tiền giao dịch lớn.,5
+622,2024-01-26 21:00:00.000000,8170,in-store,"059 Stephen Hills, Andreaborough, MO 34964",11556,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+623,2024-01-26 22:00:00.000000,7164,online,"468 Keller Alley, West Jenniferville, MP 26925",17570,1,Số tiền giao dịch lớn.,1
+624,2024-01-26 23:00:00.000000,1403,online,"118 Herring Overpass Apt. 580, Lake Laurenchester, DE 17382",17480,0,,5
+625,2024-01-27 00:00:00.000000,5113,online,"720 Jocelyn Estates Suite 705, East Jennifershire, NJ 69621",19496,1,Số tiền giao dịch lớn.,1
+626,2024-01-27 01:00:00.000000,8599,in-store,"0534 Paul Port Apt. 551, Garciamouth, AZ 92616",10182,1,Số tiền giao dịch lớn.,1
+627,2024-01-27 02:00:00.000000,7625,in-store,"628 Rice Centers, East David, AR 25208",17190,1,Số tiền giao dịch lớn.,1
+628,2024-01-27 03:00:00.000000,717,online,"878 Mason Corner, Lake Amymouth, PW 62340",16687,1,Số giao dịch trong 1 ngày quá nhiều.,20
+629,2024-01-27 04:00:00.000000,4518,in-store,"18248 Sierra Lodge Suite 156, Ibarramouth, AR 52142",15565,1,Số tiền giao dịch lớn.,1
+630,2024-01-27 05:00:00.000000,9387,in-store,"720 Rivera Lake, Joseville, CO 96810",17241,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+631,2024-01-27 06:00:00.000000,6869,in-store,"610 Gregory Harbors Apt. 394, Debramouth, NY 18804",17651,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+632,2024-01-27 07:00:00.000000,3769,in-store,"220 Mark Common Suite 610, Lake Erin, MD 86888",15575,1,Số tiền giao dịch lớn.,5
+633,2024-01-27 08:00:00.000000,2795,online,"847 Abigail Fords Suite 062, Davismouth, NM 02029",11589,0,,5
+634,2024-01-27 09:00:00.000000,7533,online,"035 Smith Mission Suite 169, Erinmouth, MP 28229",19779,1,Số tiền giao dịch lớn.,5
+635,2024-01-27 10:00:00.000000,589,in-store,"5813 Nicholas Ford, Rodriguezland, NH 14453",18851,0,,5
+636,2024-01-27 11:00:00.000000,5014,online,"5334 Alyssa Mission, Kristenbury, VA 97535",10159,1,Số tiền giao dịch lớn.,5
+637,2024-01-27 12:00:00.000000,4885,in-store,"97222 Thomas Forest, East Julie, NC 07810",16555,1,Số tiền giao dịch lớn.,5
+638,2024-01-27 13:00:00.000000,3825,in-store,"09034 Sims Manors Suite 556, New Cassandrastad, WA 14592",19203,1,Số tiền giao dịch lớn.,5
+639,2024-01-27 14:00:00.000000,6092,online,"2767 Frey Station Suite 497, New Andrea, PR 24766",18244,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+640,2024-01-27 15:00:00.000000,7152,online,"209 Murphy Plaza Apt. 271, Flowersmouth, IA 04241",16846,1,Số tiền giao dịch lớn.,1
+641,2024-01-27 16:00:00.000000,7362,online,"0111 Vanessa Path Suite 859, Garciaport, FL 60573",12307,1,Số tiền giao dịch lớn.,10
+642,2024-01-27 17:00:00.000000,5370,in-store,"08455 Harris Centers, Lake Erikborough, WI 46401",11228,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+643,2024-01-27 18:00:00.000000,6182,online,"11851 Hall Point, Port Angela, CA 76367",17226,1,Số tiền giao dịch lớn.,10
+644,2024-01-27 19:00:00.000000,7941,in-store,"Unit 4952 Box 4441, DPO AE 40870",15590,1,Số tiền giao dịch lớn.,10
+645,2024-01-27 20:00:00.000000,2829,online,"Unit 6651 Box 3453, DPO AA 60203",16919,0,,1
+646,2024-01-27 21:00:00.000000,974,online,"9409 Hanna Ramp, Staceyhaven, CT 93943",15585,0,,1
+647,2024-01-27 22:00:00.000000,1631,in-store,"070 Matthews Course, New Ryanton, KY 18897",19227,0,,1
+648,2024-01-27 23:00:00.000000,7764,in-store,"600 Anthony Square, Garciaburgh, MN 67589",16046,1,Số tiền giao dịch lớn.,5
+649,2024-01-28 00:00:00.000000,3374,in-store,"0111 Erik Ville Apt. 334, Richardmouth, WY 13000",14945,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+650,2024-01-28 01:00:00.000000,5763,in-store,"0719 Cassandra Village Apt. 271, Geraldview, IA 38296",17927,1,Số tiền giao dịch lớn.,5
+651,2024-01-28 02:00:00.000000,7076,in-store,"6981 Ochoa Trail Apt. 550, East Ashleyshire, VT 55004",17016,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+652,2024-01-28 03:00:00.000000,305,in-store,"6745 Johnson Hollow Apt. 668, Lake Katelyn, FL 14693",17758,1,Số giao dịch trong 1 ngày quá nhiều.,15
+653,2024-01-28 04:00:00.000000,4854,in-store,"424 Hunter Parkway, Matthewfurt, NH 74234",15086,1,Số tiền giao dịch lớn.,10
+654,2024-01-28 05:00:00.000000,1888,in-store,"4547 Stacy Bridge, Lake Richard, NH 40696",19456,0,,10
+655,2024-01-28 06:00:00.000000,59,online,"8598 Jonathan Cliffs Suite 089, Russohaven, GA 39600",17161,1,Số giao dịch trong 1 ngày quá nhiều.,15
+656,2024-01-28 07:00:00.000000,2921,in-store,"1560 Jeffrey Club Apt. 315, Tracichester, MN 11954",11884,1,Số giao dịch trong 1 ngày quá nhiều.,15
+657,2024-01-28 08:00:00.000000,9039,in-store,"59146 Leonard Pine Apt. 233, Wheelerland, NM 03931",11809,1,Số tiền giao dịch lớn.,5
+658,2024-01-28 09:00:00.000000,7459,online,"69036 Rodriguez Plaza Apt. 551, New Jeremy, SC 71045",13167,1,Số tiền giao dịch lớn.,5
+659,2024-01-28 10:00:00.000000,7468,in-store,"1407 Lisa Ports Suite 066, Zacharyfurt, CA 67541",16352,1,Số tiền giao dịch lớn.,10
+660,2024-01-28 11:00:00.000000,5174,online,"39085 Terri Divide, Johnberg, NH 44963",19009,1,Số tiền giao dịch lớn.,1
+661,2024-01-28 12:00:00.000000,1065,online,"6159 Heather Bridge Suite 847, Ryanhaven, OH 66917",16056,1,Số giao dịch trong 1 ngày quá nhiều.,15
+662,2024-01-28 13:00:00.000000,2243,in-store,"787 Turner Trace Suite 005, New Joshuaton, GU 66236",12437,0,,5
+663,2024-01-28 14:00:00.000000,8465,online,"Unit 1872 Box 3816, DPO AP 13966",16468,1,Số tiền giao dịch lớn.,10
+664,2024-01-28 15:00:00.000000,7499,in-store,"90084 Robert Square Apt. 942, Martinezmouth, OK 34572",19080,1,Số tiền giao dịch lớn.,5
+665,2024-01-28 16:00:00.000000,4208,online,"630 Vanessa Crossroad Suite 887, East Gregory, UT 99283",15951,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+666,2024-01-28 17:00:00.000000,3975,online,"0467 Webb Lane, Deanstad, OH 96259",15276,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+667,2024-01-28 18:00:00.000000,7020,online,"797 Aaron Island, Andrewshire, MO 19627",18859,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+668,2024-01-28 19:00:00.000000,6988,in-store,"368 Sandra Curve, Katherinemouth, FM 16081",17818,1,Số tiền giao dịch lớn.,1
+669,2024-01-28 20:00:00.000000,4834,in-store,"6883 Alvarado Cliffs Suite 278, East Jayland, AK 09465",14728,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+670,2024-01-28 21:00:00.000000,4050,online,"0222 Lawson Courts, Byrdton, MD 42183",12624,1,Số tiền giao dịch lớn.,10
+671,2024-01-28 22:00:00.000000,1683,online,"442 David Cove, South Davidshire, HI 09259",15738,0,,5
+672,2024-01-28 23:00:00.000000,7316,in-store,"67224 Robert Parkways Suite 484, New Robert, NY 62408",14232,1,Số tiền giao dịch lớn.,10
+673,2024-01-29 00:00:00.000000,8752,in-store,"2955 Hernandez Drives, West Jamie, NC 22663",15793,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+674,2024-01-29 01:00:00.000000,434,online,"37361 Lisa Walk, New Susanside, KS 57261",14523,1,Số giao dịch trong 1 ngày quá nhiều.,20
+675,2024-01-29 02:00:00.000000,454,online,"40919 Gloria Ridges, Traceyfort, IA 53761",15571,1,Số giao dịch trong 1 ngày quá nhiều.,20
+676,2024-01-29 03:00:00.000000,8225,in-store,"0708 Rebecca Flat Apt. 963, West Kellyberg, NM 06065",19010,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+677,2024-01-29 04:00:00.000000,2050,in-store,"USCGC Finley, FPO AA 91882",19298,0,,10
+678,2024-01-29 05:00:00.000000,9910,in-store,"2028 Robert Harbors Suite 863, Emilychester, CA 19136",12224,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+679,2024-01-29 06:00:00.000000,6039,in-store,"989 White Ways Apt. 584, West Sean, ME 81488",18389,1,Số tiền giao dịch lớn.,5
+680,2024-01-29 07:00:00.000000,1510,in-store,"USNS Black, FPO AP 21748",16091,0,,5
+681,2024-01-29 08:00:00.000000,7240,online,"292 Durham Square Suite 967, Liport, ID 83685",18662,1,Số tiền giao dịch lớn.,10
+682,2024-01-29 09:00:00.000000,7190,in-store,"32944 Neal Lodge, New Michellehaven, NY 98183",16361,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+683,2024-01-29 10:00:00.000000,3686,online,"54998 Scott Camp Suite 590, Leonhaven, NY 85091",11948,1,Số tiền giao dịch lớn.,1
+684,2024-01-29 11:00:00.000000,4859,in-store,"PSC 8578, Box 5167, APO AE 62699",17094,1,Số tiền giao dịch lớn.,10
+685,2024-01-29 12:00:00.000000,4228,online,"844 Tammy Field, North Thomas, ME 21749",16318,1,Số tiền giao dịch lớn.,10
+686,2024-01-29 13:00:00.000000,7295,in-store,"34437 Brown Prairie Apt. 474, Andrewmouth, IN 97189",13796,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+687,2024-01-29 14:00:00.000000,6650,in-store,"71904 Blake Green Apt. 886, Burtonburgh, PA 08232",10234,1,Số tiền giao dịch lớn.,5
+688,2024-01-29 15:00:00.000000,6047,online,"76703 Kenneth Grove, Johnsonview, ME 57797",19120,1,Số tiền giao dịch lớn.,10
+689,2024-11-24 11:18:03.007892,500,1,"581 Clark Crossroad Suite 469, West Lorichester, NV 78995",13607,0,,3
+690,2024-01-29 17:00:00.000000,4830,in-store,"0330 Shawn Gardens Suite 106, Port Johnland, KS 67341",18043,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+691,2024-01-29 18:00:00.000000,766,in-store,"0488 Sarah Stravenue Apt. 753, New Christopherton, PR 71690",10522,1,Số giao dịch trong 1 ngày quá nhiều.,20
+692,2024-01-29 19:00:00.000000,7989,in-store,"53651 Hudson Crescent, Lake Sylviafort, IL 12084",15904,1,Số tiền giao dịch lớn.,1
+693,2024-01-29 20:00:00.000000,5615,in-store,"48422 David Squares Suite 849, West Jonathan, VT 57620",14888,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+694,2024-01-29 21:00:00.000000,4594,in-store,"29192 Taylor Run Apt. 565, East Kennethhaven, UT 12561",19821,1,Số tiền giao dịch lớn.,1
+695,2024-01-29 22:00:00.000000,5026,online,"0724 Catherine Oval Apt. 510, Debrachester, VA 54938",15832,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+696,2024-01-29 23:00:00.000000,3469,online,"0909 Martin Flat, West Aliciachester, TX 01485",17122,1,Số tiền giao dịch lớn.,5
+697,2024-01-30 00:00:00.000000,7289,in-store,"17773 Steven Courts Apt. 099, Lake Ronald, IA 36911",15842,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+698,2024-01-30 01:00:00.000000,9816,online,"4723 Sullivan Gateway, South Jonathanstad, NY 19879",11316,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+699,2024-01-30 02:00:00.000000,299,online,"83674 David Rapids, Seanton, LA 24814",11124,1,Số giao dịch trong 1 ngày quá nhiều.,20
+700,2024-01-30 03:00:00.000000,8915,online,"6630 Mccarthy Valley Apt. 834, Port Eugene, WI 11514",15621,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+701,2024-01-30 04:00:00.000000,820,in-store,"322 Christine Highway Suite 122, East Zacharystad, MI 07430",15423,1,Số giao dịch trong 1 ngày quá nhiều.,15
+702,2024-01-30 05:00:00.000000,4413,online,"929 Gibbs Mill, Hugheshaven, UT 69962",12587,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+703,2024-01-30 06:00:00.000000,1127,in-store,"38244 Miller Pike, Stanleyview, MT 37830",19215,1,Số giao dịch trong 1 ngày quá nhiều.,15
+704,2024-01-30 07:00:00.000000,8477,online,"829 Dawn Gardens, Port Crystal, WI 55691",15672,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+705,2024-01-30 08:00:00.000000,8630,in-store,"691 Elizabeth Brook, South Carrie, OH 14022",11378,1,Số tiền giao dịch lớn.,5
+706,2024-01-30 09:00:00.000000,7951,online,"63828 Keith Lake, Jenniferfort, IL 92768",13374,1,Số tiền giao dịch lớn.,1
+707,2024-01-30 10:00:00.000000,4908,in-store,"7791 Jackson Point Suite 591, Lake Benjamin, PA 67168",11519,1,Số tiền giao dịch lớn.,10
+708,2024-01-30 11:00:00.000000,6594,in-store,"81517 Ashley Landing, Petersonton, GU 20784",15777,1,Số tiền giao dịch lớn.,1
+709,2024-01-30 12:00:00.000000,4769,online,"23528 Kenneth Ford, Lake Gregory, NJ 45920",17935,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+710,2024-01-30 13:00:00.000000,2864,in-store,"30993 Erin Lane Apt. 165, Christopherfurt, MH 81243",16093,0,,5
+711,2024-01-30 14:00:00.000000,3424,in-store,"1400 Amy Union Suite 392, North Tyler, RI 31714",18418,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+712,2024-01-30 15:00:00.000000,1302,in-store,"9860 Jessica Stravenue, Alexanderstad, AS 76873",15355,0,,5
+713,2024-01-30 16:00:00.000000,7046,in-store,"78949 Kimberly Circles Apt. 893, Michellemouth, ID 10607",14968,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+714,2024-01-30 17:00:00.000000,4723,in-store,"8716 Marc Stream Suite 064, Christophermouth, TN 76237",19083,1,Số tiền giao dịch lớn.,5
+715,2024-01-30 18:00:00.000000,4580,in-store,"60254 Michael Rue, West Katherineland, RI 41052",15574,1,Số tiền giao dịch lớn.,5
+716,2024-01-30 19:00:00.000000,6931,in-store,"75682 Stacy Shoal, Hamiltonton, NM 19732",14072,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+717,2024-01-30 20:00:00.000000,6999,in-store,"5647 Heather Branch Apt. 033, Jacksonbury, OR 23396",12257,1,Số tiền giao dịch lớn.,5
+718,2024-01-30 21:00:00.000000,9571,online,"4595 Beasley Port Suite 161, Brandonmouth, FL 21190",18588,1,Số tiền giao dịch lớn.,10
+719,2024-01-30 22:00:00.000000,6291,online,"13021 Nathan Run Apt. 712, North Michelleview, DE 86647",14424,1,Số tiền giao dịch lớn.,10
+720,2024-01-30 23:00:00.000000,8067,in-store,"USS Greer, FPO AA 01799",13237,1,Số tiền giao dịch lớn.,5
+721,2024-01-31 00:00:00.000000,6991,in-store,"051 Day Oval Apt. 751, Pinedaton, IA 83186",13893,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+722,2024-01-31 01:00:00.000000,9600,online,"773 Campos Road Suite 394, Wuton, MA 07414",12005,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+723,2024-01-31 02:00:00.000000,7052,online,"08236 Ana Forges, Catherineburgh, VT 73451",12016,1,Số tiền giao dịch lớn.,10
+724,2024-01-31 03:00:00.000000,1381,online,"7717 Williamson Dam Apt. 567, Lake Alicia, GA 78373",19388,1,Số giao dịch trong 1 ngày quá nhiều.,20
+725,2024-01-31 04:00:00.000000,4311,in-store,"39573 Morse Land, Terryburgh, NV 96433",11772,1,Số tiền giao dịch lớn.,5
+726,2024-01-31 05:00:00.000000,7698,online,"7734 Robles Stream Suite 771, Collinstown, CT 09911",18353,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+727,2024-01-31 06:00:00.000000,9600,in-store,"069 Carroll Radial, Zacharyfort, MO 81153",13976,1,Số tiền giao dịch lớn.,1
+728,2024-01-31 07:00:00.000000,5165,in-store,"4631 Taylor View Suite 751, East Nathanberg, WI 17507",11751,1,Số tiền giao dịch lớn.,10
+729,2024-01-31 08:00:00.000000,4687,online,"072 Pineda Drive, West Tonyaland, IN 89573",18967,1,Số tiền giao dịch lớn.,5
+730,2024-01-31 09:00:00.000000,4904,in-store,"313 Hernandez Radial, Lake Jesse, IA 32630",17430,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+731,2024-01-31 10:00:00.000000,3227,in-store,"897 Cassandra Bypass, Douglasburgh, NC 85239",17170,1,Số tiền giao dịch lớn.,5
+732,2024-01-31 11:00:00.000000,7780,in-store,"9954 Sara Place, South Michaelhaven, NJ 89560",16469,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+733,2024-01-31 12:00:00.000000,2230,in-store,"434 Barnett Views Apt. 815, North Joeport, IA 20692",19131,0,,5
+734,2024-01-31 13:00:00.000000,4942,online,"674 Jessica Center, West Francisco, MD 95533",13220,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+735,2024-01-31 14:00:00.000000,7093,online,"6628 Anna Radial Suite 963, West Ashley, NC 65308",10539,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+736,2024-01-31 15:00:00.000000,187,in-store,"6434 Grant Expressway, North Andrewchester, AK 57807",11461,1,Số giao dịch trong 1 ngày quá nhiều.,20
+737,2024-01-31 16:00:00.000000,6377,in-store,"Unit 0395 Box 4560, DPO AA 75473",15184,1,Số tiền giao dịch lớn.,1
+738,2024-01-31 17:00:00.000000,3522,online,"56377 Amanda Burgs, South Tiffanychester, VA 86248",18547,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+739,2024-01-31 18:00:00.000000,5499,in-store,"8129 Kenneth Mews Apt. 515, Port Melissa, MH 89158",10234,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+740,2024-01-31 19:00:00.000000,2882,online,"417 Brown Valleys, Myersside, MD 10443",11548,0,,1
+741,2024-01-31 20:00:00.000000,3629,in-store,"Unit 6985 Box 8666, DPO AE 39944",17480,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+742,2024-01-31 21:00:00.000000,6021,in-store,"Unit 1360 Box 5778, DPO AE 97788",14213,1,Số tiền giao dịch lớn.,5
+743,2024-01-31 22:00:00.000000,4214,online,"9102 Gibbs Highway, East Rodney, WI 49464",11673,1,Số tiền giao dịch lớn.,1
+744,2024-01-31 23:00:00.000000,7991,online,"868 Wendy Mount, Walterstad, NH 75870",16708,1,Số tiền giao dịch lớn.,10
+745,2024-02-01 00:00:00.000000,5619,online,"47610 Sean Grove, Jamesview, GA 29154",17982,1,Số tiền giao dịch lớn.,1
+746,2024-02-01 01:00:00.000000,4350,online,"18519 Jodi Fords Suite 198, South Megan, NH 81218",12100,1,Số tiền giao dịch lớn.,1
+747,2024-02-01 02:00:00.000000,6319,in-store,"1648 Ray Junction Suite 846, South Shannon, DC 71571",13748,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+748,2024-02-01 03:00:00.000000,3868,online,"9086 Alvarado Greens Suite 761, Kevinmouth, AZ 92055",13173,1,Số tiền giao dịch lớn.,5
+749,2024-02-01 04:00:00.000000,1956,in-store,"463 Ray Centers Suite 868, Melaniefurt, MI 42366",11815,0,,10
+750,2024-02-01 05:00:00.000000,6304,online,"63821 Maxwell Coves, East Erikachester, NJ 29081",13841,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+751,2024-02-01 06:00:00.000000,810,online,"863 Maddox Forks, Nicoleburgh, RI 44778",18016,1,Số giao dịch trong 1 ngày quá nhiều.,20
+752,2024-02-01 07:00:00.000000,7880,in-store,"250 Ellison Skyway, Port Ashley, KS 26190",17011,1,Số tiền giao dịch lớn.,1
+753,2024-02-01 08:00:00.000000,7400,online,"PSC 1047, Box 4098, APO AP 11427",14493,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+754,2024-02-01 09:00:00.000000,6288,online,"6169 Carol Route Suite 050, East Patrickstad, WI 74419",10674,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+755,2024-02-01 10:00:00.000000,6140,online,"81968 Myers Knolls, New Gabrielberg, MD 94923",18088,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+756,2024-02-01 11:00:00.000000,6081,online,"88025 Le Plains, New Richard, LA 56362",18578,1,Số tiền giao dịch lớn.,10
+757,2024-02-01 12:00:00.000000,7737,in-store,"14516 Charles Expressway Suite 514, South Christina, NC 26183",12158,1,Số tiền giao dịch lớn.,5
+758,2024-02-01 13:00:00.000000,9141,in-store,"2756 Terri Prairie Suite 163, Royhaven, NM 07656",12661,1,Số tiền giao dịch lớn.,10
+759,2024-02-01 14:00:00.000000,9961,online,"39785 Jessica Dale, Port Alanchester, MN 35915",12064,1,Số tiền giao dịch lớn.,5
+760,2024-02-01 15:00:00.000000,8522,online,"67413 White Islands, North Andreaville, NC 13762",13253,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+761,2024-02-01 16:00:00.000000,1937,online,"71540 Torres Corners Apt. 792, Stephanieshire, MS 49583",14979,0,,5
+762,2024-02-01 17:00:00.000000,3316,in-store,"69936 Lester Mill, South Williamland, HI 08791",17703,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+763,2024-02-01 18:00:00.000000,716,in-store,"77993 Allen Row, Guzmanfurt, CA 41847",18931,0,,1
+764,2024-02-01 19:00:00.000000,4238,in-store,"97538 Peter Brooks Apt. 928, North Anthony, AS 12809",11401,1,Số tiền giao dịch lớn.,1
+765,2024-02-01 20:00:00.000000,721,in-store,"60836 Ramsey Islands, Port Jessebury, MD 40482",13259,1,Số giao dịch trong 1 ngày quá nhiều.,20
+766,2024-02-01 21:00:00.000000,6827,online,"Unit 4332 Box 3684, DPO AA 46897",13923,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+767,2024-02-01 22:00:00.000000,7620,online,"5486 Dixon Crossing, Atkinsonland, CO 61705",14214,1,Số tiền giao dịch lớn.,10
+768,2024-02-01 23:00:00.000000,8006,online,"0289 Miranda Well Suite 159, Port Seanborough, IL 50438",13227,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+769,2024-02-02 00:00:00.000000,5174,in-store,"732 Allison Isle, Lake Michaelberg, OR 54958",12745,1,Số tiền giao dịch lớn.,1
+770,2024-02-02 01:00:00.000000,5635,online,"59601 Smith Springs Apt. 813, North Sarahberg, MS 74567",16091,1,Số tiền giao dịch lớn.,1
+771,2024-02-02 02:00:00.000000,4827,in-store,"76205 Suzanne Brook, South Stephanieview, WV 12744",13866,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+772,2024-02-02 03:00:00.000000,3950,in-store,"USNV Hayes, FPO AE 82047",15818,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+773,2024-02-02 04:00:00.000000,6727,online,"56706 Ann Radial Apt. 057, South Aaronmouth, NY 26718",12222,1,Số tiền giao dịch lớn.,1
+774,2024-02-02 05:00:00.000000,7031,online,"58454 Spencer Trace Apt. 276, Catherinetown, WI 88721",12792,1,Số tiền giao dịch lớn.,10
+775,2024-02-02 06:00:00.000000,6426,online,"043 Hamilton Skyway, Marychester, SD 76579",19889,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+776,2024-02-02 07:00:00.000000,573,in-store,"6575 James Hills, Rhondaville, OH 26019",14063,1,Số giao dịch trong 1 ngày quá nhiều.,20
+777,2024-02-02 08:00:00.000000,2443,in-store,"29588 Christopher Mission Suite 498, West Kyle, CO 55824",11524,1,Số giao dịch trong 1 ngày quá nhiều.,15
+778,2024-02-02 09:00:00.000000,2643,online,"487 Amy Center Apt. 451, New Stephaniemouth, AR 88026",18224,1,Số giao dịch trong 1 ngày quá nhiều.,20
+779,2024-02-02 10:00:00.000000,9995,online,"960 Renee Parkways, North Jennifer, OR 43117",16198,1,Số tiền giao dịch lớn.,1
+780,2024-02-02 11:00:00.000000,7290,in-store,"29570 Taylor Mills Suite 969, Bensonberg, MP 47956",14025,1,Số tiền giao dịch lớn.,1
+781,2024-02-02 12:00:00.000000,6987,online,"47803 Caitlyn Orchard Suite 626, East Robert, AZ 15120",12566,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+782,2024-02-02 13:00:00.000000,6240,in-store,"78184 Jacob Rest Apt. 838, Butlertown, WA 10294",12803,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+783,2024-02-02 14:00:00.000000,5290,in-store,"158 James Crescent Suite 045, Williamshaven, ME 33938",13709,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+784,2024-02-02 15:00:00.000000,6543,online,"562 Rivera Locks Suite 550, North Bruce, FM 48816",16155,1,Số tiền giao dịch lớn.,10
+785,2024-02-02 16:00:00.000000,2928,online,"36288 Elliott Walks, West Matthew, NH 72907",10719,1,Số giao dịch trong 1 ngày quá nhiều.,20
+786,2024-02-02 17:00:00.000000,4193,online,"61050 Jeffery Terrace Suite 562, North Troyton, WV 47279",16516,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+787,2024-02-02 18:00:00.000000,3694,online,"91020 Johnson Springs Suite 540, South Brianberg, NC 82491",14579,1,Số tiền giao dịch lớn.,5
+788,2024-02-02 19:00:00.000000,4482,in-store,"009 Wayne Stravenue, Martinezfort, IA 91827",10972,1,Số tiền giao dịch lớn.,5
+789,2024-02-02 20:00:00.000000,1326,in-store,"71163 Carr Key, Ryanburgh, VI 32060",13718,0,,1
+790,2024-02-02 21:00:00.000000,5861,in-store,"17450 Veronica Motorway, Santosmouth, KS 52632",17395,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+791,2024-02-02 22:00:00.000000,352,online,"57257 Philip Landing, Robinsonville, KY 14933",14402,1,Số giao dịch trong 1 ngày quá nhiều.,15
+792,2024-02-02 23:00:00.000000,688,in-store,"59251 Woods Centers, Mathewshire, RI 62005",14552,0,,5
+793,2024-02-03 00:00:00.000000,105,online,"65870 Esparza Dam Apt. 223, North Tannerville, IA 01040",12207,1,Số giao dịch trong 1 ngày quá nhiều.,20
+794,2024-02-03 01:00:00.000000,8767,online,"4783 Taylor Walks, Kelleyville, MA 36384",14426,1,Số tiền giao dịch lớn.,1
+795,2024-02-03 02:00:00.000000,8200,online,"0368 Timothy Spurs Apt. 535, Prestonport, KS 48893",16919,1,Số tiền giao dịch lớn.,10
+796,2024-02-03 03:00:00.000000,2175,online,"19210 Sarah Groves Suite 903, Petersfurt, KS 07193",18835,1,Số giao dịch trong 1 ngày quá nhiều.,20
+797,2024-02-03 04:00:00.000000,414,online,"25236 Russell Stream, East Jennifertown, TN 46044",18386,1,Số giao dịch trong 1 ngày quá nhiều.,20
+798,2024-02-03 05:00:00.000000,6859,online,"PSC 4041, Box 4550, APO AP 83141",18680,1,Số tiền giao dịch lớn.,10
+799,2024-02-03 06:00:00.000000,4671,in-store,"591 Kevin Fields Apt. 309, Youngfurt, OK 43456",12204,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+800,2024-02-03 07:00:00.000000,5176,online,"5383 Kimberly Way Apt. 533, Mayoland, MH 67255",15345,1,Số tiền giao dịch lớn.,1
+801,2024-02-03 08:00:00.000000,5172,in-store,"2590 Amanda Cliff, Lake Theresa, IL 93485",13276,1,Số tiền giao dịch lớn.,1
+802,2024-02-03 09:00:00.000000,1696,in-store,"625 Campbell Coves, Kevinstad, AZ 10811",11102,0,,10
+803,2024-02-03 10:00:00.000000,968,online,"878 Sherry Ridges Suite 171, Port James, MA 59961",15243,1,Số giao dịch trong 1 ngày quá nhiều.,15
+804,2024-02-03 11:00:00.000000,2847,online,"674 Crawford Turnpike, East Alexandria, VA 57025",16614,0,,5
+805,2024-02-03 12:00:00.000000,6556,online,"271 Santos Fords Suite 211, West Kathleen, MP 48574",19433,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+806,2024-02-03 13:00:00.000000,5920,in-store,"636 Dale Mountains, Philiptown, NJ 81873",18707,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+807,2024-02-03 14:00:00.000000,1581,online,"74759 Stephen Dam, Port Carolfurt, NM 95566",15223,0,,5
+808,2024-02-03 15:00:00.000000,8222,in-store,"9642 Sandra Union Suite 835, South John, PA 59739",18584,1,Số tiền giao dịch lớn.,10
+809,2024-02-03 16:00:00.000000,3395,online,"865 Karen Rapids Suite 444, Bowmanshire, WI 28977",10630,1,Số tiền giao dịch lớn.,10
+810,2024-02-03 17:00:00.000000,7723,online,"698 Rebecca Junctions, Lake Ericville, LA 60272",19171,1,Số tiền giao dịch lớn.,5
+811,2024-02-03 18:00:00.000000,6999,in-store,"6336 Jennifer Street Apt. 328, Stephaniebury, MO 13115",16683,1,Số tiền giao dịch lớn.,1
+812,2024-02-03 19:00:00.000000,6932,in-store,"USS Burgess, FPO AP 50979",10277,1,Số tiền giao dịch lớn.,5
+813,2024-02-03 20:00:00.000000,1956,online,"5852 Joseph Isle, Cassidyberg, NV 21887",10232,1,Số giao dịch trong 1 ngày quá nhiều.,20
+814,2024-02-03 21:00:00.000000,3136,in-store,"USNV Rose, FPO AP 17358",19744,1,Số tiền giao dịch lớn.,1
+815,2024-02-03 22:00:00.000000,8202,in-store,"50593 Garcia Forest, North Joelfort, MS 65358",15690,1,Số tiền giao dịch lớn.,10
+816,2024-02-03 23:00:00.000000,5800,in-store,"397 Robert Forge, Diazfort, MO 45664",17659,1,Số tiền giao dịch lớn.,5
+817,2024-02-04 00:00:00.000000,8955,in-store,"8196 West Camp Suite 561, Gilbertmouth, MO 13263",10025,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+818,2024-02-04 01:00:00.000000,1112,in-store,"7931 Day Rapids, North Brianbury, RI 51859",17468,1,Số giao dịch trong 1 ngày quá nhiều.,15
+819,2024-02-04 02:00:00.000000,2026,online,"742 Myers Tunnel Suite 360, Robinsonport, DC 68756",16410,1,Số giao dịch trong 1 ngày quá nhiều.,20
+820,2024-02-04 03:00:00.000000,1346,online,"5996 Morris Point, Gravesstad, VA 59375",18652,1,Số giao dịch trong 1 ngày quá nhiều.,15
+821,2024-02-04 04:00:00.000000,6279,in-store,"663 Nancy Branch, North Stacy, WA 29780",13764,1,Số tiền giao dịch lớn.,5
+822,2024-02-04 05:00:00.000000,7691,online,"4741 William Meadow Apt. 249, Port Marie, UT 29498",16599,1,Số tiền giao dịch lớn.,5
+823,2024-02-04 06:00:00.000000,175,online,"Unit 9488 Box 4882, DPO AA 40410",15102,1,Số giao dịch trong 1 ngày quá nhiều.,15
+824,2024-02-04 07:00:00.000000,4682,in-store,"8871 Lewis Knoll, Lynnland, ND 29749",17006,1,Số tiền giao dịch lớn.,5
+825,2024-02-04 08:00:00.000000,6338,online,"3950 Haynes Brook, Bernardburgh, LA 15584",13483,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+826,2024-02-04 09:00:00.000000,3646,in-store,"966 Vickie Valley Apt. 041, Jonathanfort, NV 98411",11994,1,Số tiền giao dịch lớn.,1
+827,2024-02-04 10:00:00.000000,6218,in-store,"147 Curtis Plain Apt. 715, Nicoleburgh, NY 30239",18682,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+828,2024-02-04 11:00:00.000000,9845,online,"582 Jackson Camp, Simonchester, UT 13574",11072,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+829,2024-02-04 12:00:00.000000,7611,in-store,"997 Breanna Turnpike, South Kyle, ME 94785",16707,1,Số tiền giao dịch lớn.,5
+830,2024-02-04 13:00:00.000000,8308,in-store,"08448 Shannon Forge Apt. 193, Paulville, HI 84658",10215,1,Số tiền giao dịch lớn.,1
+831,2024-02-04 14:00:00.000000,282,in-store,"8856 Weaver Throughway, Lake Levihaven, VT 55914",17605,0,,5
+832,2024-02-04 15:00:00.000000,9411,in-store,"Unit 3350 Box 1797, DPO AP 83463",19915,1,Số tiền giao dịch lớn.,10
+833,2024-02-04 16:00:00.000000,6421,in-store,"1330 Shaw Run Suite 885, New Christian, DC 84028",19784,1,Số tiền giao dịch lớn.,5
+834,2024-02-04 17:00:00.000000,4256,online,"50703 Derrick Mountain, Navarromouth, SD 64556",12606,1,Số tiền giao dịch lớn.,5
+835,2024-02-04 18:00:00.000000,9735,online,"13477 Tammy Cliffs Suite 566, Kevinview, CA 98743",18350,1,Số tiền giao dịch lớn.,5
+836,2024-02-04 19:00:00.000000,7993,in-store,"8460 Green Vista Suite 809, Barbarashire, FM 07108",14781,1,Số tiền giao dịch lớn.,1
+837,2024-02-04 20:00:00.000000,6941,in-store,"9926 Jared Drive, Salasport, CT 79371",13313,1,Số tiền giao dịch lớn.,5
+838,2024-02-04 21:00:00.000000,6788,online,"7992 Robin Isle, Jenniferberg, NC 61753",19968,1,Số tiền giao dịch lớn.,1
+839,2024-02-04 22:00:00.000000,2522,in-store,"573 Vance Stravenue, Carolynmouth, OR 37370",17763,1,Số giao dịch trong 1 ngày quá nhiều.,15
+840,2024-02-04 23:00:00.000000,2789,online,"8698 Ross Ridges, Melindaton, VI 53820",15939,0,,10
+841,2024-02-05 00:00:00.000000,5451,in-store,"065 Jeffrey Highway, Joshuastad, WI 73071",12295,1,Số tiền giao dịch lớn.,1
+842,2024-02-05 01:00:00.000000,1811,in-store,"23561 Good River, Port Gregorytown, MN 59608",15685,1,Số giao dịch trong 1 ngày quá nhiều.,15
+843,2024-02-05 02:00:00.000000,926,in-store,"024 Schultz Union Apt. 878, West Deborah, IL 89944",11696,0,,1
+844,2024-02-05 03:00:00.000000,3862,in-store,"0487 James Crossroad Apt. 858, New Josephville, NJ 98872",11946,1,Số tiền giao dịch lớn.,1
+845,2024-02-05 04:00:00.000000,9554,in-store,"4816 Davis Mills Apt. 973, Russellhaven, ND 26136",12783,1,Số tiền giao dịch lớn.,10
+846,2024-02-05 05:00:00.000000,1510,in-store,"0264 Timothy Ford, Davidfurt, PR 99362",13644,1,Số giao dịch trong 1 ngày quá nhiều.,20
+847,2024-02-05 06:00:00.000000,1783,in-store,"919 Daniel Causeway, South Christopher, MS 81596",15241,1,Số giao dịch trong 1 ngày quá nhiều.,20
+848,2024-02-05 07:00:00.000000,1655,online,"71122 Anthony Glen, New Amy, HI 43072",16420,0,,1
+849,2024-02-05 08:00:00.000000,5672,online,"601 Bonnie Points Apt. 577, North Jimmyside, AK 10794",17557,1,Số tiền giao dịch lớn.,5
+850,2024-02-05 09:00:00.000000,6817,online,"PSC 7582, Box 1673, APO AE 43452",12645,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+851,2024-02-05 10:00:00.000000,7036,in-store,"25545 Moore Park, South Jefferyview, IN 27165",16589,1,Số tiền giao dịch lớn.,5
+852,2024-02-05 11:00:00.000000,3567,in-store,"22119 Kenneth Stravenue Suite 990, Sheamouth, MA 90692",16353,1,Số tiền giao dịch lớn.,5
+853,2024-02-05 12:00:00.000000,3785,in-store,"88145 Short Fields Apt. 611, Port Patrick, CA 80362",11932,1,Số tiền giao dịch lớn.,1
+854,2024-02-05 13:00:00.000000,9402,in-store,"7623 Serrano Ports Suite 355, East Lisastad, NJ 46163",11757,1,Số tiền giao dịch lớn.,1
+855,2024-02-05 14:00:00.000000,8484,in-store,"232 Bentley Fords Apt. 608, Ashleyberg, MD 54120",15085,1,Số tiền giao dịch lớn.,1
+856,2024-02-05 15:00:00.000000,2640,in-store,"20180 Fox Divide, North Victoriaport, MN 96851",15637,0,,1
+857,2024-02-05 16:00:00.000000,1113,in-store,"4586 Megan Overpass, West Roberttown, AK 22572",11116,1,Số giao dịch trong 1 ngày quá nhiều.,20
+858,2024-02-05 17:00:00.000000,4374,online,"617 Joshua Ranch Suite 384, East Douglas, MT 81382",10492,1,Số tiền giao dịch lớn.,1
+859,2024-02-05 18:00:00.000000,9161,in-store,"86596 Anthony Pines, Adamburgh, KY 70414",18811,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+860,2024-02-05 19:00:00.000000,5392,online,"PSC 8407, Box 6387, APO AA 71336",17888,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+861,2024-02-05 20:00:00.000000,55,online,"88180 Crystal Fort Suite 429, North Katherine, IN 36614",16474,0,,1
+862,2024-02-05 21:00:00.000000,7539,in-store,"98852 Jonathan Unions, East Paulbury, MI 45532",19738,1,Số tiền giao dịch lớn.,10
+863,2024-02-05 22:00:00.000000,8709,in-store,"1936 Thomas Courts Apt. 827, Thomasmouth, IN 93201",14958,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+864,2024-02-05 23:00:00.000000,8245,online,"280 Michelle Shoal Suite 400, Carrollstad, LA 15595",19797,1,Số tiền giao dịch lớn.,5
+865,2024-02-06 00:00:00.000000,6016,online,"501 Tanya Via, Johnsonberg, FM 66283",19467,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+866,2024-02-06 01:00:00.000000,8887,in-store,"547 Jason Coves, Tannerberg, IA 68429",12743,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+867,2024-02-06 02:00:00.000000,167,in-store,"165 Snyder Green, Lake Christina, WA 15001",17866,0,,10
+868,2024-02-06 03:00:00.000000,2601,online,"125 Todd Cliffs, Lisachester, MD 36458",17160,0,,5
+869,2024-02-06 04:00:00.000000,5610,in-store,"34402 Jason Crescent Apt. 785, Danieltown, CO 58624",15451,1,Số tiền giao dịch lớn.,5
+870,2024-02-06 05:00:00.000000,4339,in-store,"582 Hurley Crest Apt. 371, Port Louisport, MN 33257",15258,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+871,2024-02-06 06:00:00.000000,896,in-store,"7806 James Knoll Apt. 857, West William, HI 18740",18548,0,,1
+872,2024-02-06 07:00:00.000000,6366,online,"94506 Robinson Fork Suite 315, West Monique, WA 55087",17186,1,Số tiền giao dịch lớn.,10
+873,2024-02-06 08:00:00.000000,6519,online,"Unit 6603 Box 4474, DPO AP 72907",16102,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+874,2024-02-06 09:00:00.000000,9383,online,"207 Anita Islands Apt. 786, Jacksontown, LA 96141",19061,1,Số tiền giao dịch lớn.,10
+875,2024-02-06 10:00:00.000000,8965,in-store,"385 Michelle Greens Suite 907, Francisberg, CA 77347",19077,1,Số tiền giao dịch lớn.,1
+876,2024-02-06 11:00:00.000000,274,in-store,"30183 Lowery Terrace, Gregside, MT 11232",19475,0,,1
+877,2024-02-06 12:00:00.000000,4258,online,"565 Heather Flats Apt. 467, Port Kelly, LA 71601",10619,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+878,2024-02-06 13:00:00.000000,6333,online,"9509 Austin Parks, Lake Brentville, LA 45545",10882,1,Số tiền giao dịch lớn.,1
+879,2024-02-06 14:00:00.000000,2098,online,"Unit 5193 Box 4107, DPO AP 25926",18988,1,Số giao dịch trong 1 ngày quá nhiều.,15
+880,2024-02-06 15:00:00.000000,6283,in-store,"14573 Russell Pike, Lake Julie, AZ 92146",13642,1,Số tiền giao dịch lớn.,5
+881,2024-02-06 16:00:00.000000,9815,online,"8929 Clark Garden Suite 060, Judyhaven, WA 60335",11296,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+882,2024-02-06 17:00:00.000000,1878,online,"01806 Olson Prairie, Reedport, WV 31835",18436,0,,10
+883,2024-02-06 18:00:00.000000,1967,in-store,"438 Khan Place Suite 163, New Timothy, CO 11600",12895,1,Số giao dịch trong 1 ngày quá nhiều.,15
+884,2024-02-06 19:00:00.000000,4284,in-store,"1776 Washington Station Apt. 984, Jimfurt, OK 20991",16593,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+885,2024-02-06 20:00:00.000000,7038,in-store,"88983 Roberto Street Apt. 154, Jonesstad, MH 55571",10929,1,Số tiền giao dịch lớn.,1
+886,2024-02-06 21:00:00.000000,2076,online,"PSC 6193, Box 3484, APO AE 18039",15366,0,,1
+887,2024-02-06 22:00:00.000000,3794,in-store,"92742 Robertson Terrace Apt. 407, New Kimville, OK 95877",18711,1,Số tiền giao dịch lớn.,1
+888,2024-02-06 23:00:00.000000,9143,in-store,"569 May Shoal, Taylorland, PR 18106",13212,1,Số tiền giao dịch lớn.,1
+889,2024-02-07 00:00:00.000000,59,online,"389 Gutierrez Tunnel Suite 479, East Marieburgh, OK 43921",12409,0,,10
+890,2024-02-07 01:00:00.000000,310,in-store,"USNS Porter, FPO AE 95151",18199,1,Số giao dịch trong 1 ngày quá nhiều.,15
+891,2024-02-07 02:00:00.000000,6088,online,"7450 Conrad Knoll, West Jamieborough, MP 65473",13423,1,Số tiền giao dịch lớn.,5
+892,2024-02-07 03:00:00.000000,9915,online,"560 Rachel Avenue Suite 035, North Peterfurt, DC 22658",16976,1,Số tiền giao dịch lớn.,10
+893,2024-02-07 04:00:00.000000,2269,in-store,"USNV Ramirez, FPO AA 20721",17594,0,,10
+894,2024-02-07 05:00:00.000000,7091,in-store,"6535 Andrea Stravenue, Wilsonbury, CA 67593",15158,1,Số tiền giao dịch lớn.,5
+895,2024-02-07 06:00:00.000000,2110,in-store,"127 Schmidt Locks Apt. 403, New Craigbury, KS 06776",13667,0,,5
+896,2024-02-07 07:00:00.000000,5337,in-store,"61974 Angela Plain Suite 738, Brandtshire, WA 94977",15973,1,Số tiền giao dịch lớn.,1
+897,2024-02-07 08:00:00.000000,1669,in-store,"PSC 6886, Box 7222, APO AE 45852",16236,0,,10
+898,2024-02-07 09:00:00.000000,8562,in-store,"12014 Katherine Road, Hobbsview, WV 29223",18277,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+899,2024-11-24 12:37:53.605347,0,1,"Unit 4877 Box 6544, DPO AE 60679",12468,0,,10
+900,2024-02-07 11:00:00.000000,2882,online,"42593 Anderson Shoals, Sharonbury, VA 53363",16217,0,,5
+901,2024-02-07 12:00:00.000000,2874,in-store,"Unit 5550 Box 7415, DPO AE 18463",13619,1,Số giao dịch trong 1 ngày quá nhiều.,15
+902,2024-02-07 13:00:00.000000,2044,online,"50880 Morales Skyway, Danielfurt, PR 98294",11636,1,Số giao dịch trong 1 ngày quá nhiều.,20
+903,2024-02-07 14:00:00.000000,3540,in-store,"264 Chase Forks, Patrickchester, MD 25491",18155,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+904,2024-02-07 15:00:00.000000,9360,online,"4972 Harrison Fields, Lake Jamesville, SD 23406",13583,1,Số tiền giao dịch lớn.,5
+905,2024-02-07 16:00:00.000000,8034,online,"521 Leah Union Suite 825, South Ralphtown, NM 32159",14009,1,Số tiền giao dịch lớn.,1
+906,2024-02-07 17:00:00.000000,1654,online,"036 Hays Branch Apt. 058, North Paul, LA 67717",13326,1,Số giao dịch trong 1 ngày quá nhiều.,15
+907,2024-02-07 18:00:00.000000,285,in-store,"18764 Roberts Views Suite 527, Luketown, UT 52670",18148,1,Số giao dịch trong 1 ngày quá nhiều.,20
+908,2024-02-07 19:00:00.000000,1958,online,"58678 Hicks Keys Apt. 840, Camachomouth, AR 21344",12217,0,,5
+909,2024-02-07 20:00:00.000000,8617,in-store,"38104 Cline Greens, Salazartown, UT 93269",14967,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+910,2024-02-07 21:00:00.000000,3580,online,"5791 Faulkner Ports Apt. 680, Port Carlland, TN 97180",12369,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+911,2024-02-07 22:00:00.000000,5306,online,"PSC 6500, Box 6040, APO AA 53692",13638,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+912,2024-02-07 23:00:00.000000,2685,online,"8104 Rebecca Mews, Hillland, TX 01440",19135,0,,10
+913,2024-02-08 00:00:00.000000,8212,online,"4085 Miguel Meadow Apt. 656, Mistymouth, VT 13801",15722,1,Số tiền giao dịch lớn.,5
+914,2024-02-08 01:00:00.000000,9812,online,"649 Singh Extension, Katrinashire, NY 79910",14444,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+915,2024-02-08 02:00:00.000000,2610,in-store,"933 Lawson Fort Apt. 967, North Michael, KY 79840",17618,0,,10
+916,2024-02-08 03:00:00.000000,5465,in-store,"0317 Paul Village, Bennetttown, AK 78907",13947,1,Số tiền giao dịch lớn.,10
+917,2024-02-08 04:00:00.000000,3441,online,"Unit 5126 Box 2725, DPO AP 24720",11676,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+918,2024-02-08 05:00:00.000000,6001,online,"6180 Kelly Tunnel, Collinsport, CO 20925",11196,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+919,2024-02-08 06:00:00.000000,5518,online,"73989 Gutierrez Mission, Lake Lisa, SC 96373",12787,1,Số tiền giao dịch lớn.,10
+920,2024-02-08 07:00:00.000000,8057,online,"4097 Cindy Roads, Paigebury, FL 39799",17432,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+921,2024-02-08 08:00:00.000000,9114,in-store,"69804 Rojas View Suite 351, South Kristinmouth, SD 16546",19653,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+922,2024-02-08 09:00:00.000000,9494,online,"06259 Sarah Mall Apt. 320, Henryton, MN 89337",17927,1,Số tiền giao dịch lớn.,1
+923,2024-02-08 10:00:00.000000,6463,in-store,"487 Michelle Mission Apt. 307, East Erica, PR 49273",13318,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+924,2024-02-08 11:00:00.000000,6991,online,"99840 Diana Gardens Apt. 503, New Jeromechester, WY 07641",18858,1,Số tiền giao dịch lớn.,10
+925,2024-02-08 12:00:00.000000,9556,in-store,"9839 Angela Plaza Suite 487, Rochaborough, UT 34439",16689,1,Số tiền giao dịch lớn.,10
+926,2024-02-08 13:00:00.000000,4870,online,"36111 Victoria Valleys Suite 238, Lake Jasonside, WA 13805",12176,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+927,2024-02-08 14:00:00.000000,2948,online,"37629 Alexander Meadows Apt. 764, Joshuaburgh, KS 82973",13743,1,Số giao dịch trong 1 ngày quá nhiều.,20
+928,2024-02-08 15:00:00.000000,7596,in-store,"735 Lambert Rapid Suite 388, North Dannyborough, ND 74738",18792,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+929,2024-02-08 16:00:00.000000,127,online,"446 Valdez Hill Apt. 915, South Jasonside, MI 11472",14422,0,,10
+930,2024-02-08 17:00:00.000000,7627,online,"40108 Sophia Falls Apt. 352, Brownbury, SC 31761",13824,1,Số tiền giao dịch lớn.,5
+931,2024-02-08 18:00:00.000000,4277,online,"63625 Nathan Loop, Port Juanport, NJ 03390",19171,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+932,2024-02-08 19:00:00.000000,650,in-store,"52442 Andrew Spur Suite 011, South Stephanie, OR 87601",12451,1,Số giao dịch trong 1 ngày quá nhiều.,15
+933,2024-02-08 20:00:00.000000,1115,online,"767 Martinez Brooks, Dominicville, MT 55303",10628,1,Số giao dịch trong 1 ngày quá nhiều.,20
+934,2024-02-08 21:00:00.000000,2186,online,"44437 Natasha Unions Apt. 234, Morrisonside, PR 36304",19821,1,Số giao dịch trong 1 ngày quá nhiều.,15
+935,2024-02-08 22:00:00.000000,9560,in-store,"PSC 6508, Box 3657, APO AP 80258",17778,1,Số tiền giao dịch lớn.,10
+936,2024-02-08 23:00:00.000000,6993,in-store,"91596 Bolton Parks Apt. 824, Andrewfort, MA 25113",13696,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+937,2024-02-09 00:00:00.000000,7854,in-store,"Unit 1003 Box 6180, DPO AE 91219",13674,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+938,2024-02-09 01:00:00.000000,6615,online,"1391 Zhang River Suite 751, North Corey, CA 47147",13929,1,Số tiền giao dịch lớn.,10
+939,2024-02-09 02:00:00.000000,6034,online,"7465 Joel Square, Delacruzview, PR 49402",12765,1,Số tiền giao dịch lớn.,5
+940,2024-02-09 03:00:00.000000,5192,online,"8352 Ford Field, Dustinburgh, SC 38088",14369,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+941,2024-02-09 04:00:00.000000,4720,in-store,"30505 Pena Well, New Brianport, AZ 45733",18307,1,Số tiền giao dịch lớn.,5
+942,2024-11-24 12:33:44.264753,0,1,"482 Elizabeth Fords Apt. 585, Danielberg, SC 41246",14956,1,Số giao dịch trong 1 ngày quá nhiều.,13
+943,2024-02-09 06:00:00.000000,9234,online,"555 Rachel Walks Suite 821, Lake Marissachester, AZ 11481",10692,1,Số tiền giao dịch lớn.,1
+944,2024-02-09 07:00:00.000000,2762,in-store,"646 Abigail Plains, Lake Thomas, KS 66373",13162,1,Số giao dịch trong 1 ngày quá nhiều.,20
+945,2024-02-09 08:00:00.000000,2242,in-store,"39044 Thompson Mission, North Johnmouth, CA 92821",11105,1,Số giao dịch trong 1 ngày quá nhiều.,15
+946,2024-02-09 09:00:00.000000,1298,in-store,"9558 Ponce Causeway Suite 973, North Joan, VI 88364",13008,0,,5
+947,2024-02-09 10:00:00.000000,4083,in-store,"61627 Clark Divide Suite 736, Mitchellfort, MH 26190",12161,1,Số tiền giao dịch lớn.,1
+948,2024-02-09 11:00:00.000000,2047,in-store,"951 Peters Islands, West Jasonborough, DC 59165",18345,0,,10
+949,2024-02-09 12:00:00.000000,3737,online,"USS Leon, FPO AA 31484",13699,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+950,2024-02-09 13:00:00.000000,4068,in-store,"8839 Davis Mountain, Stevensside, RI 56140",13786,1,Số tiền giao dịch lớn.,5
+951,2024-02-09 14:00:00.000000,2020,online,"784 Smith Flats, East Caleb, ME 50241",19256,1,Số giao dịch trong 1 ngày quá nhiều.,20
+952,2024-02-09 15:00:00.000000,8439,online,"USNV Coleman, FPO AE 61127",14200,1,Số tiền giao dịch lớn.,1
+953,2024-02-09 16:00:00.000000,5815,in-store,"9208 Armstrong Landing Suite 417, Gonzalezport, GA 98374",11913,1,Số tiền giao dịch lớn.,5
+954,2024-02-09 17:00:00.000000,1252,in-store,"3320 Wagner Neck Apt. 990, New Kevin, MN 13188",19408,1,Số giao dịch trong 1 ngày quá nhiều.,20
+955,2024-02-09 18:00:00.000000,8185,in-store,"700 Ryan Tunnel Apt. 267, East Alexandrastad, VT 72109",15520,1,Số tiền giao dịch lớn.,5
+956,2024-02-09 19:00:00.000000,5617,online,"6010 Kathleen Way, Frenchland, SD 17096",11772,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+957,2024-02-09 20:00:00.000000,7717,in-store,"57785 Benjamin Port, Lake Charles, WV 74798",12780,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+958,2024-02-09 21:00:00.000000,5792,in-store,"523 Lisa Court, Lake Jeffery, DC 35333",17423,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+959,2024-02-09 22:00:00.000000,5838,in-store,"203 Davis Plains Apt. 191, Jocelynhaven, NV 34154",12871,1,Số tiền giao dịch lớn.,1
+960,2024-02-09 23:00:00.000000,5458,in-store,"413 Reed Flats Suite 656, West Samuelland, CO 98197",10660,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+961,2024-02-10 00:00:00.000000,8719,in-store,"Unit 3884 Box 8684, DPO AE 13377",16242,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+962,2024-02-10 01:00:00.000000,9496,online,"332 Macdonald Plaza Suite 636, South Allisonberg, LA 28883",11132,1,Số tiền giao dịch lớn.,5
+963,2024-11-24 12:09:02.302547,0,1,"44628 Randall Key, Gloverland, NM 10740",10699,1,Số giao dịch trong 1 ngày quá nhiều.,12
+964,2024-02-10 03:00:00.000000,469,online,"USNV Collins, FPO AE 40653",17470,1,Số giao dịch trong 1 ngày quá nhiều.,20
+965,2024-02-10 04:00:00.000000,2254,in-store,"793 Arnold Well Suite 759, East Jill, HI 72242",16297,1,Số giao dịch trong 1 ngày quá nhiều.,20
+966,2024-02-10 05:00:00.000000,1170,in-store,"630 Wolfe Walks, North Robert, ID 38947",17812,1,Số giao dịch trong 1 ngày quá nhiều.,15
+967,2024-11-24 12:23:58.075207,0,1,"823 Berg Spur, Ryanberg, VA 05764",14557,1,Số giao dịch trong 1 ngày quá nhiều.,12
+968,2024-11-24 12:05:39.546719,0,1,"59364 Ashley Brook, Hayesbury, AK 80594",12179,1,Số giao dịch trong 1 ngày quá nhiều.,12
+969,2024-02-10 08:00:00.000000,5423,in-store,"0148 Kristin Courts, North Julie, WI 67281",19065,1,Số tiền giao dịch lớn.,1
+970,2024-02-10 09:00:00.000000,2293,in-store,"93436 Lynch Union, Floreschester, CA 42055",18275,0,,5
+971,2024-02-10 10:00:00.000000,2695,in-store,"54527 Steven Neck Apt. 469, Isabellaton, NE 98415",11422,0,,5
+972,2024-02-10 11:00:00.000000,4662,online,"693 Norris Stream, South Stephanieburgh, MO 29042",13180,1,Số tiền giao dịch lớn.,1
+973,2024-02-10 12:00:00.000000,1915,in-store,"04788 Benjamin Knolls, Williamstad, MP 70684",14316,1,Số giao dịch trong 1 ngày quá nhiều.,20
+974,2024-02-10 13:00:00.000000,6078,online,"1044 Fleming Stream Apt. 679, Vancestad, TN 07287",16696,1,Số tiền giao dịch lớn.,5
+975,2024-02-10 14:00:00.000000,7376,in-store,"39241 Alexander Valleys Apt. 617, Hillport, NJ 15592",19583,1,Số tiền giao dịch lớn.,1
+976,2024-02-10 15:00:00.000000,6421,online,"USNS Curtis, FPO AP 11997",10614,1,Số tiền giao dịch lớn.,5
+977,2024-02-10 16:00:00.000000,6409,online,"779 Landry Crossing, Harrismouth, MN 25388",14570,1,Số tiền giao dịch lớn.,10
+978,2024-02-10 17:00:00.000000,7913,online,"29604 Christopher Run Suite 494, Royhaven, PA 53638",10270,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+980,2024-02-10 19:00:00.000000,3769,in-store,"19206 Riley Locks Apt. 858, Ryanville, ME 93695",19582,1,Số tiền giao dịch lớn.,5
+981,2024-11-24 11:18:03.007892,500,1,"799 Christina Glens Apt. 071, Lake Jeffreymouth, UT 59136",13607,0,,3
+982,2024-02-10 21:00:00.000000,2941,online,"37297 Michael Parks, New Scottfort, AS 55060",13075,1,Số giao dịch trong 1 ngày quá nhiều.,15
+983,2024-02-10 22:00:00.000000,3806,in-store,"5587 Brian Prairie Apt. 874, Katherinemouth, IA 40027",10289,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,15
+984,2024-02-10 23:00:00.000000,4275,in-store,"5212 Smith View, New Tyler, FM 03914",18120,1,Số tiền giao dịch lớn.,5
+985,2024-02-11 00:00:00.000000,144,online,"260 Velez Junctions Apt. 399, Lake Josephburgh, VI 15354",16614,0,,1
+986,2024-02-11 01:00:00.000000,2724,in-store,"897 Jones Road Apt. 311, North James, MS 07974",13252,0,,5
+987,2024-02-11 02:00:00.000000,6948,in-store,"1776 Maldonado Fords Suite 273, Shawberg, WA 89734",17415,1,Số tiền giao dịch lớn.,10
+988,2024-02-11 03:00:00.000000,843,in-store,"999 Hubbard Mill, West Rachelland, PA 47964",16771,1,Số giao dịch trong 1 ngày quá nhiều.,15
+989,2024-02-11 04:00:00.000000,2166,in-store,"241 James Divide, East Michael, AZ 03825",10278,0,,5
+990,2024-02-11 05:00:00.000000,5829,online,"917 Chad Locks, Townsendland, NY 61735",10580,1,Số tiền giao dịch lớn.,1
+991,2024-02-11 06:00:00.000000,6216,in-store,"0512 Jennifer Mall Apt. 375, North Tim, TX 35676",14958,1,Số tiền giao dịch lớn.,5
+992,2024-02-11 07:00:00.000000,864,in-store,"205 Johnson Lakes, Port Chrismouth, WV 18136",18445,1,Số giao dịch trong 1 ngày quá nhiều.,20
+993,2024-02-11 08:00:00.000000,395,online,"6755 Freeman Drives Suite 210, Johnsonland, MH 95285",14276,0,,1
+994,2024-02-11 09:00:00.000000,8604,online,"0084 Claudia Drives, North Elizabeth, WA 45224",17997,1,Số tiền giao dịch lớn.,10
+995,2024-02-11 10:00:00.000000,2493,in-store,"7223 Smith Station Suite 667, West John, SC 69009",14776,1,Số giao dịch trong 1 ngày quá nhiều.,15
+996,2024-02-11 11:00:00.000000,7833,in-store,"9987 Krista Causeway Apt. 199, Joanneland, AR 54742",10824,1,Số tiền giao dịch lớn.,5
+997,2024-02-11 12:00:00.000000,1034,in-store,"066 Fuller Vista, Port Sarah, OH 75905",13832,0,,1
+998,2024-02-11 13:00:00.000000,7840,in-store,"75033 Stephenson Road Suite 439, South Laurie, GU 32914",18891,1,Số giao dịch trong 1 ngày quá nhiều. Số tiền giao dịch lớn.,20
+999,2024-02-11 14:00:00.000000,9881,online,"228 Cook Knoll Apt. 654, Emilyview, AK 34231",15445,1,Số tiền giao dịch lớn.,1
+1000,2024-02-11 15:00:00.000000,877,online,"Unit 2503 Box 7208, DPO AP 53187",11380,1,Số giao dịch trong 1 ngày quá nhiều.,20
+1001,2024-11-24 10:24:33.626614,200,1,"USS Hoffman, FPO AA 11092",11577,0,,0
+1002,2024-11-24 10:24:55.687563,200,1,"355 Jacqueline Glen Suite 754, South Markfurt, CA 73125",11577,0,,1
+1003,2024-11-24 10:24:56.698488,200,1,"860 Russell Port Apt. 942, Huffborough, DC 73433",11577,0,,2
+1004,2024-11-24 10:25:02.970161,200,1,"864 Clayton Track Apt. 592, Port Markfort, ID 78758",11577,0,,3
+1005,2024-11-24 10:25:08.403633,200,1,"63189 Alan Passage, Sandersland, SD 40222",11577,0,,4
+1006,2024-11-24 10:25:09.529501,200,1,"815 Danielle Court Suite 283, Edwardsside, AL 04715",11577,0,,5
+1007,2024-11-24 10:25:10.548516,200,1,"6838 Debbie Highway Apt. 133, Lake Stacey, CA 02664",11577,0,,6
+1008,2024-11-24 10:25:11.389695,200,1,"181 Stevens Roads Apt. 674, Gallegosberg, HI 74015",11577,0,,7
+1009,2024-11-24 10:25:12.258013,200,1,"38208 Christine Extensions Suite 543, Franciscoside, AZ 34435",11577,0,,8
+1010,2024-11-24 10:25:13.283520,200,1,"6156 Hamilton Fork, West Kimberly, VI 32516",11577,0,,9
+1011,2024-11-24 10:25:13.991813,200,1,"PSC 2924, Box 6582, APO AE 17405",11577,0,,10
+1012,2024-11-24 10:25:14.570687,200,1,"0350 Adkins Point Apt. 853, Meganbury, CT 40183",11577,1,Số giao dịch trong 1 ngày quá nhiều.,11
+1013,2024-11-24 10:25:14.756885,200,1,"76639 Keith Rapid, Hobbsmouth, WV 85061",11577,1,Số giao dịch trong 1 ngày quá nhiều.,12
+1014,2024-11-24 10:25:14.934834,200,1,"439 Leslie Parkways Apt. 084, Turnerstad, LA 36150",11577,1,Số giao dịch trong 1 ngày quá nhiều.,13
+1015,2024-11-24 10:25:15.151108,200,1,"4882 Catherine Mount Apt. 637, Port Valerieton, KY 88316",11577,1,Số giao dịch trong 1 ngày quá nhiều.,14
+1016,2024-11-24 10:39:26.662825,0,1,"7334 Cameron Viaduct, Lake Tom, NM 94994",14276,0,,0
+1017,2024-11-24 10:39:27.660952,0,1,"729 Donald Forges, Jeremybury, SC 46882",14276,0,,1
+1018,2024-11-24 10:40:13.758267,0,1,"8206 Turner Heights, West Mark, WV 62989",14276,0,,2
+1019,2024-11-24 10:40:14.391022,0,1,"01562 Zachary Island, West Andrew, MN 81762",14276,0,,3
+1020,2024-11-24 10:40:14.986157,0,1,"123 Mitchell Tunnel, Rayhaven, NE 22173",14276,0,,4
+1021,2024-11-24 10:40:15.280877,0,1,"Unit 7341 Box 1482, DPO AA 72519",14276,0,,5
+1022,2024-11-24 10:40:15.461634,0,1,"41451 Megan Island, Shanehaven, MO 29257",14276,0,,6
+1023,2024-11-24 10:40:15.635358,0,1,"51513 Alexander Lights Apt. 464, South Deborahview, UT 20763",14276,0,,7
+1024,2024-11-24 10:40:15.815456,0,1,"1407 Kathleen Isle Apt. 197, New Caroline, VA 20917",14276,0,,8
+1025,2024-11-24 10:40:16.036193,0,1,"897 Amy Grove, North Emily, IN 67851",14276,0,,9
+1026,2024-11-24 10:40:16.548811,0,1,"07508 David Overpass, Shannonport, IL 89814",14276,0,,10
+1027,2024-11-24 10:40:17.555490,0,1,"824 Andrew Village, Chapmanstad, PR 95285",14276,1,Số giao dịch trong 1 ngày quá nhiều.,11
+1027,2024-11-25 09:57:42.370808,200,1,"777 Fletcher Greens, Phillipview, OK 35939",17645,0,,1
