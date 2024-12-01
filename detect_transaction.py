@@ -11,7 +11,7 @@ label_encoder = joblib.load('label_encoder.pkl')
 
 # Tải lại DataFrame từ tệp CSV
 df = pd.read_csv('sample_transactions.csv')
-df['time'] = pd.to_datetime(df['time'])  # Chuyển đổi cột time sang kiểu datetime
+df['time'] = pd.to_datetime(df['time'])
 
 # Duy trì danh sách khách hàng bị chặn
 blocked_customers = set(df[df['is_abnormal'] == 1]['customer_id'].unique())
